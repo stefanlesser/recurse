@@ -60,6 +60,7 @@ Reading List
 * Graphics Programming
     - [ ] [The lost art of 3D rendering without shaders](http://machinethink.net/blog/3d-rendering-without-shaders/)
     - [ ] [📕 The Book of Shaders](http://thebookofshaders.com)
+    - [Pixel Spirit Deck](http://pixelspiritdeck.com)
     - [Code Tutorials and Experiments: HTML5 Canvas, JavaScript, Processing. • Rectangle World](http://rectangleworld.com/blog/)
     - [ ] [A Mind Is Born](https://www.linusakesson.net/scene/a-mind-is-born/index.php)
     - [x] [📕 Calculus Learning Guide • Better Explained](https://betterexplained.com/guides/calculus/)
@@ -108,9 +109,13 @@ Reading List
     - In software engineering we claim to have figured out many things, but don't back them up with data and research. In many cases we still don't know what's objectively better, and fall victim to statements that sound clever to us, and confirm our own biases. For real progress in our field we need higher standards for proof.
 * [ ] [Complexity and Strategy](https://hackernoon.com/complexity-and-strategy-325cd7f59a92)
 * [ ] [Can Programming Be Liberated from the von Neumann Style? A Functional Style and Its Algebra of Programs](http://worrydream.com/refs/Backus-CanProgrammingBeLiberated.pdf)
+* [ ] [📺 Hearts and Minds • GDC Vault](http://www.gdcvault.com/play/1020788/Hearts-and)
 * TODO: Add resources from note "Reducing Complexity"
 
 ### Stay Focused and Organized
 Reading List
 * [x] [📺 (10m) How I plan my week (KanbanFlow)](https://m.youtube.com/watch?v=W9k0OhJkjQ0)
     - Simple personal management technique based in Kanban and Pomodoro to plan your day and week.
+
+Resources
+* [SuperBetter - Live Gamefully](https://www.superbetter.com)
