@@ -50,21 +50,24 @@ Reading List
 * [ ] [Why and how you should test your software](https://codewithoutrules.com/2017/03/26/why-how-test-software/)
 
 ### Explore data visualization, procedural generation, and generative art — I want to try d3.[js|express] and graphics programming with Metal or Vulcan
-* Information Visualization
-    - [ ] [Information Visualization • Enrico Bertini](http://enrico.bertini.io/teaching/)
-    - [ ] [The death of interactive infographics?](https://medium.com/@dominikus/the-end-of-interactive-visualizations-52c585dcafcb)
-* Procedural Generation / Generative Art
-    - [Awesome Generative Art](https://github.com/kosmos/awesome-generative-art/blob/master/readme.md)
-    - [ ] [So you want to build a generator…](http://galaxykate0.tumblr.com/post/139774965871/so-you-want-to-build-a-generator)
-    - [ ] [How Unexplored generates great roguelike dungeons](https://www.rockpapershotgun.com/2017/03/10/how-unexplored-generates-great-roguelike-dungeons/)
-* Graphics Programming
-    - [ ] [The lost art of 3D rendering without shaders](http://machinethink.net/blog/3d-rendering-without-shaders/)
-    - [ ] [📕 The Book of Shaders](http://thebookofshaders.com)
-    - [Pixel Spirit Deck](http://pixelspiritdeck.com)
-    - [Code Tutorials and Experiments: HTML5 Canvas, JavaScript, Processing. • Rectangle World](http://rectangleworld.com/blog/)
-    - [ ] [A Mind Is Born](https://www.linusakesson.net/scene/a-mind-is-born/index.php)
-    - [x] [📕 Calculus Learning Guide • Better Explained](https://betterexplained.com/guides/calculus/)
-        - *Apart from being an impressive resource in how to present educational material I consider this helpful for implementing an animation system.*
+
+#### Information Visualization
+* [ ] [Information Visualization • Enrico Bertini](http://enrico.bertini.io/teaching/)
+* [ ] [The death of interactive infographics?](https://medium.com/@dominikus/the-end-of-interactive-visualizations-52c585dcafcb)
+    
+#### Procedural Generation / Generative Art
+* [Awesome Generative Art](https://github.com/kosmos/awesome-generative-art/blob/master/readme.md)
+* [ ] [So you want to build a generator…](http://galaxykate0.tumblr.com/post/139774965871/so-you-want-to-build-a-generator)
+* [ ] [How Unexplored generates great roguelike dungeons](https://www.rockpapershotgun.com/2017/03/10/how-unexplored-generates-great-roguelike-dungeons/)
+    
+#### Graphics Programming
+* [ ] [The lost art of 3D rendering without shaders](http://machinethink.net/blog/3d-rendering-without-shaders/)
+* [ ] [📕 The Book of Shaders](http://thebookofshaders.com)
+* [Pixel Spirit Deck](http://pixelspiritdeck.com)
+* [Code Tutorials and Experiments: HTML5 Canvas, JavaScript, Processing. • Rectangle World](http://rectangleworld.com/blog/)
+* [ ] [A Mind Is Born](https://www.linusakesson.net/scene/a-mind-is-born/index.php)
+* [x] [📕 Calculus Learning Guide • Better Explained](https://betterexplained.com/guides/calculus/)
+    - *Apart from being an impressive resource in how to present educational material I consider this helpful for implementing an animation system.*
 * TODO: Add resources from note "DataViz & Generative Art"
 
 ### Learn more about decentralized, peer-to-peer technologies; I'm interested in blockchain, but not necessarily for financial use cases
