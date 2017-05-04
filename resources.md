@@ -86,6 +86,7 @@ Resources
 
 ### Other interesting stuff
 Reading List
+* [ ] [The Dark Secret at the Heart of AI](https://www.technologyreview.com/s/604087/the-dark-secret-at-the-heart-of-ai/)
 * [ ] [📺 Everything a Swift Dev Ever Wanted to Know About Machine Learning](https://news.realm.io/news/swift-developer-on-machine-learning-try-swift-2017-gallagher/)
 * [ ] [📺 Writing Your UI Swiftly](https://news.realm.io/news/sommer-panage-writing-your-ui-swiftly/)
 * [ ] [Building a Gas Pump Scanner with OpenCV/Python/iOS](https://hackernoon.com/building-a-gas-pump-scanner-with-opencv-python-ios-116fe6c9ae8b)
@@ -114,6 +115,29 @@ Reading List
 * [ ] [Can Programming Be Liberated from the von Neumann Style? A Functional Style and Its Algebra of Programs](http://worrydream.com/refs/Backus-CanProgrammingBeLiberated.pdf)
 * [ ] [📺 Hearts and Minds • GDC Vault](http://www.gdcvault.com/play/1020788/Hearts-and)
 * TODO: Add resources from note "Reducing Complexity"
+
+Bret Victor material I want to re-watch/read
+* [ ] [Mar 2006 • Magic Ink](http://worrydream.com/#!/MagicInk)
+* [ ] [Apr 2007 • Substroke](http://worrydream.com/#!/substroke)
+* [ ] [Oct 2009 • Simulation as a Practical Tool](http://worrydream.com/#!/SimulationAsAPracticalTool)
+* [ ] [Mar 2010 • Ten Brighter Ideas](http://worrydream.com/#!/TenBrighterIdeas)
+* [ ] [Mar 2011 • Explorable Explanations](http://worrydream.com/#!/ExplorableExplanations)
+* [ ] [Mar 2011 • Dynamic Pictures](http://worrydream.com/#!/DynamicPicturesMotivation)
+* [ ] [Apr 2011 • Kill Math](http://worrydream.com/#!/KillMath)
+* [ ] [📺 Interactive Exploration of a Dynamical System](http://worrydream.com/#!/InteractiveExplorationOfADynamicalSystem)
+* [ ] [May 2011 • Scientific Communication as Sequential Art](http://worrydream.com/#!/ScientificCommunicationAsSequentialArt)
+* [ ] [May 2011 • Scrubbing Calculator](http://worrydream.com/#!/ScrubbingCalculator)
+* [ ] [Oct 2011 • Up and Down the Ladder of Abstraction](http://worrydream.com/#!2/LadderOfAbstraction)
+* [ ] [Nov 2011 • A Brief Rand on the Future of Interaction Design](http://worrydream.com/#!/ABriefRantOnTheFutureOfInteractionDesign)
+* [ ] [📺 Jan 2012 • Inventing on Principle](http://worrydream.com/#!/InventingOnPrinciple)
+* [ ] [Sep 2012 • Learnable Programming](http://worrydream.com/#!/LearnableProgramming)
+* [ ] [📺 Nov 2012 • Stop Drawing Dead Fish](http://worrydream.com/#!/StopDrawingDeadFish)
+* [ ] [📺 Feb 2013 • Drawing Dynamic Visualizations](http://worrydream.com/#!/DrawingDynamicVisualizationsTalk)
+* [ ] [📺 Apr 2013 • Media for Thinking the Unthinkable](http://worrydream.com/#!/MediaForThinkingTheUnthinkable)
+* [ ] [📺 Jul 2013 • The Future of Programming](http://worrydream.com/#!/TheFutureOfProgramming)
+* [ ] [📺 May 2014 • Seeing Spaces](http://worrydream.com/#!/SeeingSpaces)
+* [ ] [📺 Oct 2014 • The Humane Representation of Thought](http://worrydream.com/#!/TheHumaneRepresentationOfThoughtTalk)
+* [ ] [Nov 2015 • What Can a Technologist Do about Climate Change?](http://worrydream.com/#!/ClimateChange)
 
 ### Stay Focused and Organized
 Reading List
