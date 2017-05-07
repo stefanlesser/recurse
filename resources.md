@@ -14,6 +14,8 @@ Reading List
 * [ ] [Software structure for programmers who know at least one programming language](https://www.destroyallsoftware.com/compendium/software-structure/6fb5f711cae5a4e6)
 * [ ] [The memory models that underlie programming languages • canonical.org](http://canonical.org/~kragen/memory-models/)
 * [ ] [Dragon taming with Tailbiter, a bytecode compiler for Python • codewords.recurse.com](https://codewords.recurse.com/issues/seven/dragon-taming-with-tailbiter-a-bytecode-compiler)
+* [ ] [📺 (45m) Modelica: Component Oriented Modeling of Physical Systems" by Michael Tiller](https://www.youtube.com/watch?v=-mvEUuc-sWE)
+* [ ] [📺 (45m) Ceptre: A Language for Modeling Generative Interactive Systems" by Chris Martens](https://www.youtube.com/watch?v=bFeJZRdhKcI)
 * [ ] 📕 Concepts, Techniques, and Models of Computer Programming
 
 Resources
@@ -25,6 +27,7 @@ Reading List
 * [ ] [Swift Enums Are "sum" Types. That Makes Them Very Interesting](https://mislavjavor.github.io/2017-04-19/Swift-enums-are-sum-types.-That-makes-them-very-interesting/)
 * [ ] [Algebraic Structure and Protocols](http://www.fewbutripe.com/swift/math/algebra/2015/02/17/algebraic-structure-and-protocols.html)
 * [ ] [The Algebra of Predicates and Sorting Functions](http://www.fewbutripe.com/swift/math/algebra/monoid/2017/04/18/algbera-of-predicates-and-sorting-functions.html)
+* [ ] [📺 (60m) Gabriel Gonzales: Applied category theory and abstract algebra - λC Winter Retreat 2017](https://www.youtube.com/watch?v=WsA7GtUQeB8)
 * [ ] [📺 Functional Swift Conference 2017](http://2017.funswiftconf.com)
 * [ ] 📕 Modeling Data with Functional Programming in R
 * TODO: select RC Wiki Haskell resources
@@ -66,6 +69,7 @@ Reading List
 * [ ] 📕 Procedural Generation in Games
     
 #### Graphics Programming
+* [ ] [📺 (90m) Principles of Lighting and Rendering with John Carmack](https://www.youtube.com/watch?v=IyUgHPs86XM)
 * [ ] [The lost art of 3D rendering without shaders](http://machinethink.net/blog/3d-rendering-without-shaders/)
 * [ ] [📕 The Book of Shaders](http://thebookofshaders.com)
 * [Pixel Spirit Deck](http://pixelspiritdeck.com)
