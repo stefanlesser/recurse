@@ -14,6 +14,7 @@ Reading List
 * [ ] [Software structure for programmers who know at least one programming language](https://www.destroyallsoftware.com/compendium/software-structure/6fb5f711cae5a4e6)
 * [ ] [The memory models that underlie programming languages • canonical.org](http://canonical.org/~kragen/memory-models/)
 * [ ] [Dragon taming with Tailbiter, a bytecode compiler for Python • codewords.recurse.com](https://codewords.recurse.com/issues/seven/dragon-taming-with-tailbiter-a-bytecode-compiler)
+* [ ]  Concepts, Techniques, and Models of Computer Programming
 
 Resources
 * [Earley parser implementation • GitHub](https://github.com/lagodiuk/earley-parser-js)
@@ -25,6 +26,7 @@ Reading List
 * [ ] [Algebraic Structure and Protocols](http://www.fewbutripe.com/swift/math/algebra/2015/02/17/algebraic-structure-and-protocols.html)
 * [ ] [The Algebra of Predicates and Sorting Functions](http://www.fewbutripe.com/swift/math/algebra/monoid/2017/04/18/algbera-of-predicates-and-sorting-functions.html)
 * [ ] [📺 Functional Swift Conference 2017](http://2017.funswiftconf.com)
+* [ ]  Modeling Data with Functional Programming in R
 * TODO: select RC Wiki Haskell resources
 
 ### Try (functional) reactive programming with RxSwift and/or React.js
@@ -34,6 +36,7 @@ Reading List
 ### Get back into JavaScript (and possibly TypeScript) and see what’s state of the art for web development (looking at React, Relay, GraphQL, Jest, etc.)
 Reading List
 * [x] [Overview of ECMAScript 6 features](https://github.com/lukehoban/es6features)
+* [ ]  Eloquent JavaScript
 
 Reference
 * [📕 Exploring ES6](http://exploringjs.com/es6/index.html)
@@ -54,11 +57,13 @@ Reading List
 #### Information Visualization
 * [ ] [Information Visualization • Enrico Bertini](http://enrico.bertini.io/teaching/)
 * [ ] [The death of interactive infographics?](https://medium.com/@dominikus/the-end-of-interactive-visualizations-52c585dcafcb)
+* [ ]  Thinking with Data
     
 #### Procedural Generation / Generative Art
 * [Awesome Generative Art](https://github.com/kosmos/awesome-generative-art/blob/master/readme.md)
 * [ ] [So you want to build a generator…](http://galaxykate0.tumblr.com/post/139774965871/so-you-want-to-build-a-generator)
 * [ ] [How Unexplored generates great roguelike dungeons](https://www.rockpapershotgun.com/2017/03/10/how-unexplored-generates-great-roguelike-dungeons/)
+* [ ]  Procedural Generation in Games
     
 #### Graphics Programming
 * [ ] [The lost art of 3D rendering without shaders](http://machinethink.net/blog/3d-rendering-without-shaders/)
@@ -114,6 +119,7 @@ Reading List
 * [ ] [Complexity and Strategy](https://hackernoon.com/complexity-and-strategy-325cd7f59a92)
 * [ ] [Can Programming Be Liberated from the von Neumann Style? A Functional Style and Its Algebra of Programs](http://worrydream.com/refs/Backus-CanProgrammingBeLiberated.pdf)
 * [ ] [📺 Hearts and Minds • GDC Vault](http://www.gdcvault.com/play/1020788/Hearts-and)
+* [ ]  Mindstorms - Children, Computers, and Powerful Ideas
 * TODO: Add resources from note "Reducing Complexity"
 
 Bret Victor material I want to re-watch/read
