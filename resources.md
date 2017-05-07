@@ -28,6 +28,7 @@ Reading List
 * [ ] [Algebraic Structure and Protocols](http://www.fewbutripe.com/swift/math/algebra/2015/02/17/algebraic-structure-and-protocols.html)
 * [ ] [The Algebra of Predicates and Sorting Functions](http://www.fewbutripe.com/swift/math/algebra/monoid/2017/04/18/algbera-of-predicates-and-sorting-functions.html)
 * [ ] [📺 (60m) Gabriel Gonzales: Applied category theory and abstract algebra - λC Winter Retreat 2017](https://www.youtube.com/watch?v=WsA7GtUQeB8)
+* [ ] [📺 (60m) Category Theory for the Working Hacker by Philip Wadler](https://www.youtube.com/watch?v=V10hzjgoklA)
 * [ ] [📺 Functional Swift Conference 2017](http://2017.funswiftconf.com)
 * [ ] 📕 Modeling Data with Functional Programming in R
 * TODO: select RC Wiki Haskell resources
