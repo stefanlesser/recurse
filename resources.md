@@ -11,7 +11,7 @@ Reading List
 * [ ] [Building a LISP from scratch with Swift](https://www.uraimo.com/2017/02/05/building-a-lisp-from-scratch-with-swift/)
 * [ ] [The Lambda Calculus for Absolute Dummies (like myself) • palmström](http://palmstroem.blogspot.jp/2012/05/lambda-calculus-for-absolute-dummies.html?m=1)
 * [ ] [COMPUTATION STARTING FROM FIRST PRINCIPLES (DRAFT) • Jan Wedekind](http://www.wedesoft.de/binary-lambda-calculus.html)
-* [ ] [Software structure for programmers who know at least one programming language](https://www.destroyallsoftware.com/compendium/software-structure/6fb5f711cae5a4e6)
+* [x] [Software structure for programmers who know at least one programming language](https://www.destroyallsoftware.com/compendium/software-structure/6fb5f711cae5a4e6)
 * [ ] [The memory models that underlie programming languages • canonical.org](http://canonical.org/~kragen/memory-models/)
 * [ ] [Dragon taming with Tailbiter, a bytecode compiler for Python • codewords.recurse.com](https://codewords.recurse.com/issues/seven/dragon-taming-with-tailbiter-a-bytecode-compiler)
 * [ ] [📺 (45m) Modelica: Component Oriented Modeling of Physical Systems" by Michael Tiller](https://www.youtube.com/watch?v=-mvEUuc-sWE)
@@ -21,10 +21,14 @@ Reading List
 Resources
 * [Earley parser implementation • GitHub](https://github.com/lagodiuk/earley-parser-js)
 
+### Brush up my knowledge about graph data structures and algorithms
+Reading List
+* TODO: add resources from reading list and iBooks
+
 ### Dive into advanced functional programming concepts with Haskell
 Reading List
 * [ ] [Queer Types - Applicatives and Alternatives](https://queertypes.com/posts/59-applicatives-alternatives.html)
-* [ ] [Swift Enums Are "sum" Types. That Makes Them Very Interesting](https://mislavjavor.github.io/2017-04-19/Swift-enums-are-sum-types.-That-makes-them-very-interesting/)
+* [x] [Swift Enums Are "sum" Types. That Makes Them Very Interesting](https://mislavjavor.github.io/2017-04-19/Swift-enums-are-sum-types.-That-makes-them-very-interesting/)
 * [ ] [Algebraic Structure and Protocols](http://www.fewbutripe.com/swift/math/algebra/2015/02/17/algebraic-structure-and-protocols.html)
 * [ ] [The Algebra of Predicates and Sorting Functions](http://www.fewbutripe.com/swift/math/algebra/monoid/2017/04/18/algbera-of-predicates-and-sorting-functions.html)
 * [ ] [📺 (60m) Gabriel Gonzales: Applied category theory and abstract algebra - λC Winter Retreat 2017](https://www.youtube.com/watch?v=WsA7GtUQeB8)
@@ -96,7 +100,7 @@ Resources
 
 ### Other interesting stuff
 Reading List
-* [ ] [The Dark Secret at the Heart of AI](https://www.technologyreview.com/s/604087/the-dark-secret-at-the-heart-of-ai/)
+* [x] [The Dark Secret at the Heart of AI](https://www.technologyreview.com/s/604087/the-dark-secret-at-the-heart-of-ai/)
 * [ ] [📺 Everything a Swift Dev Ever Wanted to Know About Machine Learning](https://news.realm.io/news/swift-developer-on-machine-learning-try-swift-2017-gallagher/)
 * [ ] [📺 Writing Your UI Swiftly](https://news.realm.io/news/sommer-panage-writing-your-ui-swiftly/)
 * [ ] [Building a Gas Pump Scanner with OpenCV/Python/iOS](https://hackernoon.com/building-a-gas-pump-scanner-with-opencv-python-ios-116fe6c9ae8b)
@@ -121,9 +125,9 @@ from [Learn Difficult Concepts with the ADEPT Method • betterexplained.com](ht
 Reading List
 * [x] [📺 (1h) Greg Wilson - What We Actually Know About Software Development, and Why We Believe It’s True](https://vimeo.com/9270320)
     - In software engineering we claim to have figured out many things, but don't back them up with data and research. In many cases we still don't know what's objectively better, and fall victim to statements that sound clever to us, and confirm our own biases. For real progress in our field we need higher standards for proof.
-* [ ] [Complexity and Strategy](https://hackernoon.com/complexity-and-strategy-325cd7f59a92)
+* [x] [Complexity and Strategy](https://hackernoon.com/complexity-and-strategy-325cd7f59a92)
 * [ ] [Can Programming Be Liberated from the von Neumann Style? A Functional Style and Its Algebra of Programs](http://worrydream.com/refs/Backus-CanProgrammingBeLiberated.pdf)
-* [ ] [📺 Hearts and Minds • GDC Vault](http://www.gdcvault.com/play/1020788/Hearts-and)
+* [x] [📺 Hearts and Minds • GDC Vault](http://www.gdcvault.com/play/1020788/Hearts-and)
 * [ ] 📕 Mindstorms - Children, Computers, and Powerful Ideas
 * TODO: Add resources from note "Reducing Complexity"
 
