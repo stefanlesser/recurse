@@ -6,7 +6,6 @@ _My big dumping ground for links to articles, (e)books, videos and similar mater
 ## Project Ideas
 
 ### Build a interpreter/compiler and create a simple programming language from scratch
-Reading List
 * [ ] [📕 Crafting Interpreters - A handbook for making programming languages • Bob Nystrom](http://www.craftinginterpreters.com)
 * [ ] [Building a LISP from scratch with Swift](https://www.uraimo.com/2017/02/05/building-a-lisp-from-scratch-with-swift/)
 * [ ] [The Lambda Calculus for Absolute Dummies (like myself) • palmström](http://palmstroem.blogspot.jp/2012/05/lambda-calculus-for-absolute-dummies.html?m=1)
@@ -22,11 +21,9 @@ Resources
 * [Earley parser implementation • GitHub](https://github.com/lagodiuk/earley-parser-js)
 
 ### Brush up my knowledge about graph data structures and algorithms
-Reading List
 * TODO: add resources from reading list and iBooks
 
 ### Dive into advanced functional programming concepts with Haskell
-Reading List
 * [ ] [Queer Types - Applicatives and Alternatives](https://queertypes.com/posts/59-applicatives-alternatives.html)
 * [ ] [Swift Enums Are "sum" Types. That Makes Them Very Interesting](https://mislavjavor.github.io/2017-04-19/Swift-enums-are-sum-types.-That-makes-them-very-interesting/)
 * [ ] [Algebraic Structure and Protocols](http://www.fewbutripe.com/swift/math/algebra/2015/02/17/algebraic-structure-and-protocols.html)
@@ -38,11 +35,9 @@ Reading List
 * TODO: select RC Wiki Haskell resources
 
 ### Try (functional) reactive programming with RxSwift and/or React.js
-Reading List
 * [ ] [📺 Everyday Reactive](https://news.realm.io/news/everyday-reactive/)
 
 ### Get back into JavaScript (and possibly TypeScript) and see what’s state of the art for web development (looking at React, Relay, GraphQL, Jest, etc.)
-Reading List
 * [x] [Overview of ECMAScript 6 features](https://github.com/lukehoban/es6features)
 * [ ] 📕 Eloquent JavaScript
 
@@ -52,12 +47,10 @@ Reference
 * [📕 Speaking JavaScript (ES5)](http://speakingjs.com/es5/index.html)
 
 ### Get an introduction into basic devops and set up CI and some more complex toolchains and production environments with Docker, AWS, and whatever else is recommended
-Reading List
 * [ ] [iOS Continous integration: Xcode Server, Jenkins, Travis and fastlane](http://thebugcode.github.io/ios-continous-integration-choosing-a-build-server-and-tooling/)
 * [ ] [Cheap Bots, Done Quick!](http://cheapbotsdonequick.com)
 
 ### Pair with people who can help me become more productive as a programmer and get better at test-driven development
-Reading List
 * [ ] [Why and how you should test your software](https://codewithoutrules.com/2017/03/26/why-how-test-software/)
 
 ### Explore data visualization, procedural generation, and generative art — I want to try d3.[js|express] and graphics programming with Metal or Vulcan
@@ -88,7 +81,6 @@ Resources
 * TODO: Add resources from note "DataViz & Generative Art"
 
 ### Learn more about decentralized, peer-to-peer technologies; I'm interested in blockchain, but not necessarily for financial use cases
-Reading List
 * [x] [📺 (15m) Blockchain 101 - A Visual Demo • YouTube](https://youtu.be/Cc3bdKNYlEM)
     - Quick and simple introduction to what a blockchain is and how it works. No previous knowledge required.
 * [x] [(15m) The DCS Triangle](https://blog.bigchaindb.com/the-dcs-triangle-5ce0e9e0f1dc)
@@ -98,14 +90,12 @@ Resources
 * [OpenGarden MeshKit](https://www.opengarden.com/meshkit.html)
 
 ### Experiment with sharing my work in progress — maybe finally blog on a regular basis
-Reading List
 * [ ] [📕 The Beginner's Guide to Social Media](https://moz.com/beginners-guide-to-social-media)
 
 Resources
 * [Staticman: Static sites with superpowers](https://staticman.net)
 
 ### Other interesting stuff
-Reading List
 * [x] [The Dark Secret at the Heart of AI](https://www.technologyreview.com/s/604087/the-dark-secret-at-the-heart-of-ai/)
 * [ ] [📺 Everything a Swift Dev Ever Wanted to Know About Machine Learning](https://news.realm.io/news/swift-developer-on-machine-learning-try-swift-2017-gallagher/)
 * [ ] [📺 Writing Your UI Swiftly](https://news.realm.io/news/sommer-panage-writing-your-ui-swiftly/)
@@ -128,7 +118,6 @@ Reference
 from [Learn Difficult Concepts with the ADEPT Method • betterexplained.com](https://betterexplained.com/articles/adept-method/)
 
 ### Complexity in software development
-Reading List
 * [x] [📺 (1h) Greg Wilson - What We Actually Know About Software Development, and Why We Believe It’s True](https://vimeo.com/9270320)
     - In software engineering we claim to have figured out many things, but don't back them up with data and research. In many cases we still don't know what's objectively better, and fall victim to statements that sound clever to us, and confirm our own biases. For real progress in our field we need higher standards for proof.
 * [x] [Complexity and Strategy](https://hackernoon.com/complexity-and-strategy-325cd7f59a92)
@@ -161,7 +150,6 @@ Bret Victor material I want to re-watch/read
 * [ ] [Nov 2015 • What Can a Technologist Do about Climate Change?](http://worrydream.com/#!/ClimateChange)
 
 ### Stay Focused and Organized
-Reading List
 * [x] [📺 (10m) How I plan my week (KanbanFlow)](https://m.youtube.com/watch?v=W9k0OhJkjQ0)
     - Simple personal management technique based in Kanban and Pomodoro to plan your day and week.
 
