@@ -50,9 +50,6 @@ Reference
 * [ ] [iOS Continous integration: Xcode Server, Jenkins, Travis and fastlane](http://thebugcode.github.io/ios-continous-integration-choosing-a-build-server-and-tooling/)
 * [ ] [Cheap Bots, Done Quick!](http://cheapbotsdonequick.com)
 
-### Pair with people who can help me become more productive as a programmer and get better at test-driven development
-* [ ] [Why and how you should test your software](https://codewithoutrules.com/2017/03/26/why-how-test-software/)
-
 ### Explore data visualization, procedural generation, and generative art — I want to try d3.[js|express] and graphics programming with Metal or Vulcan
 
 #### Information Visualization
@@ -85,9 +82,13 @@ Resources
     - Quick and simple introduction to what a blockchain is and how it works. No previous knowledge required.
 * [x] [(15m) The DCS Triangle](https://blog.bigchaindb.com/the-dcs-triangle-5ce0e9e0f1dc)
     - Analyzes several decentralized systems and puts them in categories based on their properties: level of **D**ecentralization, **C**onsistency, and **S**cale.
+* [x] [Deciphering “Silicon Valley”: Should we Build a New Internet?](https://medium.com/@rowantrollope/deciphering-silicon-valley-should-we-build-a-new-internet-678990919139)
 
 Resources
 * [OpenGarden MeshKit](https://www.opengarden.com/meshkit.html)
+
+### Pair with people who can help me become more productive as a programmer and get better at test-driven development
+* [ ] [Why and how you should test your software](https://codewithoutrules.com/2017/03/26/why-how-test-software/)
 
 ### Experiment with sharing my work in progress — maybe finally blog on a regular basis
 * [ ] [📕 The Beginner's Guide to Social Media](https://moz.com/beginners-guide-to-social-media)
@@ -101,7 +102,6 @@ Resources
 * [ ] [📺 Writing Your UI Swiftly](https://news.realm.io/news/sommer-panage-writing-your-ui-swiftly/)
 * [ ] [Building a Gas Pump Scanner with OpenCV/Python/iOS](https://hackernoon.com/building-a-gas-pump-scanner-with-opencv-python-ios-116fe6c9ae8b)
 
-### Interesting open-source projects
 Reference
 * [An extensive list of interesting open source projects](https://github.com/lk-geimfari/awesomo)
 
