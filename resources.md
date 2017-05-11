@@ -94,6 +94,9 @@ Reading List
 * [x] [(15m) The DCS Triangle](https://blog.bigchaindb.com/the-dcs-triangle-5ce0e9e0f1dc)
     - Analyzes several decentralized systems and puts them in categories based on their properties: level of **D**ecentralization, **C**onsistency, and **S**cale.
 
+Resources
+* [OpenGarden MeshKit](https://www.opengarden.com/meshkit.html)
+
 ### Experiment with sharing my work in progress — maybe finally blog on a regular basis
 Reading List
 * [ ] [📕 The Beginner's Guide to Social Media](https://moz.com/beginners-guide-to-social-media)
