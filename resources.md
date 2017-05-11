@@ -66,6 +66,9 @@ Reading List
 * [ ] [Information Visualization • Enrico Bertini](http://enrico.bertini.io/teaching/)
 * [ ] [The death of interactive infographics?](https://medium.com/@dominikus/the-end-of-interactive-visualizations-52c585dcafcb)
 * [ ] 📕 Thinking with Data
+
+Resources
+* [Superforecasting](http://goodjudgment.com/superforecasting/index.php/category/superforecasting/)
     
 #### Procedural Generation / Generative Art
 * [Awesome Generative Art](https://github.com/kosmos/awesome-generative-art/blob/master/readme.md)
