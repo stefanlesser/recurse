@@ -11,6 +11,8 @@ _My big dumping ground for links to articles, (e)books, videos and similar mater
 * [ ] [The Lambda Calculus for Absolute Dummies (like myself) • palmström](http://palmstroem.blogspot.jp/2012/05/lambda-calculus-for-absolute-dummies.html?m=1)
 * [ ] [COMPUTATION STARTING FROM FIRST PRINCIPLES (DRAFT) • Jan Wedekind](http://www.wedesoft.de/binary-lambda-calculus.html)
 * [x] [Software structure for programmers who know at least one programming language](https://www.destroyallsoftware.com/compendium/software-structure/6fb5f711cae5a4e6)
+* [x] [Types for anyone who knows a programming language](https://www.destroyallsoftware.com/compendium/types/baf6b67369843fa2)
+    - Introduction to and overview of several different type systems in popular programming languages.
 * [ ] [The memory models that underlie programming languages • canonical.org](http://canonical.org/~kragen/memory-models/)
 * [ ] [Dragon taming with Tailbiter, a bytecode compiler for Python • codewords.recurse.com](https://codewords.recurse.com/issues/seven/dragon-taming-with-tailbiter-a-bytecode-compiler)
 * [ ] [📺 (45m) Modelica: Component Oriented Modeling of Physical Systems" by Michael Tiller](https://www.youtube.com/watch?v=-mvEUuc-sWE)
