@@ -23,16 +23,27 @@ Resources
 ### Brush up my knowledge about graph data structures and algorithms
 * TODO: add resources from reading list and iBooks
 
-### Dive into advanced functional programming concepts with Haskell
-* [ ] [Queer Types - Applicatives and Alternatives](https://queertypes.com/posts/59-applicatives-alternatives.html)
-* [ ] [Swift Enums Are "sum" Types. That Makes Them Very Interesting](https://mislavjavor.github.io/2017-04-19/Swift-enums-are-sum-types.-That-makes-them-very-interesting/)
-* [ ] [Algebraic Structure and Protocols](http://www.fewbutripe.com/swift/math/algebra/2015/02/17/algebraic-structure-and-protocols.html)
-* [ ] [The Algebra of Predicates and Sorting Functions](http://www.fewbutripe.com/swift/math/algebra/monoid/2017/04/18/algbera-of-predicates-and-sorting-functions.html)
+### Dive into advanced functional programming concepts with Haskell and Swift
 * [ ] [📺 (60m) Gabriel Gonzales: Applied category theory and abstract algebra - λC Winter Retreat 2017](https://www.youtube.com/watch?v=WsA7GtUQeB8)
 * [ ] [📺 (60m) Category Theory for the Working Hacker by Philip Wadler](https://www.youtube.com/watch?v=V10hzjgoklA)
-* [ ] [📺 Functional Swift Conference 2017](http://2017.funswiftconf.com)
+* [ ] [Queer Types - Applicatives and Alternatives](https://queertypes.com/posts/59-applicatives-alternatives.html)
 * [ ] 📕 Modeling Data with Functional Programming in R
+
+#### Haskell
 * TODO: select RC Wiki Haskell resources
+
+#### Swift
+* [ ] [📺 Functional Swift Conference 2017](http://2017.funswiftconf.com)
+* [ ] [📺 (45m) Brandon Williams - Finding Happiness in Functional Programming](https://www.youtube.com/watch?v=A0VaIKK2ijM)
+* [ ] [Swift Enums Are "sum" Types. That Makes Them Very Interesting](https://mislavjavor.github.io/2017-04-19/Swift-enums-are-sum-types.-That-makes-them-very-interesting/)
+* [x] [Algebraic Structure and Protocols](http://www.fewbutripe.com/swift/math/algebra/2015/02/17/algebraic-structure-and-protocols.html)
+    - This article takes a mathmatical approach to introduce monads through semigroups.
+* [x] [The Algebra of Predicates and Sorting Functions](http://www.fewbutripe.com/swift/math/algebra/monoid/2017/04/18/algbera-of-predicates-and-sorting-functions.html)
+    - Extends the knowledge about semigroups and monoids to introduce predicate and sorting functions.
+* [ ] [📺 (40m) Monoids, Predicates and Sorting Functions](https://www.youtube.com/watch?v=VFPhPOnPiTY)
+    - *This might be the better talk to watch to better understand Brandon's articles.*
+* [x] [📺 (30m) Brandon Williams - Lenses in Swift](https://www.youtube.com/watch?v=ofjehH9f-CU)
+    - Using lenses and prisms to create getters and setters for immutable values.
 
 ### Try (functional) reactive programming with RxSwift and/or React.js
 * [ ] [📺 Everyday Reactive](https://news.realm.io/news/everyday-reactive/)
