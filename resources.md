@@ -26,6 +26,7 @@ Resources
 * TODO: add resources from reading list and iBooks
 
 ### Dive into advanced functional programming concepts with Haskell and Swift
+* [ ] [📺 (60m) "I See What You Mean" by Peter Alvaro](https://www.youtube.com/watch?v=R2Aa4PivG0g)
 * [ ] [📺 (60m) Category Theory for the Working Hacker by Philip Wadler](https://www.youtube.com/watch?v=V10hzjgoklA)
 * [ ] [Queer Types - Applicatives and Alternatives](https://queertypes.com/posts/59-applicatives-alternatives.html)
 * [ ] 📕 Modeling Data with Functional Programming in R
