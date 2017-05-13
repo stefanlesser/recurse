@@ -7,6 +7,7 @@ _My big dumping ground for links to articles, (e)books, videos and similar mater
 
 ### Build a interpreter/compiler and create a simple programming language from scratch
 * [ ] [📕 Crafting Interpreters - A handbook for making programming languages • Bob Nystrom](http://www.craftinginterpreters.com)
+* [ ] [Building a Primitive State Machine in Haskell](https://daniel-levin.github.io/2015/01/19/primitive-state-machine-in-haskell.html)
 * [ ] [Building a LISP from scratch with Swift](https://www.uraimo.com/2017/02/05/building-a-lisp-from-scratch-with-swift/)
 * [ ] [The Lambda Calculus for Absolute Dummies (like myself) • palmström](http://palmstroem.blogspot.jp/2012/05/lambda-calculus-for-absolute-dummies.html?m=1)
 * [ ] [COMPUTATION STARTING FROM FIRST PRINCIPLES (DRAFT) • Jan Wedekind](http://www.wedesoft.de/binary-lambda-calculus.html)
@@ -15,12 +16,14 @@ _My big dumping ground for links to articles, (e)books, videos and similar mater
     - Introduction to and overview of several different type systems in popular programming languages.
 * [ ] [The memory models that underlie programming languages • canonical.org](http://canonical.org/~kragen/memory-models/)
 * [ ] [Dragon taming with Tailbiter, a bytecode compiler for Python • codewords.recurse.com](https://codewords.recurse.com/issues/seven/dragon-taming-with-tailbiter-a-bytecode-compiler)
+* [ ] [Swift Talk #13 Parsing Techniques](https://talk.objc.io/episodes/S01E13-parsing-techniques)
 * [ ] [📺 (45m) Modelica: Component Oriented Modeling of Physical Systems" by Michael Tiller](https://www.youtube.com/watch?v=-mvEUuc-sWE)
 * [ ] [📺 (45m) Ceptre: A Language for Modeling Generative Interactive Systems" by Chris Martens](https://www.youtube.com/watch?v=bFeJZRdhKcI)
 * [ ] 📕 Concepts, Techniques, and Models of Computer Programming
 
 Resources
 * [Earley parser implementation • GitHub](https://github.com/lagodiuk/earley-parser-js)
+* [FParsec Documentation](http://www.quanttec.com/fparsec/)
 
 ### Brush up my knowledge about graph data structures and algorithms
 * TODO: add resources from reading list and iBooks
@@ -29,11 +32,15 @@ Resources
 * [ ] [📺 (60m) "I See What You Mean" by Peter Alvaro](https://www.youtube.com/watch?v=R2Aa4PivG0g)
 * [ ] [📺 (60m) Category Theory for the Working Hacker by Philip Wadler](https://www.youtube.com/watch?v=V10hzjgoklA)
 * [ ] [Queer Types - Applicatives and Alternatives](https://queertypes.com/posts/59-applicatives-alternatives.html)
+* [ ] [Writing Video Games in a Functional Style](http://prog21.dadgum.com/228.html)
 * [ ] 📕 Modeling Data with Functional Programming in R
 
 #### Haskell
 * [x] [📺 (60m) Gabriel Gonzales: Applied category theory and abstract algebra - λC Winter Retreat 2017](https://www.youtube.com/watch?v=WsA7GtUQeB8)
-    - Builds understanding for composition going from composable functions to composable values (monoids) to composable types (applicatives) and shows how powerful these concepts are to decompose programs into simple building blocks. 
+    - Builds understanding for composition going from composable functions to composable values (monoids) to composable types (applicatives) and shows how powerful these concepts are to decompose programs into simple building blocks.
+* [ ] [http://degoes.net/articles/destroy-all-ifs](Destroy All Ifs — A Perspective from Functional Programming)
+* [ ] [A Modern Architecture for FP](http://degoes.net/articles/modern-fp)
+* [ ] [Modern Functional Programming: Part 2](http://degoes.net/articles/modern-fp-part-2)
 * TODO: select RC Wiki Haskell resources
 
 #### Swift
@@ -53,7 +60,7 @@ Resources
 
 ### Try (functional) reactive programming with RxSwift and/or React.js
 * [ ] [📺 Everyday Reactive](https://news.realm.io/news/everyday-reactive/)
-
+* [ ] [What is reactive programming and why should I use it?](https://www.cocoawithlove.com/blog/reactive-programming-what-and-why.html)
 ### Get back into JavaScript (and possibly TypeScript) and see what’s state of the art for web development (looking at React, Relay, GraphQL, Jest, etc.)
 * [x] [Overview of ECMAScript 6 features](https://github.com/lukehoban/es6features)
 * [ ] 📕 Eloquent JavaScript
@@ -140,6 +147,7 @@ from [Learn Difficult Concepts with the ADEPT Method • betterexplained.com](ht
 * [x] [Complexity and Strategy](https://hackernoon.com/complexity-and-strategy-325cd7f59a92)
 * [ ] [Can Programming Be Liberated from the von Neumann Style? A Functional Style and Its Algebra of Programs](http://worrydream.com/refs/Backus-CanProgrammingBeLiberated.pdf)
 * [x] [📺 Hearts and Minds • GDC Vault](http://www.gdcvault.com/play/1020788/Hearts-and)
+* [ ] [Toward a Galvanizing Definition of Technical Debt](https://michaelfeathers.silvrback.com/toward-a-galvanizing-definition-of-technical-debt)
 * [ ] 📕 Mindstorms - Children, Computers, and Powerful Ideas
 * TODO: Add resources from note "Reducing Complexity"
 
