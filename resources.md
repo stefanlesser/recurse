@@ -8,6 +8,8 @@ _My big dumping ground for links to articles, (e)books, videos and similar mater
 ### Build a interpreter/compiler and create a simple programming language from scratch
 * [ ] [📕 Crafting Interpreters - A handbook for making programming languages • Bob Nystrom](http://www.craftinginterpreters.com)
 * [ ] [Building a Primitive State Machine in Haskell](https://daniel-levin.github.io/2015/01/19/primitive-state-machine-in-haskell.html)
+* [ ] [Turing Machines and Tooling, Part I](http://raganwald.com/2017/04/06/turing-machines.html)
+* [ ] [Turing Machines and Tooling, Part II](http://raganwald.com/2017/04/16/turing-machines-part-ii.html)
 * [ ] [Building a LISP from scratch with Swift](https://www.uraimo.com/2017/02/05/building-a-lisp-from-scratch-with-swift/)
 * [ ] [The Lambda Calculus for Absolute Dummies (like myself) • palmström](http://palmstroem.blogspot.jp/2012/05/lambda-calculus-for-absolute-dummies.html?m=1)
 * [ ] [COMPUTATION STARTING FROM FIRST PRINCIPLES (DRAFT) • Jan Wedekind](http://www.wedesoft.de/binary-lambda-calculus.html)
@@ -19,6 +21,8 @@ _My big dumping ground for links to articles, (e)books, videos and similar mater
 * [ ] [Swift Talk #13 Parsing Techniques](https://talk.objc.io/episodes/S01E13-parsing-techniques)
 * [ ] [📺 (45m) Modelica: Component Oriented Modeling of Physical Systems" by Michael Tiller](https://www.youtube.com/watch?v=-mvEUuc-sWE)
 * [ ] [📺 (45m) Ceptre: A Language for Modeling Generative Interactive Systems" by Chris Martens](https://www.youtube.com/watch?v=bFeJZRdhKcI)
+* [x] [Earley Parsing Explained](http://loup-vaillant.fr/tutorials/earley-parsing/)
+    - In-depth walk-through of how Early parsing works. Code samples in Lua.
 * [ ] 📕 Concepts, Techniques, and Models of Computer Programming
 
 Resources
@@ -31,6 +35,8 @@ Resources
 ### Dive into advanced functional programming concepts with Haskell and Swift
 * [ ] [📺 (60m) "I See What You Mean" by Peter Alvaro](https://www.youtube.com/watch?v=R2Aa4PivG0g)
 * [ ] [📺 (60m) Category Theory for the Working Hacker by Philip Wadler](https://www.youtube.com/watch?v=V10hzjgoklA)
+* [ ] [From Higher-Order Functions to Libraries And Frameworks](http://raganwald.com/2016/12/15/what-higher-order-functions-can-teach-us-about-libraries-and-frameworks.html)
+* [ ] [Functional Programming is taking over UIs with Pure Views](https://medium.freecodecamp.com/the-revolution-of-pure-views-aed339db7da4)
 * [ ] [Queer Types - Applicatives and Alternatives](https://queertypes.com/posts/59-applicatives-alternatives.html)
 * [ ] [Writing Video Games in a Functional Style](http://prog21.dadgum.com/228.html)
 * [ ] 📕 Modeling Data with Functional Programming in R
@@ -38,7 +44,8 @@ Resources
 #### Haskell
 * [x] [📺 (60m) Gabriel Gonzales: Applied category theory and abstract algebra - λC Winter Retreat 2017](https://www.youtube.com/watch?v=WsA7GtUQeB8)
     - Builds understanding for composition going from composable functions to composable values (monoids) to composable types (applicatives) and shows how powerful these concepts are to decompose programs into simple building blocks.
-* [ ] [http://degoes.net/articles/destroy-all-ifs](Destroy All Ifs — A Perspective from Functional Programming)
+* [ ] [A Beginner-Friendly Tour through Functional Programming in Scala](http://degoes.net/articles/easy-monads)
+* [ ] [Destroy All Ifs — A Perspective from Functional Programming](http://degoes.net/articles/destroy-all-ifs)
 * [ ] [A Modern Architecture for FP](http://degoes.net/articles/modern-fp)
 * [ ] [Modern Functional Programming: Part 2](http://degoes.net/articles/modern-fp-part-2)
 * TODO: select RC Wiki Haskell resources
@@ -61,8 +68,15 @@ Resources
 ### Try (functional) reactive programming with RxSwift and/or React.js
 * [ ] [📺 Everyday Reactive](https://news.realm.io/news/everyday-reactive/)
 * [ ] [What is reactive programming and why should I use it?](https://www.cocoawithlove.com/blog/reactive-programming-what-and-why.html)
+* [ ] [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
+* [ ] [Reactive programming from scratch](http://www.thomasvisser.me/2016/11/28/reactive-from-scratch/)
+* [ ] [Do-It-Yourself Functional Reactive Programming](https://speakerdeck.com/mchakravarty/do-it-yourself-functional-reactive-programming)
+
 ### Get back into JavaScript (and possibly TypeScript) and see what’s state of the art for web development (looking at React, Relay, GraphQL, Jest, etc.)
 * [x] [Overview of ECMAScript 6 features](https://github.com/lukehoban/es6features)
+* [x] [A Functional Programmer’s Introduction to JavaScript (Composing Software)](https://medium.com/javascript-scene/a-functional-programmers-introduction-to-javascript-composing-software-d670d14ede30)
+* [ ] [http://jrsinclair.com/articles/2017/javascript-without-loops/index.html](http://jrsinclair.com/articles/2017/javascript-without-loops/index.html)
+* [ ] [Higher Order Functions (Composing Software)](https://medium.com/javascript-scene/higher-order-functions-composing-software-5365cf2cbe99)
 * [ ] 📕 Eloquent JavaScript
 
 Reference
@@ -73,6 +87,7 @@ Reference
 ### Get an introduction into basic devops and set up CI and some more complex toolchains and production environments with Docker, AWS, and whatever else is recommended
 * [ ] [iOS Continous integration: Xcode Server, Jenkins, Travis and fastlane](http://thebugcode.github.io/ios-continous-integration-choosing-a-build-server-and-tooling/)
 * [ ] [Cheap Bots, Done Quick!](http://cheapbotsdonequick.com)
+* [ ] [AWS Adventures: Part 2 – Infrastructure As Code, Deploying a Microservice](http://jessewarden.com/2017/01/aws-adventures-part-2-infrastructure-as-code-deploying-a-microservice.html)
 
 ### Explore data visualization, procedural generation, and generative art — I want to try d3.[js|express] and graphics programming with Metal or Vulcan
 
@@ -127,6 +142,7 @@ Resources
 * [ ] [Building a Gas Pump Scanner with OpenCV/Python/iOS](https://hackernoon.com/building-a-gas-pump-scanner-with-opencv-python-ios-116fe6c9ae8b)
 
 Reference
+* [📺 Strange Loop Conference Videos](https://www.youtube.com/channel/UC_QIfHvN9auy2CoOdSfMWDw?app=desktop)
 * [An extensive list of interesting open source projects](https://github.com/lk-geimfari/awesomo)
 
 ----
