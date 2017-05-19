@@ -6,6 +6,7 @@ _My big dumping ground for links to articles, (e)books, videos and similar mater
 ## Project Ideas
 
 ### Build a interpreter/compiler and create a simple programming language from scratch
+* [x] [Rich Programmer Food](http://steve-yegge.blogspot.com/2007/06/rich-programmer-food.html?m=1)
 * [ ] [📕 Crafting Interpreters - A handbook for making programming languages • Bob Nystrom](http://www.craftinginterpreters.com)
 * [ ] [Building a Primitive State Machine in Haskell](https://daniel-levin.github.io/2015/01/19/primitive-state-machine-in-haskell.html)
 * [ ] [Turing Machines and Tooling, Part I](http://raganwald.com/2017/04/06/turing-machines.html)
@@ -158,6 +159,7 @@ Reference
 from [Learn Difficult Concepts with the ADEPT Method • betterexplained.com](https://betterexplained.com/articles/adept-method/)
 
 ### Complexity in software development
+* [x] [(10m) SICP / What is "Computer Science"?](https://m.youtube.com/watch?v=zQLUPjefuWA)
 * [x] [📺 (1h) Greg Wilson - What We Actually Know About Software Development, and Why We Believe It’s True](https://vimeo.com/9270320)
     - In software engineering we claim to have figured out many things, but don't back them up with data and research. In many cases we still don't know what's objectively better, and fall victim to statements that sound clever to us, and confirm our own biases. For real progress in our field we need higher standards for proof.
 * [x] [Complexity and Strategy](https://hackernoon.com/complexity-and-strategy-325cd7f59a92)
