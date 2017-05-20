@@ -7,6 +7,7 @@ _My big dumping ground for links to articles, (e)books, videos and similar mater
 
 ### Build a interpreter/compiler and create a simple programming language from scratch
 * [x] [Rich Programmer Food](http://steve-yegge.blogspot.com/2007/06/rich-programmer-food.html?m=1)
+* [ ] [So You Want To Write Your Own Language?](http://www.drdobbs.com/architecture-and-design/so-you-want-to-write-your-own-language/240165488)
 * [ ] [📕 Crafting Interpreters - A handbook for making programming languages • Bob Nystrom](http://www.craftinginterpreters.com)
 * [ ] [Building a Primitive State Machine in Haskell](https://daniel-levin.github.io/2015/01/19/primitive-state-machine-in-haskell.html)
 * [ ] [Turing Machines and Tooling, Part I](http://raganwald.com/2017/04/06/turing-machines.html)
@@ -104,6 +105,9 @@ Reference
 * [ ] [Information Visualization • Enrico Bertini](http://enrico.bertini.io/teaching/)
 * [ ] [The death of interactive infographics?](https://medium.com/@dominikus/the-end-of-interactive-visualizations-52c585dcafcb)
 * [ ] 📕 Thinking with Data
+* [ ] [The Hitchhiker’s Guide to d3.js](https://medium.com/@enjalot/the-hitchhikers-guide-to-d3-js-a8552174733a)
+* [ ] [Three Little Circles](https://bost.ocks.org/mike/circles/)
+* [x] [Making of: Line drawing on a grid](http://www.redblobgames.com/making-of/line-drawing/)
 
 Resources
 * [Superforecasting](http://goodjudgment.com/superforecasting/index.php/category/superforecasting/)
