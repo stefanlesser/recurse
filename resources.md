@@ -30,8 +30,16 @@ Resources
 * [Earley parser implementation • GitHub](https://github.com/lagodiuk/earley-parser-js)
 * [FParsec Documentation](http://www.quanttec.com/fparsec/)
 
-### Brush up my knowledge about graph data structures and algorithms
+### Brush up my knowledge about (graph) data structures and algorithms
 * TODO: add resources from reading list and iBooks
+
+#### Conflict-Free Replicated Data Types (CRDT)
+* [ ] [Conflict-free replicated data type](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type)
+* [ ] [A Look at Conflict-Free Replicated Data Types (CRDT)](https://medium.com/@istanbul_techie/a-look-at-conflict-free-replicated-data-types-crdt-221a5f629e7e)
+* [ ] [Conflict-free replicated data types](https://medium.com/@qt/a-brief-history-of-replicated-data-ab9dcf1671a0)
+* [ ] [Conflict-free Replicated Data Types](http://muratbuffalo.blogspot.com/2013/04/conflict-free-replicated-data-types.html)
+* [ ] [A comprehensive study of Convergent and Commutative Replicated Data Types](http://hal.upmc.fr/file/index/docid/555588/filename/techreport.pdf)
+* [Readings in conflict-free replicated data types](http://christophermeiklejohn.com/crdt/2014/07/22/readings-in-crdts.html)
 
 ### Dive into advanced functional programming concepts with Haskell and Swift
 * [ ] [📺 (60m) "I See What You Mean" by Peter Alvaro](https://www.youtube.com/watch?v=R2Aa4PivG0g)
