@@ -7,7 +7,12 @@ _My big dumping ground for links to articles, (e)books, videos and similar mater
 
 ### Build a interpreter/compiler and create a simple programming language from scratch
 * [x] [Rich Programmer Food](http://steve-yegge.blogspot.com/2007/06/rich-programmer-food.html?m=1)
-* [ ] [So You Want To Write Your Own Language?](http://www.drdobbs.com/architecture-and-design/so-you-want-to-write-your-own-language/240165488)
+* [x] [So You Want To Write Your Own Language?](http://www.drdobbs.com/architecture-and-design/so-you-want-to-write-your-own-language/240165488)
+    - Focus on: context-free grammar, good diagostics (redundancy helps), tried and true grammatical forms for familiar constructs. Ignore: minimizing keystrokes, easy parsing, minimizing keywords, lexer or parser generators.
+    - Use a poisoning approach for marking errors in the AST, like in D.
+    - Use a profiler to find performance issues.
+    - Take advantage of lowering (rewriting more complex semantic constructs in terms of simpler ones, e.g. while and for-each loops can both be rewritten as for loops).
+    - Don't forget that a good runtime library is important. Don't have too much trivia in it.
 * [ ] [📕 Crafting Interpreters - A handbook for making programming languages • Bob Nystrom](http://www.craftinginterpreters.com)
 * [ ] [Building a Primitive State Machine in Haskell](https://daniel-levin.github.io/2015/01/19/primitive-state-machine-in-haskell.html)
 * [ ] [Turing Machines and Tooling, Part I](http://raganwald.com/2017/04/06/turing-machines.html)
