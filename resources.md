@@ -109,6 +109,7 @@ General
 
 d3
 * [ ] 📕 Interactive Data Visualization for the Web
+* (alternative book option) 📕 [D3.js in Action, Second Edition](https://www.manning.com/books/d3js-in-action-second-edition)
 * [ ] [The Hitchhiker’s Guide to d3.js](https://medium.com/@enjalot/the-hitchhikers-guide-to-d3-js-a8552174733a)
 * [ ] [Three Little Circles](https://bost.ocks.org/mike/circles/)
 * [x] [Making of: Line drawing on a grid](http://www.redblobgames.com/making-of/line-drawing/)
