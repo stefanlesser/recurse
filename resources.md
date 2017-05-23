@@ -118,13 +118,15 @@ d3
     - Pick a project you want to do and then figure out how to do it. Let your motivation drive the choice of tools, instead of the other way around.
 * [ ] [SVGs beyond mere shapes](https://www.visualcinnamon.com/2016/04/svg-beyond-mere-shapes.html)
     - The 30 min video is a good introduction into the examples on the site.
-* [ ] [Three Little Circles](https://bost.ocks.org/mike/circles/)
+* [x] [Three Little Circles](https://bost.ocks.org/mike/circles/)
+    - Introduction to binding data, enter and exit patterns.
+* [x] [Thinking with Joins](https://bost.ocks.org/mike/join/)
+    - Understanding data joins.
 * [ ] [D3 and Canvas in 3 steps](https://medium.freecodecamp.com/d3-and-canvas-in-3-steps-8505c8b27444)
 * [ ] [Introducing d3-scale](https://medium.com/@mbostock/introducing-d3-scale-61980c51545f)
 * [ ] [The SVG `path` Syntax: An Illustrated Guide](https://css-tricks.com/svg-path-syntax-illustrated-guide/)
 * [ ] [Introducing d3-shape](https://medium.com/@mbostock/introducing-d3-shape-73f8367e6d12)
 * [ ] [General Update Pattern](https://bl.ocks.org/mbostock/3808218)
-* [ ] [Thinking with Joins](https://bost.ocks.org/mike/join/)
 * [x] [Making of: Line drawing on a grid](http://www.redblobgames.com/making-of/line-drawing/)
 * [x] [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 * [ ] [Eyeo 2013 - Bill Atkinson](https://vimeo.com/70630277)
