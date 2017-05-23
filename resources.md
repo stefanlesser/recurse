@@ -48,8 +48,8 @@ Resources
 * [Readings in conflict-free replicated data types](http://christophermeiklejohn.com/crdt/2014/07/22/readings-in-crdts.html)
 
 ### Dive into advanced functional programming concepts with Haskell and Swift
-* [ ] [📺 (60m) "I See What You Mean" by Peter Alvaro](https://www.youtube.com/watch?v=R2Aa4PivG0g)
-* [ ] [📺 (60m) Category Theory for the Working Hacker by Philip Wadler](https://www.youtube.com/watch?v=V10hzjgoklA)
+* [x] [📺 (60m) "I See What You Mean" by Peter Alvaro](https://www.youtube.com/watch?v=R2Aa4PivG0g)
+* [x] [📺 (60m) Category Theory for the Working Hacker by Philip Wadler](https://www.youtube.com/watch?v=V10hzjgoklA)
 * [ ] [From Higher-Order Functions to Libraries And Frameworks](http://raganwald.com/2016/12/15/what-higher-order-functions-can-teach-us-about-libraries-and-frameworks.html)
 * [ ] [Functional Programming is taking over UIs with Pure Views](https://medium.freecodecamp.com/the-revolution-of-pure-views-aed339db7da4)
 * [ ] [Queer Types - Applicatives and Alternatives](https://queertypes.com/posts/59-applicatives-alternatives.html)
@@ -99,17 +99,15 @@ Reference
 * [Design Patterns in ES6](http://tcorral.github.io/Design-Patterns-in-Javascript/)
 * [📕 Speaking JavaScript (ES5)](http://speakingjs.com/es5/index.html)
 
-### Get an introduction into basic devops and set up CI and some more complex toolchains and production environments with Docker, AWS, and whatever else is recommended
-* [ ] [iOS Continous integration: Xcode Server, Jenkins, Travis and fastlane](http://thebugcode.github.io/ios-continous-integration-choosing-a-build-server-and-tooling/)
-* [ ] [Cheap Bots, Done Quick!](http://cheapbotsdonequick.com)
-* [ ] [AWS Adventures: Part 2 – Infrastructure As Code, Deploying a Microservice](http://jessewarden.com/2017/01/aws-adventures-part-2-infrastructure-as-code-deploying-a-microservice.html)
-
 ### Explore data visualization, procedural generation, and generative art — I want to try d3.[js|express] and graphics programming with Metal or Vulcan
 
 #### Information Visualization
+General
 * [ ] [Information Visualization • Enrico Bertini](http://enrico.bertini.io/teaching/)
 * [ ] [The death of interactive infographics?](https://medium.com/@dominikus/the-end-of-interactive-visualizations-52c585dcafcb)
 * [ ] 📕 Thinking with Data
+
+d3
 * [ ] [The Hitchhiker’s Guide to d3.js](https://medium.com/@enjalot/the-hitchhikers-guide-to-d3-js-a8552174733a)
 * [ ] [Three Little Circles](https://bost.ocks.org/mike/circles/)
 * [x] [Making of: Line drawing on a grid](http://www.redblobgames.com/making-of/line-drawing/)
@@ -152,6 +150,11 @@ Resources
 
 Resources
 * [Staticman: Static sites with superpowers](https://staticman.net)
+
+### Get an introduction into basic devops and set up CI and some more complex toolchains and production environments with Docker, AWS, and whatever else is recommended
+* [ ] [iOS Continous integration: Xcode Server, Jenkins, Travis and fastlane](http://thebugcode.github.io/ios-continous-integration-choosing-a-build-server-and-tooling/)
+* [ ] [Cheap Bots, Done Quick!](http://cheapbotsdonequick.com)
+* [ ] [AWS Adventures: Part 2 – Infrastructure As Code, Deploying a Microservice](http://jessewarden.com/2017/01/aws-adventures-part-2-infrastructure-as-code-deploying-a-microservice.html)
 
 ### Other interesting stuff
 * [x] [The Dark Secret at the Heart of AI](https://www.technologyreview.com/s/604087/the-dark-secret-at-the-heart-of-ai/)
