@@ -106,16 +106,31 @@ General
 * [ ] [Information Visualization • Enrico Bertini](http://enrico.bertini.io/teaching/)
 * [ ] [The death of interactive infographics?](https://medium.com/@dominikus/the-end-of-interactive-visualizations-52c585dcafcb)
 * [ ] 📕 Thinking with Data
+* [ ] [📕 The Grammar of Graphics](https://www.cs.uic.edu/~wilkinson/TheGrammarOfGraphics/GOG.html)
 
 d3
 * [ ] 📕 Interactive Data Visualization for the Web
 * (alternative book option) 📕 [D3.js in Action, Second Edition](https://www.manning.com/books/d3js-in-action-second-edition)
 * [ ] [The Hitchhiker’s Guide to d3.js](https://medium.com/@enjalot/the-hitchhikers-guide-to-d3-js-a8552174733a)
+    - Great starting point linking to many tutorials and resources to learn d3.js and it's underlying technologies (canvas, SVG). Most other resources in this list came from here.
+* [ ] [How do you learn d3.js?](https://medium.com/@enjalot/how-do-you-learn-d3-js-ccffc151419b)
+* [ ] [SVGs beyond mere shapes](https://www.visualcinnamon.com/2016/04/svg-beyond-mere-shapes.html)
 * [ ] [Three Little Circles](https://bost.ocks.org/mike/circles/)
+* [ ] [D3 and Canvas in 3 steps](https://medium.freecodecamp.com/d3-and-canvas-in-3-steps-8505c8b27444)
+* [ ] [Introducing d3-scale](https://medium.com/@mbostock/introducing-d3-scale-61980c51545f)
+* [ ] [The SVG `path` Syntax: An Illustrated Guide](https://css-tricks.com/svg-path-syntax-illustrated-guide/)
+* [ ] [Introducing d3-shape](https://medium.com/@mbostock/introducing-d3-shape-73f8367e6d12)
+* [ ] [General Update Pattern](https://bl.ocks.org/mbostock/3808218)
+* [ ] [Thinking with Joins](https://bost.ocks.org/mike/join/)
 * [x] [Making of: Line drawing on a grid](http://www.redblobgames.com/making-of/line-drawing/)
+* [x] [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 
 Resources
+* [Distill](http://distill.pub) — Presents machine learning research in clear, dynamic and vivid ways.
+* [Data Sketches](http://www.datasketch.es) — Monthly visualization projects as collaboration between two designers.
+* [The Pudding](https://pudding.cool) — Journal of visual essays.
 * [Superforecasting](http://goodjudgment.com/superforecasting/index.php/category/superforecasting/)
+* [Bl.ock Builder](http://blockbuilder.org) — A web-based development environment for creating d3 visualizations.
     
 #### Procedural Generation / Generative Art
 * [Awesome Generative Art](https://github.com/kosmos/awesome-generative-art/blob/master/readme.md)
