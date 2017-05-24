@@ -116,20 +116,25 @@ d3
     - Great starting point linking to many tutorials and resources to learn d3.js and it's underlying technologies (canvas, SVG). Most other resources in this list came from here.
 * [x] [How do you learn d3.js?](https://medium.com/@enjalot/how-do-you-learn-d3-js-ccffc151419b)
     - Pick a project you want to do and then figure out how to do it. Let your motivation drive the choice of tools, instead of the other way around.
-* [ ] [SVGs beyond mere shapes](https://www.visualcinnamon.com/2016/04/svg-beyond-mere-shapes.html)
-    - The 30 min video is a good introduction into the examples on the site.
 * [x] [Three Little Circles](https://bost.ocks.org/mike/circles/)
     - Introduction to binding data, enter and exit patterns.
 * [x] [Thinking with Joins](https://bost.ocks.org/mike/join/)
     - Understanding data joins.
+* [x] [General Update Pattern](https://bl.ocks.org/mbostock/3808218)
+    - Three examples highlighting the update pattern and key functions (+ transitions).
+* [x] [Introducing d3-scale](https://medium.com/@mbostock/introducing-d3-scale-61980c51545f)
+    - Scales are the powerful concept of mapping a dimension of data to a visual representation. Or mapping an input domain to an output range.
+* [x] [](http://chimera.labs.oreilly.com/books/1230000000345/ch07.html)
+    - This chapter of the book "Interactive Data Visualization for the Web" helped trmendously with understanding all the little details about how scales work. Input domain –> output range!
 * [ ] [D3 and Canvas in 3 steps](https://medium.freecodecamp.com/d3-and-canvas-in-3-steps-8505c8b27444)
-* [ ] [Introducing d3-scale](https://medium.com/@mbostock/introducing-d3-scale-61980c51545f)
 * [ ] [The SVG `path` Syntax: An Illustrated Guide](https://css-tricks.com/svg-path-syntax-illustrated-guide/)
 * [ ] [Introducing d3-shape](https://medium.com/@mbostock/introducing-d3-shape-73f8367e6d12)
-* [ ] [General Update Pattern](https://bl.ocks.org/mbostock/3808218)
+* [ ] [SVGs beyond mere shapes](https://www.visualcinnamon.com/2016/04/svg-beyond-mere-shapes.html)
+    - The 30 min video is a good introduction into the examples on the site.
 * [x] [Making of: Line drawing on a grid](http://www.redblobgames.com/making-of/line-drawing/)
 * [x] [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
-* [ ] [Eyeo 2013 - Bill Atkinson](https://vimeo.com/70630277)
+    - An awesome animated introduction into machine learning concepts implemented with d3.js. Scroll your way through the explanations and see them visualized and animated next to the text while your reading. A great way to publish a presentation-like publication.
+* [ ] [Eyeo 2013 - Bill Atkinson](https://vimeo.com/70630277) — *This is likely not realted to d3 or DataViz at all, but I'll leave it here until I find out.*
 
 Resources
 * [Distill](http://distill.pub) — Presents machine learning research in clear, dynamic and vivid ways.
