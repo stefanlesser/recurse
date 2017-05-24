@@ -124,8 +124,8 @@ d3
     - Three examples highlighting the update pattern and key functions (+ transitions).
 * [x] [Introducing d3-scale](https://medium.com/@mbostock/introducing-d3-scale-61980c51545f)
     - Scales are the powerful concept of mapping a dimension of data to a visual representation. Or mapping an input domain to an output range.
-* [x] [](http://chimera.labs.oreilly.com/books/1230000000345/ch07.html)
-    - This chapter of the book "Interactive Data Visualization for the Web" helped trmendously with understanding all the little details about how scales work. Input domain –> output range!
+* [x] [Interactive Data Visualization for the Web • Chapter 7. Scales](http://chimera.labs.oreilly.com/books/1230000000345/ch07.html)
+    - This chapter helped trmendously with understanding all the little details about how scales work. Input domain –> output range!
 * [ ] [D3 and Canvas in 3 steps](https://medium.freecodecamp.com/d3-and-canvas-in-3-steps-8505c8b27444)
 * [ ] [The SVG `path` Syntax: An Illustrated Guide](https://css-tricks.com/svg-path-syntax-illustrated-guide/)
 * [ ] [Introducing d3-shape](https://medium.com/@mbostock/introducing-d3-shape-73f8367e6d12)
