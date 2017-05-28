@@ -71,6 +71,13 @@ Resources
 
 #### Swift
 * [ ] [📺 Functional Swift Conference 2017](http://2017.funswiftconf.com)
+* [x] [Brandon Kase: Beyond Types in Swift](https://m.youtube.com/watch?v=6z9QjDUKkCs)
+    - Adding functionality without adding complexity through abstract algebra:
+        - Magma: closed binary operators = composable operation
+        - Semi-group: + associativity = parallelization
+        - Monoid: + identity = dropping the optional
+        - Commutative Monoid: + commutativity = reorder
+        - Bounded Semilattice: + idempotence = no need for memory
 * [x] [📺 (45m) Brandon Williams - Finding Happiness in Functional Programming](https://www.youtube.com/watch?v=A0VaIKK2ijM)
     - Exploring the benefits and downsides of functional conepts in practical use, from isolation of side (and co-)effects to coding for an interface we wish we had instead of the one we're given. Great points about how to encapsulate state management with lenses using UIKit as an example.
 * [x] [Swift Enums Are "sum" Types. That Makes Them Very Interesting](https://mislavjavor.github.io/2017-04-19/Swift-enums-are-sum-types.-That-makes-them-very-interesting/)
