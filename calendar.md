@@ -3,9 +3,9 @@
 
 |Week|Date|Focus|Events|
 |----|----|-----|------|
-|01|May 21|Orientation||
-|02|May 28|||
-|03|Jun 04|||
+|01|May 21|Orientation                                  |Thu: Presentations - Complexity|
+|02|May 28|Learn Haskell<br>Tron2Tron                   |Thu: Presentations - Tron2Tron?|
+|03|Jun 04|Learn Haskell<br>Write interpreter / compiler|                               |
 |04|Jun 11|||
 |05|Jun 18|||
 |06|Jun 25|||
