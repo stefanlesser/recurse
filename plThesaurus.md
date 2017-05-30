@@ -14,5 +14,15 @@
 | mod        | modulo              |     |     | [x] |
 | quod       | quotient            |     |     | [x] |
 | %, rem     | remainder           |     | %   | rem |
-| +          | unary plus          |     | [x] |     |
-| -          | unary minus         | [x] | [x] |     |
+| +          | unary plus          |     | [x] | [x] |
+| -          | unary minus         | [x] | [x] | [x] |
+
+### Function definitions
+
+### Other stuff
+
+| Purpose | C | Swift | Haskell |
+|---------|---|-------|---------|
+| Refer to operators as value (1st class function) | *function pointers?* | Just use operator. | Use infix function with parentheses (). |
+| Use infix operator as prefix | | | Use infix function with parentheses (). |
+| Sectioning: pass around partially applied functions | | *currying with (A) -> (B) -> C* | `(1/) 2 -- 0.5`, `(/1) 2 -- 2.0` |
