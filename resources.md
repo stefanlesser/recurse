@@ -5,6 +5,53 @@ _My big dumping ground for links to articles, (e)books, videos and similar mater
 
 ## Project Ideas
 
+### Dive into advanced functional programming concepts with Haskell and Swift
+* [x] [📺 (60m) "I See What You Mean" by Peter Alvaro](https://www.youtube.com/watch?v=R2Aa4PivG0g)
+* [x] [📺 (60m) Category Theory for the Working Hacker by Philip Wadler](https://www.youtube.com/watch?v=V10hzjgoklA)
+* [ ] [Functional Programming Basics - What’s It All About?](https://pragprog.com/magazines/2013-01/functional-programming-basics)
+* [ ] [From Higher-Order Functions to Libraries And Frameworks](http://raganwald.com/2016/12/15/what-higher-order-functions-can-teach-us-about-libraries-and-frameworks.html)
+* [ ] [Functional Programming is taking over UIs with Pure Views](https://medium.freecodecamp.com/the-revolution-of-pure-views-aed339db7da4)
+* [ ] [Queer Types - Applicatives and Alternatives](https://queertypes.com/posts/59-applicatives-alternatives.html)
+* [ ] [Writing Video Games in a Functional Style](http://prog21.dadgum.com/228.html)
+* [ ] 📕 Modeling Data with Functional Programming in R
+
+#### Haskell
+* [x] [📺 (60m) Gabriel Gonzales: Applied category theory and abstract algebra - λC Winter Retreat 2017](https://www.youtube.com/watch?v=WsA7GtUQeB8)
+    - Builds understanding for composition going from composable functions to composable values (monoids) to composable types (applicatives) and shows how powerful these concepts are to decompose programs into simple building blocks.
+* [ ] [📕 Haskell Programming from First Principles](http://haskellbook.com)
+* [ ] [The functor design pattern](http://www.haskellforall.com/2012/09/the-functor-design-pattern.html)
+* [ ] [The category design pattern](http://www.haskellforall.com/2012/08/the-category-design-pattern.html)
+* [ ] [The Y Combinator (Slight Return) or How to Succeed at Recursion Without Really Recursing](http://mvanier.livejournal.com/2897.html)
+* [ ] [A Beginner-Friendly Tour through Functional Programming in Scala](http://degoes.net/articles/easy-monads)
+* [ ] [Destroy All Ifs — A Perspective from Functional Programming](http://degoes.net/articles/destroy-all-ifs)
+* [ ] [A Modern Architecture for FP](http://degoes.net/articles/modern-fp)
+* [ ] [Modern Functional Programming: Part 2](http://degoes.net/articles/modern-fp-part-2)
+* TODO: select RC Wiki Haskell resources
+
+#### Swift
+* [ ] [📺 Functional Swift Conference 2017](http://2017.funswiftconf.com)
+* [x] [📺 (40m) Brandon Kase: Beyond Types in Swift](https://m.youtube.com/watch?v=6z9QjDUKkCs)
+    - Adding functionality without adding complexity through abstract algebra:
+        - Magma: closed binary operators = composable operation
+        - Semi-group: + associativity = parallelization
+        - Monoid: + identity = dropping the optional
+        - Commutative Monoid: + commutativity = reorder
+        - Bounded Semilattice: + idempotence = no need for memory
+* [x] [📺 (45m) Brandon Williams - Finding Happiness in Functional Programming](https://www.youtube.com/watch?v=A0VaIKK2ijM)
+    - Exploring the benefits and downsides of functional conepts in practical use, from isolation of side (and co-)effects to coding for an interface we wish we had instead of the one we're given. Great points about how to encapsulate state management with lenses using UIKit as an example.
+* [x] [Swift Enums Are "sum" Types. That Makes Them Very Interesting](https://mislavjavor.github.io/2017-04-19/Swift-enums-are-sum-types.-That-makes-them-very-interesting/)
+    - Explains product and sum types and shows how they can be used to minimize possible use cases and define away potential error states. With examples for use cases for sum types (enums) like router and theme patterns and tree data structures.
+* [x] [Algebraic Structure and Protocols](http://www.fewbutripe.com/swift/math/algebra/2015/02/17/algebraic-structure-and-protocols.html)
+    - This article takes a mathmatical approach to introduce monads through semigroups.
+* [x] [The Algebra of Predicates and Sorting Functions](http://www.fewbutripe.com/swift/math/algebra/monoid/2017/04/18/algbera-of-predicates-and-sorting-functions.html)
+    - Extends the knowledge about semigroups and monoids to introduce predicate and sorting functions.
+* [ ] [📺 (40m) Monoids, Predicates and Sorting Functions](https://www.youtube.com/watch?v=VFPhPOnPiTY)
+    - *This might be the better talk to watch to better understand Brandon's articles.*
+* [x] [📺 (30m) Brandon Williams - Lenses in Swift](https://www.youtube.com/watch?v=ofjehH9f-CU)
+    - Using lenses and prisms to create getters and setters for immutable values.
+
+----
+
 ### Build a interpreter/compiler and create a simple programming language from scratch
 * [x] [Rich Programmer Food](http://steve-yegge.blogspot.com/2007/06/rich-programmer-food.html?m=1)
 * [x] [So You Want To Write Your Own Language?](http://www.drdobbs.com/architecture-and-design/so-you-want-to-write-your-own-language/240165488)
@@ -48,48 +95,6 @@ Resources
 * [ ] [Conflict-free Replicated Data Types](http://muratbuffalo.blogspot.com/2013/04/conflict-free-replicated-data-types.html)
 * [ ] [A comprehensive study of Convergent and Commutative Replicated Data Types](http://hal.upmc.fr/file/index/docid/555588/filename/techreport.pdf)
 * [Readings in conflict-free replicated data types](http://christophermeiklejohn.com/crdt/2014/07/22/readings-in-crdts.html)
-
-### Dive into advanced functional programming concepts with Haskell and Swift
-* [x] [📺 (60m) "I See What You Mean" by Peter Alvaro](https://www.youtube.com/watch?v=R2Aa4PivG0g)
-* [x] [📺 (60m) Category Theory for the Working Hacker by Philip Wadler](https://www.youtube.com/watch?v=V10hzjgoklA)
-* [ ] [Functional Programming Basics - What’s It All About?](https://pragprog.com/magazines/2013-01/functional-programming-basics)
-* [ ] [From Higher-Order Functions to Libraries And Frameworks](http://raganwald.com/2016/12/15/what-higher-order-functions-can-teach-us-about-libraries-and-frameworks.html)
-* [ ] [Functional Programming is taking over UIs with Pure Views](https://medium.freecodecamp.com/the-revolution-of-pure-views-aed339db7da4)
-* [ ] [Queer Types - Applicatives and Alternatives](https://queertypes.com/posts/59-applicatives-alternatives.html)
-* [ ] [Writing Video Games in a Functional Style](http://prog21.dadgum.com/228.html)
-* [ ] 📕 Modeling Data with Functional Programming in R
-
-#### Haskell
-* [x] [📺 (60m) Gabriel Gonzales: Applied category theory and abstract algebra - λC Winter Retreat 2017](https://www.youtube.com/watch?v=WsA7GtUQeB8)
-    - Builds understanding for composition going from composable functions to composable values (monoids) to composable types (applicatives) and shows how powerful these concepts are to decompose programs into simple building blocks.
-* [ ] [📕 Haskell Programming from First Principles](http://haskellbook.com)
-* [ ] [A Beginner-Friendly Tour through Functional Programming in Scala](http://degoes.net/articles/easy-monads)
-* [ ] [Destroy All Ifs — A Perspective from Functional Programming](http://degoes.net/articles/destroy-all-ifs)
-* [ ] [A Modern Architecture for FP](http://degoes.net/articles/modern-fp)
-* [ ] [Modern Functional Programming: Part 2](http://degoes.net/articles/modern-fp-part-2)
-* TODO: select RC Wiki Haskell resources
-
-#### Swift
-* [ ] [📺 Functional Swift Conference 2017](http://2017.funswiftconf.com)
-* [x] [Brandon Kase: Beyond Types in Swift](https://m.youtube.com/watch?v=6z9QjDUKkCs)
-    - Adding functionality without adding complexity through abstract algebra:
-        - Magma: closed binary operators = composable operation
-        - Semi-group: + associativity = parallelization
-        - Monoid: + identity = dropping the optional
-        - Commutative Monoid: + commutativity = reorder
-        - Bounded Semilattice: + idempotence = no need for memory
-* [x] [📺 (45m) Brandon Williams - Finding Happiness in Functional Programming](https://www.youtube.com/watch?v=A0VaIKK2ijM)
-    - Exploring the benefits and downsides of functional conepts in practical use, from isolation of side (and co-)effects to coding for an interface we wish we had instead of the one we're given. Great points about how to encapsulate state management with lenses using UIKit as an example.
-* [x] [Swift Enums Are "sum" Types. That Makes Them Very Interesting](https://mislavjavor.github.io/2017-04-19/Swift-enums-are-sum-types.-That-makes-them-very-interesting/)
-    - Explains product and sum types and shows how they can be used to minimize possible use cases and define away potential error states. With examples for use cases for sum types (enums) like router and theme patterns and tree data structures.
-* [x] [Algebraic Structure and Protocols](http://www.fewbutripe.com/swift/math/algebra/2015/02/17/algebraic-structure-and-protocols.html)
-    - This article takes a mathmatical approach to introduce monads through semigroups.
-* [x] [The Algebra of Predicates and Sorting Functions](http://www.fewbutripe.com/swift/math/algebra/monoid/2017/04/18/algbera-of-predicates-and-sorting-functions.html)
-    - Extends the knowledge about semigroups and monoids to introduce predicate and sorting functions.
-* [ ] [📺 (40m) Monoids, Predicates and Sorting Functions](https://www.youtube.com/watch?v=VFPhPOnPiTY)
-    - *This might be the better talk to watch to better understand Brandon's articles.*
-* [x] [📺 (30m) Brandon Williams - Lenses in Swift](https://www.youtube.com/watch?v=ofjehH9f-CU)
-    - Using lenses and prisms to create getters and setters for immutable values.
 
 ### Try (functional) reactive programming with RxSwift and/or React.js
 * [ ] [📺 Everyday Reactive](https://news.realm.io/news/everyday-reactive/)
