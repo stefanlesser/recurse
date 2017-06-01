@@ -11,6 +11,12 @@ _My big dumping ground for links to articles, (e)books, videos and similar mater
 * [ ] [Functional Programming Basics - What’s It All About?](https://pragprog.com/magazines/2013-01/functional-programming-basics)
 * [ ] [From Higher-Order Functions to Libraries And Frameworks](http://raganwald.com/2016/12/15/what-higher-order-functions-can-teach-us-about-libraries-and-frameworks.html)
 * [ ] [Functional Programming is taking over UIs with Pure Views](https://medium.freecodecamp.com/the-revolution-of-pure-views-aed339db7da4)
+* [ ] [The Hundred-Year Language](http://www.paulgraham.com/hundred.html)
+* [ ] [Toward a frozen operating system](https://urbit.org/blog/2017.5-frozen/)
+* [ ] [A Beginner-Friendly Tour through Functional Programming in Scala](http://degoes.net/articles/easy-monads)
+* [ ] [Destroy All Ifs — A Perspective from Functional Programming](http://degoes.net/articles/destroy-all-ifs)
+* [ ] [A Modern Architecture for FP](http://degoes.net/articles/modern-fp)
+* [ ] [Modern Functional Programming: Part 2](http://degoes.net/articles/modern-fp-part-2)
 * [ ] [Queer Types - Applicatives and Alternatives](https://queertypes.com/posts/59-applicatives-alternatives.html)
 * [ ] [Writing Video Games in a Functional Style](http://prog21.dadgum.com/228.html)
 * [ ] 📕 Modeling Data with Functional Programming in R
@@ -18,14 +24,18 @@ _My big dumping ground for links to articles, (e)books, videos and similar mater
 #### Haskell
 * [x] [📺 (60m) Gabriel Gonzales: Applied category theory and abstract algebra - λC Winter Retreat 2017](https://www.youtube.com/watch?v=WsA7GtUQeB8)
     - Builds understanding for composition going from composable functions to composable values (monoids) to composable types (applicatives) and shows how powerful these concepts are to decompose programs into simple building blocks.
-* [ ] [📕 Haskell Programming from First Principles](http://haskellbook.com)
+* [ ] (32% done) [📕 Haskell Programming from First Principles](http://haskellbook.com)
+* [x] [The category design pattern](http://www.haskellforall.com/2012/08/the-category-design-pattern.html)
 * [ ] [The functor design pattern](http://www.haskellforall.com/2012/09/the-functor-design-pattern.html)
-* [ ] [The category design pattern](http://www.haskellforall.com/2012/08/the-category-design-pattern.html)
+* [ ] [Data is Code](http://www.haskellforall.com/2016/04/data-is-code.html?m=1)
+* [ ] [📺 (2h:15m) Phil Freeman - Fun with Profunctors](https://www.youtube.com/watch?v=OJtGECfksds)
 * [ ] [The Y Combinator (Slight Return) or How to Succeed at Recursion Without Really Recursing](http://mvanier.livejournal.com/2897.html)
-* [ ] [A Beginner-Friendly Tour through Functional Programming in Scala](http://degoes.net/articles/easy-monads)
-* [ ] [Destroy All Ifs — A Perspective from Functional Programming](http://degoes.net/articles/destroy-all-ifs)
-* [ ] [A Modern Architecture for FP](http://degoes.net/articles/modern-fp)
-* [ ] [Modern Functional Programming: Part 2](http://degoes.net/articles/modern-fp-part-2)
+* [ ] [7 lines of code, 3 minutes: Implement a programming language from scratch](http://matt.might.net/articles/implementing-a-programming-language/)
+* [ ] [Closure conversion: How to compile lambda](http://matt.might.net/articles/closure-conversion/)
+* [ ] [Compiling to lambda-calculus: Turtles all the way down](http://matt.might.net/articles/compiling-up-to-lambda-calculus/)
+* [ ] [Equational derivations of the Y combinator and Church encodings in Python](http://matt.might.net/articles/python-church-y-combinator/)
+* [ ] [Fixed-point combinators in JavaScript: Memoizing recursive functions](http://matt.might.net/articles/implementation-of-recursive-fixed-point-y-combinator-in-javascript-for-memoization/)
+* [ ] [Haskell Communities and Activities Report • 32nd Ed. May 2017](https://www.haskell.org/communities/05-2017/html/report.html)
 * TODO: select RC Wiki Haskell resources
 
 #### Swift
