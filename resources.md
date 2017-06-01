@@ -1,14 +1,19 @@
 # Study Resources
 _My big dumping ground for links to articles, (e)books, videos and similar material that caught my attention, but I haven't had the time to look at yet. I'm still figuring out how to work with this list…_
 
+Resources marked with ★ are recommended starting points or must read|watch material for the given category.
+
 ----
 
 ## Project Ideas
 
 ### Dive into advanced functional programming concepts with Haskell and Swift
+* [x] [★ Functional Programming Basics - What’s It All About?](https://pragprog.com/magazines/2013-01/functional-programming-basics)
+    <br>"Functional Programming is progamming without assignment statements." This means data in memory is (mostly) immutable and that makes parallelism for multiple CPU cores much easier to reason about. This article is a very high-level introduction into one of the core concepts of FP and ties it to one of the main benefits. I do think there's more to it than that, but this should get you excited about it.
 * [x] [📺 (60m) "I See What You Mean" by Peter Alvaro](https://www.youtube.com/watch?v=R2Aa4PivG0g)
+    <br>Entertaining presentation about modeling state with declarative languages. Many applicable concepts although it is understandably a little heavy on the relational language this talk is about.
 * [x] [📺 (60m) Category Theory for the Working Hacker by Philip Wadler](https://www.youtube.com/watch?v=V10hzjgoklA)
-* [ ] [Functional Programming Basics - What’s It All About?](https://pragprog.com/magazines/2013-01/functional-programming-basics)
+    <br>If you want to take it an abstraction level higher, this surprisingly entertaining talk explains the math behind lambda calculus called category theory.
 * [ ] [From Higher-Order Functions to Libraries And Frameworks](http://raganwald.com/2016/12/15/what-higher-order-functions-can-teach-us-about-libraries-and-frameworks.html)
 * [ ] [Functional Programming is taking over UIs with Pure Views](https://medium.freecodecamp.com/the-revolution-of-pure-views-aed339db7da4)
 * [ ] [The Hundred-Year Language](http://www.paulgraham.com/hundred.html)
@@ -22,9 +27,10 @@ _My big dumping ground for links to articles, (e)books, videos and similar mater
 * [ ] 📕 Modeling Data with Functional Programming in R
 
 #### Haskell
+* [ ] (32% done) [★ 📕 Haskell Programming from First Principles](http://haskellbook.com)
+    <br>So far I like this book much better than the free "Learn you a Haskell". It starts off with a very abstract introduction to lambda calculus, which I believe is an important basis to know about before diving into Haskell. It does make the first chapter a little strange — keep reading and don't judge the book until after chapter 2.
 * [x] [📺 (60m) Gabriel Gonzales: Applied category theory and abstract algebra - λC Winter Retreat 2017](https://www.youtube.com/watch?v=WsA7GtUQeB8)
-    - Builds understanding for composition going from composable functions to composable values (monoids) to composable types (applicatives) and shows how powerful these concepts are to decompose programs into simple building blocks.
-* [ ] (32% done) [📕 Haskell Programming from First Principles](http://haskellbook.com)
+    <br>"[We can] tackle software complexity by reusing standard interfaces that originate in the fields of category theory and abstract algebra." Builds understanding for composition going from composable functions to composable values (monoids) to composable types (applicatives) and shows how powerful these concepts are to decompose programs into simple building blocks.
 * [x] [The category design pattern](http://www.haskellforall.com/2012/08/the-category-design-pattern.html)
 * [ ] [The functor design pattern](http://www.haskellforall.com/2012/09/the-functor-design-pattern.html)
 * [ ] [Data is Code](http://www.haskellforall.com/2016/04/data-is-code.html?m=1)
