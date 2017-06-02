@@ -45,26 +45,26 @@ Resources marked with ★ are recommended starting points or must read|watch mat
 * TODO: select RC Wiki Haskell resources
 
 #### Swift
-* [ ] [📺 Functional Swift Conference 2017](http://2017.funswiftconf.com)
-* [x] [📺 (40m) Brandon Kase: Beyond Types in Swift](https://m.youtube.com/watch?v=6z9QjDUKkCs)
-    - Adding functionality without adding complexity through abstract algebra:
-        - Magma: closed binary operators = composable operation
-        - Semi-group: + associativity = parallelization
-        - Monoid: + identity = dropping the optional
-        - Commutative Monoid: + commutativity = reorder
-        - Bounded Semilattice: + idempotence = no need for memory
 * [x] [📺 (45m) Brandon Williams - Finding Happiness in Functional Programming](https://www.youtube.com/watch?v=A0VaIKK2ijM)
-    - Exploring the benefits and downsides of functional conepts in practical use, from isolation of side (and co-)effects to coding for an interface we wish we had instead of the one we're given. Great points about how to encapsulate state management with lenses using UIKit as an example.
+    <br>Exploring the benefits and downsides of functional conepts in practical use, from isolation of side (and co-)effects to coding for an interface we wish we had instead of the one we're given. Great points about how to encapsulate state management with lenses using UIKit as an example.
+* [ ] (20% done) [📺 (10 Talks) Functional Swift Conference 2017](http://2017.funswiftconf.com)
+* [x] [📺 (40m) Brandon Kase: Beyond Types in Swift](https://m.youtube.com/watch?v=6z9QjDUKkCs)
+    <br>Adding functionality without adding complexity through abstract algebra:
+    - Magma: closed binary operators = composable operation
+    - Semi-group: + associativity = parallelization
+    - Monoid: + identity = dropping the optional
+    - Commutative Monoid: + commutativity = reorder
+    - Bounded Semilattice: + idempotence = no need for memory
+* [x] [📺 (40m) Monoids, Predicates and Sorting Functions](https://www.youtube.com/watch?v=VFPhPOnPiTY)
+    <br>This demonstrates the practical application of the other Brandon's talk above with live coding in Swift Playgrgounds. Impressive composability of the simplest components by building them up following the rules and laws.
 * [x] [Swift Enums Are "sum" Types. That Makes Them Very Interesting](https://mislavjavor.github.io/2017-04-19/Swift-enums-are-sum-types.-That-makes-them-very-interesting/)
-    - Explains product and sum types and shows how they can be used to minimize possible use cases and define away potential error states. With examples for use cases for sum types (enums) like router and theme patterns and tree data structures.
+    <br>Explains product and sum types and shows how they can be used to minimize possible use cases and define away potential error states. With examples for use cases for sum types (enums) like router and theme patterns and tree data structures.
 * [x] [Algebraic Structure and Protocols](http://www.fewbutripe.com/swift/math/algebra/2015/02/17/algebraic-structure-and-protocols.html)
-    - This article takes a mathmatical approach to introduce monads through semigroups.
+    <br>This article takes a mathmatical approach to introduce monads through semigroups.
 * [x] [The Algebra of Predicates and Sorting Functions](http://www.fewbutripe.com/swift/math/algebra/monoid/2017/04/18/algbera-of-predicates-and-sorting-functions.html)
-    - Extends the knowledge about semigroups and monoids to introduce predicate and sorting functions.
-* [ ] [📺 (40m) Monoids, Predicates and Sorting Functions](https://www.youtube.com/watch?v=VFPhPOnPiTY)
-    - *This might be the better talk to watch to better understand Brandon's articles.*
+    <br>Extends the knowledge about semigroups and monoids to introduce predicate and sorting functions.
 * [x] [📺 (30m) Brandon Williams - Lenses in Swift](https://www.youtube.com/watch?v=ofjehH9f-CU)
-    - Using lenses and prisms to create getters and setters for immutable values.
+    <br>Using lenses and prisms to create getters and setters for immutable values.
 
 ----
 
