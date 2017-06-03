@@ -3,10 +3,10 @@
 
 |Week|Date|Focus|Events|
 |----|----|-----|------|
-|01|May 21|Orientation                                  |Thu: Presentations - Complexity|
-|02|May 28|Learn Haskell<br>Tron2Tron                   |Thu: Presentations - Tron2Tron?|
-|03|Jun 04|Learn Haskell<br>Write interpreter / compiler|                               |
-|04|Jun 11|||
+|01|May 21|Orientation<br>Learn d3.js (*Twitter Viz*)   |Thu: Presentations - Complexity  |
+|02|May 28|Learn Haskell                                |                                 |
+|03|Jun 04|Learn Haskell<br>*Frankentron*               |Thu: Presentations - Frankentron?|
+|04|Jun 11|Learn Haskell<br>Write interpreter / compiler|                                 |
 |05|Jun 18|||
 |06|Jun 25|||
 |07|Jul 02|||
