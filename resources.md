@@ -18,7 +18,8 @@ Resources marked with ★ are recommended starting points or must read|watch mat
     <br>How higher-order functions influence the expressiveness and complexity of programs. This is part 1 of a series of 3 articles.
 * [x] [Functional Programming is taking over UIs with Pure Views](https://medium.freecodecamp.com/the-revolution-of-pure-views-aed339db7da4)
     <br>Why functional programing helps keeping the user interface layer simple and enables hot module replacement, time-travel debugging and similar features.
-* [ ] [A Beginner-Friendly Tour through Functional Programming in Scala](http://degoes.net/articles/easy-monads)
+* [x] [A Beginner-Friendly Tour through Functional Programming in Scala](http://degoes.net/articles/easy-monads)
+    <br>Introduces benefits of functional programming by transforming a simple console program from imperative to declarative step by step. Even though it's using Scala, it helps understanding the basic building blocks of FP and their benefits.
 * [ ] [Destroy All Ifs — A Perspective from Functional Programming](http://degoes.net/articles/destroy-all-ifs)
 * [ ] [A Modern Architecture for FP](http://degoes.net/articles/modern-fp)
 * [ ] [Modern Functional Programming: Part 2](http://degoes.net/articles/modern-fp-part-2)
