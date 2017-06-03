@@ -20,7 +20,8 @@ Resources marked with ★ are recommended starting points or must read|watch mat
     <br>Why functional programing helps keeping the user interface layer simple and enables hot module replacement, time-travel debugging and similar features.
 * [x] [A Beginner-Friendly Tour through Functional Programming in Scala](http://degoes.net/articles/easy-monads)
     <br>Introduces benefits of functional programming by transforming a simple console program from imperative to declarative step by step. Even though it's using Scala, it helps understanding the basic building blocks of FP and their benefits.
-* [ ] [Destroy All Ifs — A Perspective from Functional Programming](http://degoes.net/articles/destroy-all-ifs)
+* [x] [Destroy All Ifs — A Perspective from Functional Programming](http://degoes.net/articles/destroy-all-ifs)
+    <br>By replacing conditionals with lambdas, we can invert control and make our code both easier to reason about and more generic. Moving conditionals from places hidden in the deepest nested function up to the caller makes intent clear and prevents mistakes.
 * [ ] [A Modern Architecture for FP](http://degoes.net/articles/modern-fp)
 * [ ] [Modern Functional Programming: Part 2](http://degoes.net/articles/modern-fp-part-2)
 * [ ] [Queer Types - Applicatives and Alternatives](https://queertypes.com/posts/59-applicatives-alternatives.html)
@@ -28,7 +29,7 @@ Resources marked with ★ are recommended starting points or must read|watch mat
 * [ ] 📕 Modeling Data with Functional Programming in R
 
 #### Haskell
-* [ ] (32% done) [★ 📕 Haskell Programming from First Principles](http://haskellbook.com)
+* [ ] (45% done) [★ 📕 Haskell Programming from First Principles](http://haskellbook.com)
     <br>So far I like this book much better than the free "Learn you a Haskell". It starts off with a very abstract introduction to lambda calculus, which I believe is an important basis to know about before diving into Haskell. It does make the first chapter a little strange — keep reading and don't judge the book until after chapter 2.
 * [x] [📺 (60m) Gabriel Gonzales: Applied category theory and abstract algebra - λC Winter Retreat 2017](https://www.youtube.com/watch?v=WsA7GtUQeB8)
     <br>"[We can] tackle software complexity by reusing standard interfaces that originate in the fields of category theory and abstract algebra." Builds understanding for composition going from composable functions to composable values (monoids) to composable types (applicatives) and shows how powerful these concepts are to decompose programs into simple building blocks.
