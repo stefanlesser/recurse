@@ -16,7 +16,6 @@ Resources marked with ★ are recommended starting points or must read|watch mat
     <br>If you want to take it an abstraction level higher, this surprisingly entertaining talk explains the math behind lambda calculus called category theory.
 * [ ] [From Higher-Order Functions to Libraries And Frameworks](http://raganwald.com/2016/12/15/what-higher-order-functions-can-teach-us-about-libraries-and-frameworks.html)
 * [ ] [Functional Programming is taking over UIs with Pure Views](https://medium.freecodecamp.com/the-revolution-of-pure-views-aed339db7da4)
-* [ ] [Toward a frozen operating system](https://urbit.org/blog/2017.5-frozen/)
 * [ ] [A Beginner-Friendly Tour through Functional Programming in Scala](http://degoes.net/articles/easy-monads)
 * [ ] [Destroy All Ifs — A Perspective from Functional Programming](http://degoes.net/articles/destroy-all-ifs)
 * [ ] [A Modern Architecture for FP](http://degoes.net/articles/modern-fp)
@@ -273,6 +272,8 @@ Bret Victor material I want to re-watch/read
 ### Future of Programming
 * [x] [The Hundred-Year Language](http://www.paulgraham.com/hundred.html)
     <br>Abstract thoughts about what programming languages look like in 100 years from now.
+* [x] [Toward a frozen operating system](https://urbit.org/blog/2017.5-frozen/)
+    <br>Is it possible to build system software or OS level software than never has to be updated?
 * [ ] [Expressive Programming in VR](http://elevr.com/expressive-programming-in-vr/)
 
 ### Stay Focused and Organized
