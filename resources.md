@@ -16,7 +16,8 @@ Resources marked with ★ are recommended starting points or must read|watch mat
     <br>If you want to take it an abstraction level higher, this surprisingly entertaining talk explains the math behind lambda calculus called category theory.
 * [x] [From Higher-Order Functions to Libraries And Frameworks](http://raganwald.com/2016/12/15/what-higher-order-functions-can-teach-us-about-libraries-and-frameworks.html)
     <br>How higher-order functions influence the expressiveness and complexity of programs. This is part 1 of a series of 3 articles.
-* [ ] [Functional Programming is taking over UIs with Pure Views](https://medium.freecodecamp.com/the-revolution-of-pure-views-aed339db7da4)
+* [x] [Functional Programming is taking over UIs with Pure Views](https://medium.freecodecamp.com/the-revolution-of-pure-views-aed339db7da4)
+    <br>Why functional programing helps keeping the user interface layer simple and enables hot module replacement, time-travel debugging and similar features.
 * [ ] [A Beginner-Friendly Tour through Functional Programming in Scala](http://degoes.net/articles/easy-monads)
 * [ ] [Destroy All Ifs — A Perspective from Functional Programming](http://degoes.net/articles/destroy-all-ifs)
 * [ ] [A Modern Architecture for FP](http://degoes.net/articles/modern-fp)
