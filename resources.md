@@ -14,7 +14,8 @@ Resources marked with ★ are recommended starting points or must read|watch mat
     <br>Entertaining presentation about modeling state with declarative languages. Many applicable concepts although it is understandably a little heavy on the relational language this talk is about.
 * [x] [📺 (60m) Category Theory for the Working Hacker by Philip Wadler](https://www.youtube.com/watch?v=V10hzjgoklA)
     <br>If you want to take it an abstraction level higher, this surprisingly entertaining talk explains the math behind lambda calculus called category theory.
-* [ ] [From Higher-Order Functions to Libraries And Frameworks](http://raganwald.com/2016/12/15/what-higher-order-functions-can-teach-us-about-libraries-and-frameworks.html)
+* [x] [From Higher-Order Functions to Libraries And Frameworks](http://raganwald.com/2016/12/15/what-higher-order-functions-can-teach-us-about-libraries-and-frameworks.html)
+    <br>How higher-order functions influence the expressiveness and complexity of programs. This is part 1 of a series of 3 articles.
 * [ ] [Functional Programming is taking over UIs with Pure Views](https://medium.freecodecamp.com/the-revolution-of-pure-views-aed339db7da4)
 * [ ] [A Beginner-Friendly Tour through Functional Programming in Scala](http://degoes.net/articles/easy-monads)
 * [ ] [Destroy All Ifs — A Perspective from Functional Programming](http://degoes.net/articles/destroy-all-ifs)
