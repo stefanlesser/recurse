@@ -31,20 +31,21 @@ Resources marked with ★ are recommended starting points or must read|watch mat
 #### Haskell
 * [ ] (45% done) [★ 📕 Haskell Programming from First Principles](http://haskellbook.com)
     <br>So far I like this book much better than the free "Learn you a Haskell". It starts off with a very abstract introduction to lambda calculus, which I believe is an important basis to know about before diving into Haskell. It does make the first chapter a little strange — keep reading and don't judge the book until after chapter 2.
+* [ ] [Learn Haskell the hard way](http://yannesposito.com/Scratch/en/blog/Haskell-the-Hard-Way)
+* [ ] [EdX course: Introduction to Functional Programming (via Haskell)](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0)
+* [ ] [Diehl: What I Wish I Knew While Learning Haskell](http://dev.stephendiehl.com/hask/)
 * [x] [📺 (60m) Gabriel Gonzales: Applied category theory and abstract algebra - λC Winter Retreat 2017](https://www.youtube.com/watch?v=WsA7GtUQeB8)
     <br>"[We can] tackle software complexity by reusing standard interfaces that originate in the fields of category theory and abstract algebra." Builds understanding for composition going from composable functions to composable values (monoids) to composable types (applicatives) and shows how powerful these concepts are to decompose programs into simple building blocks.
 * [x] [The category design pattern](http://www.haskellforall.com/2012/08/the-category-design-pattern.html)
 * [ ] [The functor design pattern](http://www.haskellforall.com/2012/09/the-functor-design-pattern.html)
 * [ ] [Data is Code](http://www.haskellforall.com/2016/04/data-is-code.html?m=1)
 * [ ] [📺 (2h:15m) Phil Freeman - Fun with Profunctors](https://www.youtube.com/watch?v=OJtGECfksds)
-* [ ] [The Y Combinator (Slight Return) or How to Succeed at Recursion Without Really Recursing](http://mvanier.livejournal.com/2897.html)
-* [ ] [7 lines of code, 3 minutes: Implement a programming language from scratch](http://matt.might.net/articles/implementing-a-programming-language/)
-* [ ] [Closure conversion: How to compile lambda](http://matt.might.net/articles/closure-conversion/)
-* [ ] [Compiling to lambda-calculus: Turtles all the way down](http://matt.might.net/articles/compiling-up-to-lambda-calculus/)
-* [ ] [Equational derivations of the Y combinator and Church encodings in Python](http://matt.might.net/articles/python-church-y-combinator/)
-* [ ] [Fixed-point combinators in JavaScript: Memoizing recursive functions](http://matt.might.net/articles/implementation-of-recursive-fixed-point-y-combinator-in-javascript-for-memoization/)
 * [ ] [Haskell Communities and Activities Report • 32nd Ed. May 2017](https://www.haskell.org/communities/05-2017/html/report.html)
-* TODO: select RC Wiki Haskell resources
+
+Resources
+* [Haskell Wiki](https://wiki.haskell.org/)
+* [Hoogle](https://www.haskell.org/hoogle/) - Enter a type signature and it will find you matching functions
+* [Hayoo](http://hayoo.fh-wedel.de/) - Same but with support for third-party packages
 
 #### Swift
 * [x] [📺 (45m) Brandon Williams - Finding Happiness in Functional Programming](https://www.youtube.com/watch?v=A0VaIKK2ijM)
@@ -83,15 +84,27 @@ Resources marked with ★ are recommended starting points or must read|watch mat
 * [ ] [Turing Machines and Tooling, Part I](http://raganwald.com/2017/04/06/turing-machines.html)
 * [ ] [Turing Machines and Tooling, Part II](http://raganwald.com/2017/04/16/turing-machines-part-ii.html)
 * [ ] [Implementing a JIT Compiled Language with Haskell and LLVM](http://www.stephendiehl.com/llvm/)
+* [ ] [Write Yourself Haskell](http://dev.stephendiehl.com/fun/)
+* [ ] [Write Yourself a Scheme in 48 Hours](https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours)
 * [ ] [Building a LISP from scratch with Swift](https://www.uraimo.com/2017/02/05/building-a-lisp-from-scratch-with-swift/)
+* [ ] [Dragon taming with Tailbiter, a bytecode compiler for Python • codewords.recurse.com](https://codewords.recurse.com/issues/seven/dragon-taming-with-tailbiter-a-bytecode-compiler)
+
+#### Lambda Calculus
 * [ ] [The Lambda Calculus for Absolute Dummies (like myself) • palmström](http://palmstroem.blogspot.jp/2012/05/lambda-calculus-for-absolute-dummies.html?m=1)
 * [ ] [COMPUTATION STARTING FROM FIRST PRINCIPLES (DRAFT) • Jan Wedekind](http://www.wedesoft.de/binary-lambda-calculus.html)
+* [ ] [7 lines of code, 3 minutes: Implement a programming language from scratch](http://matt.might.net/articles/implementing-a-programming-language/)
+* [ ] [Closure conversion: How to compile lambda](http://matt.might.net/articles/closure-conversion/)
+* [ ] [Compiling to lambda-calculus: Turtles all the way down](http://matt.might.net/articles/compiling-up-to-lambda-calculus/)
+* [ ] [Equational derivations of the Y combinator and Church encodings in Python](http://matt.might.net/articles/python-church-y-combinator/)
+* [ ] [Fixed-point combinators in JavaScript: Memoizing recursive functions](http://matt.might.net/articles/implementation-of-recursive-fixed-point-y-combinator-in-javascript-for-memoization/)
 * [ ] [Implementing a JIT Compiled Language with Haskell and LLVM](http://www.stephendiehl.com/llvm/)
+* [ ] [The Y Combinator (Slight Return) or How to Succeed at Recursion Without Really Recursing](http://mvanier.livejournal.com/2897.html)
+
+#### Background
 * [x] [Software structure for programmers who know at least one programming language](https://www.destroyallsoftware.com/compendium/software-structure/6fb5f711cae5a4e6)
 * [x] [Types for anyone who knows a programming language](https://www.destroyallsoftware.com/compendium/types/baf6b67369843fa2)
     - Introduction to and overview of several different type systems in popular programming languages.
 * [ ] [The memory models that underlie programming languages • canonical.org](http://canonical.org/~kragen/memory-models/)
-* [ ] [Dragon taming with Tailbiter, a bytecode compiler for Python • codewords.recurse.com](https://codewords.recurse.com/issues/seven/dragon-taming-with-tailbiter-a-bytecode-compiler)
 * [ ] [Swift Talk #13 Parsing Techniques](https://talk.objc.io/episodes/S01E13-parsing-techniques)
 * [ ] [📺 (45m) Modelica: Component Oriented Modeling of Physical Systems" by Michael Tiller](https://www.youtube.com/watch?v=-mvEUuc-sWE)
 * [ ] [📺 (45m) Ceptre: A Language for Modeling Generative Interactive Systems" by Chris Martens](https://www.youtube.com/watch?v=bFeJZRdhKcI)
@@ -102,6 +115,8 @@ Resources marked with ★ are recommended starting points or must read|watch mat
 Resources
 * [Earley parser implementation • GitHub](https://github.com/lagodiuk/earley-parser-js)
 * [FParsec Documentation](http://www.quanttec.com/fparsec/)
+
+----
 
 ### Brush up my knowledge about (graph) data structures and algorithms
 * TODO: add resources from reading list and iBooks
