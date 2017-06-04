@@ -22,8 +22,13 @@ Resources marked with ★ are recommended starting points or must read|watch mat
     <br>Introduces benefits of functional programming by transforming a simple console program from imperative to declarative step by step. Even though it's using Scala, it helps understanding the basic building blocks of FP and their benefits.
 * [x] [Destroy All Ifs — A Perspective from Functional Programming](http://degoes.net/articles/destroy-all-ifs)
     <br>By replacing conditionals with lambdas, we can invert control and make our code both easier to reason about and more generic. Moving conditionals from places hidden in the deepest nested function up to the caller makes intent clear and prevents mistakes.
-* [ ] [A Modern Architecture for FP](http://degoes.net/articles/modern-fp)
-* [ ] [Modern Functional Programming: Part 2](http://degoes.net/articles/modern-fp-part-2)
+* [x] [A Modern Architecture for FP](http://degoes.net/articles/modern-fp)
+    <br>"We shouldn’t write programs — we should write descriptions of programs, which we can then introspect, transform, and interpret at will." How to architect a program that uses separate layers of DSLs to encode business logic in separate domains, and having an interpreter combining those DSLs to generate the actual program. It seems cumbersome to do this, but the composability of this approach looks promising.
+* [x] [Modern Functional Programming: Part 2](http://degoes.net/articles/modern-fp-part-2)
+    <br>John edited his thoughts in part 1 into a more coherent and clear picture in this article and gives a glimpse into the future of programming by combining interpreters for different DSLs.
+* [ ] [📺 (40m) John A De Goes: MTL Versus Free Deathmatch - λC 2016](https://www.youtube.com/watch?v=JLevNswzYh8)
+    <br>*Conference talk about his "Modern Functional Programming: Part 2" article*
+* [ ] [Monoids, Functors, Applicatives, and Monads: 10 Main Ideas](https://monadmadness.wordpress.com/2015/01/02/monoids-functors-applicatives-and-monads-10-main-ideas/)
 * [ ] [Queer Types - Applicatives and Alternatives](https://queertypes.com/posts/59-applicatives-alternatives.html)
 * [ ] [Writing Video Games in a Functional Style](http://prog21.dadgum.com/228.html)
 * [ ] 📕 Modeling Data with Functional Programming in R
