@@ -22,9 +22,9 @@ Resources marked with ★ are recommended starting points or must read|watch mat
     <br>Introduces benefits of functional programming by transforming a simple console program from imperative to declarative step by step. Even though it's using Scala, it helps understanding the basic building blocks of FP and their benefits.
 * [x] [Destroy All Ifs — A Perspective from Functional Programming](http://degoes.net/articles/destroy-all-ifs)
     <br>By replacing conditionals with lambdas, we can invert control and make our code both easier to reason about and more generic. Moving conditionals from places hidden in the deepest nested function up to the caller makes intent clear and prevents mistakes.
-* [x] [A Modern Architecture for FP](http://degoes.net/articles/modern-fp)
+* [x] [💡 A Modern Architecture for FP](http://degoes.net/articles/modern-fp)
     <br>"We shouldn’t write programs — we should write descriptions of programs, which we can then introspect, transform, and interpret at will." How to architect a program that uses separate layers of DSLs to encode business logic in separate domains, and having an interpreter combining those DSLs to generate the actual program. It seems cumbersome to do this, but the composability of this approach looks promising.
-* [x] [Modern Functional Programming: Part 2](http://degoes.net/articles/modern-fp-part-2)
+* [x] [💡 Modern Functional Programming: Part 2](http://degoes.net/articles/modern-fp-part-2)
     <br>John edited his thoughts in part 1 into a more coherent and clear picture in this article and gives a glimpse into the future of programming by combining interpreters for different DSLs.
 * [ ] [📺 (40m) John A De Goes: MTL Versus Free Deathmatch - λC 2016](https://www.youtube.com/watch?v=JLevNswzYh8)
     <br>*Conference talk about his "Modern Functional Programming: Part 2" article*
@@ -34,15 +34,16 @@ Resources marked with ★ are recommended starting points or must read|watch mat
 * [ ] 📕 Modeling Data with Functional Programming in R
 
 #### Haskell
-* [ ] (45% done) [★ 📕 Haskell Programming from First Principles](http://haskellbook.com)
+* [ ] (52% done) [★ 📕 Haskell Programming from First Principles](http://haskellbook.com)
     <br>So far I like this book much better than the free "Learn you a Haskell". It starts off with a very abstract introduction to lambda calculus, which I believe is an important basis to know about before diving into Haskell. It does make the first chapter a little strange — keep reading and don't judge the book until after chapter 2.
 * [ ] [Learn Haskell the hard way](http://yannesposito.com/Scratch/en/blog/Haskell-the-Hard-Way)
 * [ ] [EdX course: Introduction to Functional Programming (via Haskell)](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0)
 * [ ] [Diehl: What I Wish I Knew While Learning Haskell](http://dev.stephendiehl.com/hask/)
-* [x] [📺 (60m) Gabriel Gonzales: Applied category theory and abstract algebra - λC Winter Retreat 2017](https://www.youtube.com/watch?v=WsA7GtUQeB8)
+* [x] [💡 📺 (60m) Gabriel Gonzales: Applied category theory and abstract algebra - λC Winter Retreat 2017](https://www.youtube.com/watch?v=WsA7GtUQeB8)
     <br>"[We can] tackle software complexity by reusing standard interfaces that originate in the fields of category theory and abstract algebra." Builds understanding for composition going from composable functions to composable values (monoids) to composable types (applicatives) and shows how powerful these concepts are to decompose programs into simple building blocks.
-* [x] [The category design pattern](http://www.haskellforall.com/2012/08/the-category-design-pattern.html)
-* [ ] [The functor design pattern](http://www.haskellforall.com/2012/09/the-functor-design-pattern.html)
+* [x] [💡 The category design pattern](http://www.haskellforall.com/2012/08/the-category-design-pattern.html)
+* [x] [💡 The functor design pattern](http://www.haskellforall.com/2012/09/the-functor-design-pattern.html)
+    <br>Functors are adapters that bridge between categories. Instead of rewriting functions for a different category, a functor allows you to re-use the existing function to work in another category.
 * [ ] [Data is Code](http://www.haskellforall.com/2016/04/data-is-code.html?m=1)
 * [ ] [📺 (2h:15m) Phil Freeman - Fun with Profunctors](https://www.youtube.com/watch?v=OJtGECfksds)
 * [ ] [Haskell Communities and Activities Report • 32nd Ed. May 2017](https://www.haskell.org/communities/05-2017/html/report.html)
@@ -56,19 +57,19 @@ Resources
 * [x] [📺 (45m) Brandon Williams - Finding Happiness in Functional Programming](https://www.youtube.com/watch?v=A0VaIKK2ijM)
     <br>Exploring the benefits and downsides of functional conepts in practical use, from isolation of side (and co-)effects to coding for an interface we wish we had instead of the one we're given. Great points about how to encapsulate state management with lenses using UIKit as an example.
 * [ ] (20% done) [📺 (10 Talks) Functional Swift Conference 2017](http://2017.funswiftconf.com)
-* [x] [📺 (40m) Brandon Kase: Beyond Types in Swift](https://m.youtube.com/watch?v=6z9QjDUKkCs)
+* [x] [💡 📺 (40m) Brandon Kase: Beyond Types in Swift](https://m.youtube.com/watch?v=6z9QjDUKkCs)
     <br>Adding functionality without adding complexity through abstract algebra:
     - Magma: closed binary operators = composable operation
     - Semi-group: + associativity = parallelization
     - Monoid: + identity = dropping the optional
     - Commutative Monoid: + commutativity = reorder
     - Bounded Semilattice: + idempotence = no need for memory
-* [x] [📺 (40m) Monoids, Predicates and Sorting Functions](https://www.youtube.com/watch?v=VFPhPOnPiTY)
+* [x] [💡 📺 (40m) Monoids, Predicates and Sorting Functions](https://www.youtube.com/watch?v=VFPhPOnPiTY)
     <br>This demonstrates the practical application of the other Brandon's talk above with live coding in Swift Playgrgounds. Impressive composability of the simplest components by building them up following the rules and laws.
 * [x] [Swift Enums Are "sum" Types. That Makes Them Very Interesting](https://mislavjavor.github.io/2017-04-19/Swift-enums-are-sum-types.-That-makes-them-very-interesting/)
     <br>Explains product and sum types and shows how they can be used to minimize possible use cases and define away potential error states. With examples for use cases for sum types (enums) like router and theme patterns and tree data structures.
 * [x] [Algebraic Structure and Protocols](http://www.fewbutripe.com/swift/math/algebra/2015/02/17/algebraic-structure-and-protocols.html)
-    <br>This article takes a mathmatical approach to introduce monads through semigroups.
+    <br>This article takes a mathematical approach to introduce monads through semigroups.
 * [x] [The Algebra of Predicates and Sorting Functions](http://www.fewbutripe.com/swift/math/algebra/monoid/2017/04/18/algbera-of-predicates-and-sorting-functions.html)
     <br>Extends the knowledge about semigroups and monoids to introduce predicate and sorting functions.
 * [x] [📺 (30m) Brandon Williams - Lenses in Swift](https://www.youtube.com/watch?v=ofjehH9f-CU)
