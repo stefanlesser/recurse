@@ -22,12 +22,6 @@ Resources marked with ★ are recommended starting points or must read|watch mat
     <br>Introduces benefits of functional programming by transforming a simple console program from imperative to declarative step by step. Even though it's using Scala, it helps understanding the basic building blocks of FP and their benefits.
 * [x] [Destroy All Ifs — A Perspective from Functional Programming](http://degoes.net/articles/destroy-all-ifs)
     <br>By replacing conditionals with lambdas, we can invert control and make our code both easier to reason about and more generic. Moving conditionals from places hidden in the deepest nested function up to the caller makes intent clear and prevents mistakes.
-* [x] [💡 A Modern Architecture for FP](http://degoes.net/articles/modern-fp)
-    <br>"We shouldn’t write programs — we should write descriptions of programs, which we can then introspect, transform, and interpret at will." How to architect a program that uses separate layers of DSLs to encode business logic in separate domains, and having an interpreter combining those DSLs to generate the actual program. It seems cumbersome to do this, but the composability of this approach looks promising.
-* [x] [💡 Modern Functional Programming: Part 2](http://degoes.net/articles/modern-fp-part-2)
-    <br>John edited his thoughts in part 1 into a more coherent and clear picture in this article and gives a glimpse into the future of programming by combining interpreters for different DSLs.
-* [ ] [📺 (40m) John A De Goes: MTL Versus Free Deathmatch - λC 2016](https://www.youtube.com/watch?v=JLevNswzYh8)
-    <br>*Conference talk about his "Modern Functional Programming: Part 2" article*
 * [ ] [Writing Video Games in a Functional Style](http://prog21.dadgum.com/228.html)
 * [ ] 📕 Modeling Data with Functional Programming in R
 
@@ -37,8 +31,6 @@ Resources marked with ★ are recommended starting points or must read|watch mat
 * [ ] [Learn Haskell the hard way](http://yannesposito.com/Scratch/en/blog/Haskell-the-Hard-Way)
 * [ ] [Diehl: What I Wish I Knew While Learning Haskell](http://dev.stephendiehl.com/hask/)
 * [ ] [EdX course: Introduction to Functional Programming (via Haskell)](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0)
-* [x] [💡 📺 (60m) Gabriel Gonzales: Applied category theory and abstract algebra - λC Winter Retreat 2017](https://www.youtube.com/watch?v=WsA7GtUQeB8)
-    <br>"[We can] tackle software complexity by reusing standard interfaces that originate in the fields of category theory and abstract algebra." Builds understanding for composition going from composable functions to composable values (monoids) to composable types (applicatives) and shows how powerful these concepts are to decompose programs into simple building blocks.
 * [x] [💡 The category design pattern](http://www.haskellforall.com/2012/08/the-category-design-pattern.html)
 * [x] [💡 The functor design pattern](http://www.haskellforall.com/2012/09/the-functor-design-pattern.html)
     <br>Functors are adapters that bridge between categories. Instead of rewriting functions for a different category, a functor allows you to re-use the existing function to work in another category.
@@ -46,9 +38,22 @@ Resources marked with ★ are recommended starting points or must read|watch mat
     <br>Practical introduction into how applicatives (and alternatives, which build on it) can be used.
 * [x] [★ Monoids, Functors, Applicatives, and Monads: 10 Main Ideas](https://monadmadness.wordpress.com/2015/01/02/monoids-functors-applicatives-and-monads-10-main-ideas/)
     <br>Great summary of the key points on the four algebras that show up in Haskell everywhere.
+* [ ] [📺 (30m) Functional programming patterns for the non-mathematician (cut)](https://www.youtube.com/watch?v=AvgwKjTPMmM)
 * [ ] [Data is Code](http://www.haskellforall.com/2016/04/data-is-code.html?m=1)
 * [ ] [📺 (2h:15m) Phil Freeman - Fun with Profunctors](https://www.youtube.com/watch?v=OJtGECfksds)
 * [ ] [Haskell Communities and Activities Report • 32nd Ed. May 2017](https://www.haskell.org/communities/05-2017/html/report.html)
+
+#### Functional Patterns to Manage Complexity
+* [x] [💡 📺 (60m) Gabriel Gonzales: Applied category theory and abstract algebra - λC Winter Retreat 2017](https://www.youtube.com/watch?v=WsA7GtUQeB8)
+    <br>"[We can] tackle software complexity by reusing standard interfaces that originate in the fields of category theory and abstract algebra." Builds understanding for composition going from composable functions to composable values (monoids) to composable types (applicatives) and shows how powerful these concepts are to decompose programs into simple building blocks.
+* [x] [💡 A Modern Architecture for FP](http://degoes.net/articles/modern-fp)
+    <br>"We shouldn’t write programs — we should write descriptions of programs, which we can then introspect, transform, and interpret at will." How to architect a program that uses separate layers of DSLs to encode business logic in separate domains, and having an interpreter combining those DSLs to generate the actual program. It seems cumbersome to do this, but the composability of this approach looks promising.
+* [x] [💡 Modern Functional Programming: Part 2](http://degoes.net/articles/modern-fp-part-2)
+    <br>John edited his thoughts in part 1 into a more coherent and clear picture in this article and gives a glimpse into the future of programming by combining interpreters for different DSLs.
+* [ ] [📺 (40m) John A De Goes: MTL Versus Free Deathmatch - λC 2016](https://www.youtube.com/watch?v=JLevNswzYh8)
+    <br>*Conference talk about his "Modern Functional Programming: Part 2" article*
+* [ ] [📺 (45m) Sandy Maguire: Don't Eff It Up: Free Monads in Action](https://www.youtube.com/watch?v=gUPuWHAt6SA)
+* [ ] [📺 (1h:15m) John DeGoes: Beyond Free Monads - λC Winter Retreat 2017](https://www.youtube.com/watch?v=A-lmrvsUi2Y)
 
 Resources
 * [Haskell Wiki](https://wiki.haskell.org/)
@@ -114,10 +119,12 @@ Resources
     - Introduction to and overview of several different type systems in popular programming languages.
 * [ ] [The memory models that underlie programming languages • canonical.org](http://canonical.org/~kragen/memory-models/)
 * [ ] [Swift Talk #13 Parsing Techniques](https://talk.objc.io/episodes/S01E13-parsing-techniques)
+* [ ] [Parsing context-sensitive languages with Applicative](https://byorgey.wordpress.com/2012/01/05/parsing-context-sensitive-languages-with-applicative/)
 * [ ] [📺 (45m) Modelica: Component Oriented Modeling of Physical Systems" by Michael Tiller](https://www.youtube.com/watch?v=-mvEUuc-sWE)
 * [ ] [📺 (45m) Ceptre: A Language for Modeling Generative Interactive Systems" by Chris Martens](https://www.youtube.com/watch?v=bFeJZRdhKcI)
 * [x] [Earley Parsing Explained](http://loup-vaillant.fr/tutorials/earley-parsing/)
     - In-depth walk-through of how Early parsing works. Code samples in Lua.
+* [ ] [Bounded Seas — Island Parsing Without Shipwrecks](http://scg.unibe.ch/archive/papers/Kurs14b-BoundedSeas.pdf)
 * [ ] 📕 Concepts, Techniques, and Models of Computer Programming
 
 Resources
@@ -149,6 +156,8 @@ Resources
 * [x] [A Functional Programmer’s Introduction to JavaScript (Composing Software)](https://medium.com/javascript-scene/a-functional-programmers-introduction-to-javascript-composing-software-d670d14ede30)
 * [ ] [http://jrsinclair.com/articles/2017/javascript-without-loops/index.html](http://jrsinclair.com/articles/2017/javascript-without-loops/index.html)
 * [ ] [Higher Order Functions (Composing Software)](https://medium.com/javascript-scene/higher-order-functions-composing-software-5365cf2cbe99)
+* [ ] [You Might Not Need Redux](https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367)
+* [ ] [Vue.js • Comparison with Other Frameworks](https://vuejs.org/v2/guide/comparison.html)
 * [ ] 📕 Eloquent JavaScript
 
 Reference
@@ -162,6 +171,8 @@ Reference
 General
 * [ ] [Information Visualization • Enrico Bertini](http://enrico.bertini.io/teaching/)
 * [ ] [The death of interactive infographics?](https://medium.com/@dominikus/the-end-of-interactive-visualizations-52c585dcafcb)
+* [ ] [📺 (60m) Dean's Lecture: The Past and Future of Data Analysis](https://www.youtube.com/watch?v=qFtJaq4TlqE)
+* [ ] [The Gamma: Tools for open data-driven storytelling](https://thegamma.net)
 * [ ] 📕 Thinking with Data
 * [ ] [📕 The Grammar of Graphics](https://www.cs.uic.edu/~wilkinson/TheGrammarOfGraphics/GOG.html)
 
@@ -201,6 +212,7 @@ Resources
     
 #### Procedural Generation / Generative Art
 * [Awesome Generative Art](https://github.com/kosmos/awesome-generative-art/blob/master/readme.md)
+* [ ] [How to Choose Colours Procedurally (Algorithms)](http://devmag.org.za/2012/07/29/how-to-choose-colours-procedurally-algorithms/)
 * [ ] [So you want to build a generator…](http://galaxykate0.tumblr.com/post/139774965871/so-you-want-to-build-a-generator)
 * [ ] [How Unexplored generates great roguelike dungeons](https://www.rockpapershotgun.com/2017/03/10/how-unexplored-generates-great-roguelike-dungeons/)
 * [ ] 📕 Procedural Generation in Games
@@ -214,6 +226,9 @@ Resources
 * [ ] [A Mind Is Born](https://www.linusakesson.net/scene/a-mind-is-born/index.php)
 * [x] [📕 Calculus Learning Guide • Better Explained](https://betterexplained.com/guides/calculus/)
     - *Apart from being an impressive resource in how to present educational material I consider this helpful for implementing an animation system.*
+* [ ] [Working with memory in Metal](http://metalkit.org/2017/04/30/working-with-memory-in-metal.html)
+* [ ] [Working with memory in Metal part 2](http://metalkit.org/2017/05/26/working-with-memory-in-metal-part-2.html)
+* [ ] [GCN Execution Patterns in Full Screen Passes](https://michaldrobot.com/2014/04/01/gcn-execution-patterns-in-full-screen-passes/)
 * TODO: Add resources from note "DataViz & Generative Art"
 
 ### Learn more about decentralized, peer-to-peer technologies; I'm interested in blockchain, but not necessarily for financial use cases
@@ -244,6 +259,7 @@ Resources
 * [x] [The Dark Secret at the Heart of AI](https://www.technologyreview.com/s/604087/the-dark-secret-at-the-heart-of-ai/)
 * [ ] [📺 Everything a Swift Dev Ever Wanted to Know About Machine Learning](https://news.realm.io/news/swift-developer-on-machine-learning-try-swift-2017-gallagher/)
 * [ ] [📺 Writing Your UI Swiftly](https://news.realm.io/news/sommer-panage-writing-your-ui-swiftly/)
+* [ ] [Real-time object detection with YOLO](http://machinethink.net/blog/object-detection-with-yolo/)
 * [ ] [Building a Gas Pump Scanner with OpenCV/Python/iOS](https://hackernoon.com/building-a-gas-pump-scanner-with-opencv-python-ios-116fe6c9ae8b)
 
 Reference
@@ -301,7 +317,17 @@ Bret Victor material I want to re-watch/read
     <br>Abstract thoughts about what programming languages look like in 100 years from now.
 * [x] [Toward a frozen operating system](https://urbit.org/blog/2017.5-frozen/)
     <br>Is it possible to build system software or OS level software than never has to be updated?
+* [ ] [Ask HN: Why does visual programming suck?](https://news.ycombinator.com/item?id=14482988)
 * [ ] [Expressive Programming in VR](http://elevr.com/expressive-programming-in-vr/)
+* [ ] [Prune: A Code Editor that is Not a Text Editor](https://www.facebook.com/notes/kent-beck/prune-a-code-editor-that-is-not-a-text-editor/1012061842160013/)
+* [ ] [Resources for creating front-end programming languages and frameworks in 2017](https://medium.com/@stevekrouse/resources-for-creating-front-end-programming-languages-and-frameworks-in-2017-a0c097625f9d)
+* [ ] [WoofJS — making JavaScript learnable](https://stevekrouse.com/woof-d9adf2110fc6)
+* [ ] [Types are shapes — a graphical programming exploration](https://stevekrouse.com/types-are-shapes-d6af1e83192f)
+* [ ] [The Rose Project (March 2017) - Making programming better](https://stevekrouse.com/rose-983dc5e0908f)
+* [ ] [Imp = Spreadsheets + Relations + Time](https://github.com/jamii/imp)
+
+Resources
+* [Human Advancement Research Community](http://harc.ycr.org)
 
 ### Stay Focused and Organized
 * [x] [📺 (10m) How I plan my week (KanbanFlow)](https://m.youtube.com/watch?v=W9k0OhJkjQ0)
