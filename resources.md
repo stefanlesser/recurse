@@ -38,6 +38,7 @@ Resources marked with ★ are recommended starting points or must read|watch mat
     <br>Practical introduction into how applicatives (and alternatives, which build on it) can be used.
 * [x] [★ Monoids, Functors, Applicatives, and Monads: 10 Main Ideas](https://monadmadness.wordpress.com/2015/01/02/monoids-functors-applicatives-and-monads-10-main-ideas/)
     <br>Great summary of the key points on the four algebras that show up in Haskell everywhere.
+* [ ] [Monads Made Difficult](http://www.stephendiehl.com/posts/monads.html)
 * [ ] [Haskell Typeclassopedia](https://wiki.haskell.org/Typeclassopedia)
 * [ ] [Data is Code](http://www.haskellforall.com/2016/04/data-is-code.html?m=1)
 * [ ] [📺 (2h:15m) Phil Freeman - Fun with Profunctors](https://www.youtube.com/watch?v=OJtGECfksds)
