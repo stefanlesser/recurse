@@ -5,11 +5,11 @@ Resources marked with ★ are recommended starting points or must read|watch mat
 
 ----
 
-## Project Ideas
-
-### Dive into advanced functional programming concepts with Haskell and Swift
+## Dive into advanced functional programming concepts with Haskell and Swift
 * [x] [★ Functional Programming Basics - What’s It All About?](https://pragprog.com/magazines/2013-01/functional-programming-basics)
     <br>"Functional Programming is progamming without assignment statements." This means data in memory is (mostly) immutable and that makes parallelism for multiple CPU cores much easier to reason about. This article is a very high-level introduction into one of the core concepts of FP and ties it to one of the main benefits. I do think there's more to it than that, but this should get you excited about it.
+* [x] [★ 📺 (30m) Functional programming patterns for the non-mathematician (cut)](https://www.youtube.com/watch?v=AvgwKjTPMmM)
+    <br>Good introduction on how you can practically use monoids, functors, applicatives, and monads to get stuff done in JavaScript.
 * [x] [📺 (60m) "I See What You Mean" by Peter Alvaro](https://www.youtube.com/watch?v=R2Aa4PivG0g)
     <br>Entertaining presentation about modeling state with declarative languages. Many applicable concepts although it is understandably a little heavy on the relational language this talk is about.
 * [x] [📺 (60m) Category Theory for the Working Hacker by Philip Wadler](https://www.youtube.com/watch?v=V10hzjgoklA)
@@ -25,7 +25,7 @@ Resources marked with ★ are recommended starting points or must read|watch mat
 * [ ] [Writing Video Games in a Functional Style](http://prog21.dadgum.com/228.html)
 * [ ] 📕 Modeling Data with Functional Programming in R
 
-#### Haskell
+### Haskell
 * [ ] (55% done) [★ 📕 Haskell Programming from First Principles](http://haskellbook.com)
     <br>So far I like this book much better than the free "Learn you a Haskell". It starts off with a very abstract introduction to lambda calculus, which I believe is an important basis to know about before diving into Haskell. It does make the first chapter a little strange — keep reading and don't judge the book until after chapter 2.
 * [ ] [Learn Haskell the hard way](http://yannesposito.com/Scratch/en/blog/Haskell-the-Hard-Way)
@@ -38,29 +38,16 @@ Resources marked with ★ are recommended starting points or must read|watch mat
     <br>Practical introduction into how applicatives (and alternatives, which build on it) can be used.
 * [x] [★ Monoids, Functors, Applicatives, and Monads: 10 Main Ideas](https://monadmadness.wordpress.com/2015/01/02/monoids-functors-applicatives-and-monads-10-main-ideas/)
     <br>Great summary of the key points on the four algebras that show up in Haskell everywhere.
-* [ ] [📺 (30m) Functional programming patterns for the non-mathematician (cut)](https://www.youtube.com/watch?v=AvgwKjTPMmM)
 * [ ] [Data is Code](http://www.haskellforall.com/2016/04/data-is-code.html?m=1)
 * [ ] [📺 (2h:15m) Phil Freeman - Fun with Profunctors](https://www.youtube.com/watch?v=OJtGECfksds)
 * [ ] [Haskell Communities and Activities Report • 32nd Ed. May 2017](https://www.haskell.org/communities/05-2017/html/report.html)
-
-#### Functional Patterns to Manage Complexity
-* [x] [💡 📺 (60m) Gabriel Gonzales: Applied category theory and abstract algebra - λC Winter Retreat 2017](https://www.youtube.com/watch?v=WsA7GtUQeB8)
-    <br>"[We can] tackle software complexity by reusing standard interfaces that originate in the fields of category theory and abstract algebra." Builds understanding for composition going from composable functions to composable values (monoids) to composable types (applicatives) and shows how powerful these concepts are to decompose programs into simple building blocks.
-* [x] [💡 A Modern Architecture for FP](http://degoes.net/articles/modern-fp)
-    <br>"We shouldn’t write programs — we should write descriptions of programs, which we can then introspect, transform, and interpret at will." How to architect a program that uses separate layers of DSLs to encode business logic in separate domains, and having an interpreter combining those DSLs to generate the actual program. It seems cumbersome to do this, but the composability of this approach looks promising.
-* [x] [💡 Modern Functional Programming: Part 2](http://degoes.net/articles/modern-fp-part-2)
-    <br>John edited his thoughts in part 1 into a more coherent and clear picture in this article and gives a glimpse into the future of programming by combining interpreters for different DSLs.
-* [ ] [📺 (40m) John A De Goes: MTL Versus Free Deathmatch - λC 2016](https://www.youtube.com/watch?v=JLevNswzYh8)
-    <br>*Conference talk about his "Modern Functional Programming: Part 2" article*
-* [ ] [📺 (45m) Sandy Maguire: Don't Eff It Up: Free Monads in Action](https://www.youtube.com/watch?v=gUPuWHAt6SA)
-* [ ] [📺 (1h:15m) John DeGoes: Beyond Free Monads - λC Winter Retreat 2017](https://www.youtube.com/watch?v=A-lmrvsUi2Y)
 
 Resources
 * [Haskell Wiki](https://wiki.haskell.org/)
 * [Hoogle](https://www.haskell.org/hoogle/) - Enter a type signature and it will find you matching functions
 * [Hayoo](http://hayoo.fh-wedel.de/) - Same but with support for third-party packages
 
-#### Swift
+### Swift
 * [x] [📺 (45m) Brandon Williams - Finding Happiness in Functional Programming](https://www.youtube.com/watch?v=A0VaIKK2ijM)
     <br>Exploring the benefits and downsides of functional conepts in practical use, from isolation of side (and co-)effects to coding for an interface we wish we had instead of the one we're given. Great points about how to encapsulate state management with lenses using UIKit as an example.
 * [ ] (20% done) [📺 (10 Talks) Functional Swift Conference 2017](http://2017.funswiftconf.com)
@@ -82,9 +69,21 @@ Resources
 * [x] [📺 (30m) Brandon Williams - Lenses in Swift](https://www.youtube.com/watch?v=ofjehH9f-CU)
     <br>Using lenses and prisms to create getters and setters for immutable values.
 
+### Functional Patterns to Manage Complexity
+* [x] [💡 📺 (60m) Gabriel Gonzales: Applied category theory and abstract algebra - λC Winter Retreat 2017](https://www.youtube.com/watch?v=WsA7GtUQeB8)
+    <br>"[We can] tackle software complexity by reusing standard interfaces that originate in the fields of category theory and abstract algebra." Builds understanding for composition going from composable functions to composable values (monoids) to composable types (applicatives) and shows how powerful these concepts are to decompose programs into simple building blocks.
+* [x] [💡 A Modern Architecture for FP](http://degoes.net/articles/modern-fp)
+    <br>"We shouldn’t write programs — we should write descriptions of programs, which we can then introspect, transform, and interpret at will." How to architect a program that uses separate layers of DSLs to encode business logic in separate domains, and having an interpreter combining those DSLs to generate the actual program. It seems cumbersome to do this, but the composability of this approach looks promising.
+* [x] [💡 Modern Functional Programming: Part 2](http://degoes.net/articles/modern-fp-part-2)
+    <br>John edited his thoughts in part 1 into a more coherent and clear picture in this article and gives a glimpse into the future of programming by combining interpreters for different DSLs.
+* [ ] [📺 (40m) John A De Goes: MTL Versus Free Deathmatch - λC 2016](https://www.youtube.com/watch?v=JLevNswzYh8)
+    <br>*Conference talk about his "Modern Functional Programming: Part 2" article*
+* [ ] [📺 (45m) Sandy Maguire: Don't Eff It Up: Free Monads in Action](https://www.youtube.com/watch?v=gUPuWHAt6SA)
+* [ ] [📺 (1h:15m) John DeGoes: Beyond Free Monads - λC Winter Retreat 2017](https://www.youtube.com/watch?v=A-lmrvsUi2Y)
+
 ----
 
-### Build a interpreter/compiler and create a simple programming language from scratch
+## Build interpreter/compiler and create simple programming language from scratch
 * [x] [Rich Programmer Food](http://steve-yegge.blogspot.com/2007/06/rich-programmer-food.html?m=1)
 * [x] [So You Want To Write Your Own Language?](http://www.drdobbs.com/architecture-and-design/so-you-want-to-write-your-own-language/240165488)
     - Focus on: context-free grammar, good diagostics (redundancy helps), tried and true grammatical forms for familiar constructs. Ignore: minimizing keystrokes, easy parsing, minimizing keywords, lexer or parser generators.
@@ -102,7 +101,7 @@ Resources
 * [ ] [Building a LISP from scratch with Swift](https://www.uraimo.com/2017/02/05/building-a-lisp-from-scratch-with-swift/)
 * [ ] [Dragon taming with Tailbiter, a bytecode compiler for Python • codewords.recurse.com](https://codewords.recurse.com/issues/seven/dragon-taming-with-tailbiter-a-bytecode-compiler)
 
-#### Lambda Calculus
+### Lambda Calculus
 * [ ] [The Lambda Calculus for Absolute Dummies (like myself) • palmström](http://palmstroem.blogspot.jp/2012/05/lambda-calculus-for-absolute-dummies.html?m=1)
 * [ ] [COMPUTATION STARTING FROM FIRST PRINCIPLES (DRAFT) • Jan Wedekind](http://www.wedesoft.de/binary-lambda-calculus.html)
 * [ ] [7 lines of code, 3 minutes: Implement a programming language from scratch](http://matt.might.net/articles/implementing-a-programming-language/)
@@ -113,7 +112,7 @@ Resources
 * [ ] [Implementing a JIT Compiled Language with Haskell and LLVM](http://www.stephendiehl.com/llvm/)
 * [ ] [The Y Combinator (Slight Return) or How to Succeed at Recursion Without Really Recursing](http://mvanier.livejournal.com/2897.html)
 
-#### Background
+### Background
 * [x] [Software structure for programmers who know at least one programming language](https://www.destroyallsoftware.com/compendium/software-structure/6fb5f711cae5a4e6)
 * [x] [Types for anyone who knows a programming language](https://www.destroyallsoftware.com/compendium/types/baf6b67369843fa2)
     - Introduction to and overview of several different type systems in popular programming languages.
@@ -133,10 +132,10 @@ Resources
 
 ----
 
-### Brush up my knowledge about (graph) data structures and algorithms
+## Brush up my knowledge about (graph) data structures and algorithms
 * TODO: add resources from reading list and iBooks
 
-#### Conflict-Free Replicated Data Types (CRDT)
+### Conflict-Free Replicated Data Types (CRDT)
 * [ ] [Conflict-free replicated data type](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type)
 * [ ] [A Look at Conflict-Free Replicated Data Types (CRDT)](https://medium.com/@istanbul_techie/a-look-at-conflict-free-replicated-data-types-crdt-221a5f629e7e)
 * [ ] [Conflict-free replicated data types](https://medium.com/@qt/a-brief-history-of-replicated-data-ab9dcf1671a0)
@@ -144,14 +143,18 @@ Resources
 * [ ] [A comprehensive study of Convergent and Commutative Replicated Data Types](http://hal.upmc.fr/file/index/docid/555588/filename/techreport.pdf)
 * [Readings in conflict-free replicated data types](http://christophermeiklejohn.com/crdt/2014/07/22/readings-in-crdts.html)
 
-### Try (functional) reactive programming with RxSwift and/or React.js
+----
+
+## Try (functional) reactive programming with RxSwift and/or React.js
 * [ ] [📺 Everyday Reactive](https://news.realm.io/news/everyday-reactive/)
 * [ ] [What is reactive programming and why should I use it?](https://www.cocoawithlove.com/blog/reactive-programming-what-and-why.html)
 * [ ] [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 * [ ] [Reactive programming from scratch](http://www.thomasvisser.me/2016/11/28/reactive-from-scratch/)
 * [ ] [Do-It-Yourself Functional Reactive Programming](https://speakerdeck.com/mchakravarty/do-it-yourself-functional-reactive-programming)
 
-### Get back into JavaScript (and possibly TypeScript) and see what’s state of the art for web development (looking at React, Relay, GraphQL, Jest, etc.)
+----
+
+## Get back into JavaScript (and possibly TypeScript) and see what’s state of the art for web development (looking at React, Relay, GraphQL, Jest, etc.)
 * [x] [Overview of ECMAScript 6 features](https://github.com/lukehoban/es6features)
 * [x] [A Functional Programmer’s Introduction to JavaScript (Composing Software)](https://medium.com/javascript-scene/a-functional-programmers-introduction-to-javascript-composing-software-d670d14ede30)
 * [ ] [http://jrsinclair.com/articles/2017/javascript-without-loops/index.html](http://jrsinclair.com/articles/2017/javascript-without-loops/index.html)
@@ -165,9 +168,11 @@ Reference
 * [Design Patterns in ES6](http://tcorral.github.io/Design-Patterns-in-Javascript/)
 * [📕 Speaking JavaScript (ES5)](http://speakingjs.com/es5/index.html)
 
-### Explore data visualization, procedural generation, and generative art — I want to try d3.[js|express] and graphics programming with Metal or Vulcan
+----
 
-#### Information Visualization
+## Explore data visualization, procedural generation, and generative art — try d3.[js|express] and graphics programming with Metal or Vulcan
+
+### Information Visualization
 General
 * [ ] [Information Visualization • Enrico Bertini](http://enrico.bertini.io/teaching/)
 * [ ] [The death of interactive infographics?](https://medium.com/@dominikus/the-end-of-interactive-visualizations-52c585dcafcb)
@@ -210,14 +215,14 @@ Resources
 * [Superforecasting](http://goodjudgment.com/superforecasting/index.php/category/superforecasting/)
 * [Bl.ock Builder](http://blockbuilder.org) — A web-based development environment for creating d3 visualizations.
     
-#### Procedural Generation / Generative Art
+### Procedural Generation / Generative Art
 * [Awesome Generative Art](https://github.com/kosmos/awesome-generative-art/blob/master/readme.md)
 * [ ] [How to Choose Colours Procedurally (Algorithms)](http://devmag.org.za/2012/07/29/how-to-choose-colours-procedurally-algorithms/)
 * [ ] [So you want to build a generator…](http://galaxykate0.tumblr.com/post/139774965871/so-you-want-to-build-a-generator)
 * [ ] [How Unexplored generates great roguelike dungeons](https://www.rockpapershotgun.com/2017/03/10/how-unexplored-generates-great-roguelike-dungeons/)
 * [ ] 📕 Procedural Generation in Games
     
-#### Graphics Programming
+### Graphics Programming
 * [ ] [📺 (90m) Principles of Lighting and Rendering with John Carmack](https://www.youtube.com/watch?v=IyUgHPs86XM)
 * [ ] [The lost art of 3D rendering without shaders](http://machinethink.net/blog/3d-rendering-without-shaders/)
 * [ ] [📕 The Book of Shaders](http://thebookofshaders.com)
@@ -231,7 +236,9 @@ Resources
 * [ ] [GCN Execution Patterns in Full Screen Passes](https://michaldrobot.com/2014/04/01/gcn-execution-patterns-in-full-screen-passes/)
 * TODO: Add resources from note "DataViz & Generative Art"
 
-### Learn more about decentralized, peer-to-peer technologies; I'm interested in blockchain, but not necessarily for financial use cases
+----
+
+## Learn more about decentralized, peer-to-peer technologies; I'm interested in blockchain, but not necessarily for financial use cases
 * [x] [📺 (15m) Blockchain 101 - A Visual Demo • YouTube](https://youtu.be/Cc3bdKNYlEM)
     - Quick and simple introduction to what a blockchain is and how it works. No previous knowledge required.
 * [x] [(15m) The DCS Triangle](https://blog.bigchaindb.com/the-dcs-triangle-5ce0e9e0f1dc)
@@ -241,21 +248,23 @@ Resources
 Resources
 * [OpenGarden MeshKit](https://www.opengarden.com/meshkit.html)
 
-### Pair with people who can help me become more productive as a programmer and get better at test-driven development
+----
+
+## Pair with people who can help me become more productive as a programmer and get better at test-driven development
 * [ ] [Why and how you should test your software](https://codewithoutrules.com/2017/03/26/why-how-test-software/)
 
-### Experiment with sharing my work in progress — maybe finally blog on a regular basis
+## Experiment with sharing my work in progress — maybe finally blog on a regular basis
 * [ ] [📕 The Beginner's Guide to Social Media](https://moz.com/beginners-guide-to-social-media)
 
 Resources
 * [Staticman: Static sites with superpowers](https://staticman.net)
 
-### Get an introduction into basic devops and set up CI and some more complex toolchains and production environments with Docker, AWS, and whatever else is recommended
+## Get an introduction into basic devops and set up CI and some more complex toolchains and production environments with Docker, AWS, and whatever else is recommended
 * [ ] [iOS Continous integration: Xcode Server, Jenkins, Travis and fastlane](http://thebugcode.github.io/ios-continous-integration-choosing-a-build-server-and-tooling/)
 * [ ] [Cheap Bots, Done Quick!](http://cheapbotsdonequick.com)
 * [ ] [AWS Adventures: Part 2 – Infrastructure As Code, Deploying a Microservice](http://jessewarden.com/2017/01/aws-adventures-part-2-infrastructure-as-code-deploying-a-microservice.html)
 
-### Other interesting stuff
+## Other interesting stuff
 * [x] [The Dark Secret at the Heart of AI](https://www.technologyreview.com/s/604087/the-dark-secret-at-the-heart-of-ai/)
 * [ ] [📺 Everything a Swift Dev Ever Wanted to Know About Machine Learning](https://news.realm.io/news/swift-developer-on-machine-learning-try-swift-2017-gallagher/)
 * [ ] [📺 Writing Your UI Swiftly](https://news.realm.io/news/sommer-panage-writing-your-ui-swiftly/)
@@ -264,19 +273,12 @@ Resources
 
 Reference
 * [📺 Strange Loop Conference Videos](https://www.youtube.com/channel/UC_QIfHvN9auy2CoOdSfMWDw?app=desktop)
+* [Mega Project List on GitHub](https://github.com/karan/Projects)
 * [An extensive list of interesting open source projects](https://github.com/lk-geimfari/awesomo)
 
 ----
 
 ## Meta
-
-### A recipe for learning better
-1. Get to the point. What do I get from learning the material? Compact lessons, broken up in bite-sized pieces.
-2. Have a natural order. Material is taught in an order that supports learning. Can be chronological, is usually gradually increasing complexity and difficulty.
-3. Use analogies and visualizations. Avoid abstract concepts and turn them into concrete examples.
-4. Make it fun. Avoid top-down lecturing, have a relaxed conversation between peers.
-
-from [Learn Difficult Concepts with the ADEPT Method • betterexplained.com](https://betterexplained.com/articles/adept-method/)
 
 ### Complexity in software development
 * [x] [(10m) SICP / What is "Computer Science"?](https://m.youtube.com/watch?v=zQLUPjefuWA)
@@ -330,6 +332,15 @@ Resources
 * [Human Advancement Research Community](http://harc.ycr.org)
 
 ### Stay Focused and Organized
+
+#### A recipe for learning better
+1. Get to the point. What do I get from learning the material? Compact lessons, broken up in bite-sized pieces.
+2. Have a natural order. Material is taught in an order that supports learning. Can be chronological, is usually gradually increasing complexity and difficulty.
+3. Use analogies and visualizations. Avoid abstract concepts and turn them into concrete examples.
+4. Make it fun. Avoid top-down lecturing, have a relaxed conversation between peers.
+
+from [Learn Difficult Concepts with the ADEPT Method • betterexplained.com](https://betterexplained.com/articles/adept-method/)
+
 * [x] [📺 (10m) How I plan my week (KanbanFlow)](https://m.youtube.com/watch?v=W9k0OhJkjQ0)
     - Simple personal management technique based in Kanban and Pomodoro to plan your day and week.
 
