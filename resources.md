@@ -26,7 +26,7 @@ Resources marked with ★ are recommended starting points or must read|watch mat
 * [ ] 📕 Modeling Data with Functional Programming in R
 
 ### Haskell
-* [ ] (55% done) [★ 📕 Haskell Programming from First Principles](http://haskellbook.com)
+* [ ] (61% done) [★ 📕 Haskell Programming from First Principles](http://haskellbook.com)
     <br>So far I like this book much better than the free "Learn you a Haskell". It starts off with a very abstract introduction to lambda calculus, which I believe is an important basis to know about before diving into Haskell. It does make the first chapter a little strange — keep reading and don't judge the book until after chapter 2.
 * [ ] [Learn Haskell the hard way](http://yannesposito.com/Scratch/en/blog/Haskell-the-Hard-Way)
 * [ ] [Diehl: What I Wish I Knew While Learning Haskell](http://dev.stephendiehl.com/hask/)
@@ -40,15 +40,15 @@ Resources marked with ★ are recommended starting points or must read|watch mat
     <br>Great summary of the key points on the four algebras that show up in Haskell everywhere.
 * [ ] [Monads Made Difficult](http://www.stephendiehl.com/posts/monads.html)
 * [ ] [Haskell Typeclassopedia](https://wiki.haskell.org/Typeclassopedia)
-* [ ] [Data is Code](http://www.haskellforall.com/2016/04/data-is-code.html?m=1)
 * [ ] [📺 (2h:15m) Phil Freeman - Fun with Profunctors](https://www.youtube.com/watch?v=OJtGECfksds)
 * [ ] [Haskell Communities and Activities Report • 32nd Ed. May 2017](https://www.haskell.org/communities/05-2017/html/report.html)
 * [ ] [📕 Parallel and Concurrent Programming in Haskell](http://chimera.labs.oreilly.com/books/1230000000929/index.html)
 
 Resources
 * [Haskell Wiki](https://wiki.haskell.org/)
-* [Hoogle](https://www.haskell.org/hoogle/) - Enter a type signature and it will find you matching functions
-* [Hayoo](http://hayoo.fh-wedel.de/) - Same but with support for third-party packages
+* [Hoogle](https://www.haskell.org/hoogle/) — Enter a type signature and it will find you matching functions
+* [Hayoo](http://hayoo.fh-wedel.de/) — Same but with support for third-party packages
+* [Vim and Haskell in 2016](http://www.stephendiehl.com/posts/vim_2016.html) — How to set up your dev env for Haskell
 
 ### Swift
 * [x] [📺 (45m) Brandon Williams - Finding Happiness in Functional Programming](https://www.youtube.com/watch?v=A0VaIKK2ijM)
@@ -107,12 +107,12 @@ Resources
 ### Lambda Calculus
 * [ ] [The Lambda Calculus for Absolute Dummies (like myself) • palmström](http://palmstroem.blogspot.jp/2012/05/lambda-calculus-for-absolute-dummies.html?m=1)
 * [ ] [COMPUTATION STARTING FROM FIRST PRINCIPLES (DRAFT) • Jan Wedekind](http://www.wedesoft.de/binary-lambda-calculus.html)
+* [ ] [Data is Code](http://www.haskellforall.com/2016/04/data-is-code.html?m=1)
 * [ ] [7 lines of code, 3 minutes: Implement a programming language from scratch](http://matt.might.net/articles/implementing-a-programming-language/)
 * [ ] [Closure conversion: How to compile lambda](http://matt.might.net/articles/closure-conversion/)
 * [ ] [Compiling to lambda-calculus: Turtles all the way down](http://matt.might.net/articles/compiling-up-to-lambda-calculus/)
 * [ ] [Equational derivations of the Y combinator and Church encodings in Python](http://matt.might.net/articles/python-church-y-combinator/)
 * [ ] [Fixed-point combinators in JavaScript: Memoizing recursive functions](http://matt.might.net/articles/implementation-of-recursive-fixed-point-y-combinator-in-javascript-for-memoization/)
-* [ ] [Implementing a JIT Compiled Language with Haskell and LLVM](http://www.stephendiehl.com/llvm/)
 * [ ] [The Y Combinator (Slight Return) or How to Succeed at Recursion Without Really Recursing](http://mvanier.livejournal.com/2897.html)
 
 ### Background
