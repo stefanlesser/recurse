@@ -82,6 +82,7 @@ These are my recommended resources to start with, if you are planning to go down
     <br>Extends the knowledge about semigroups and monoids to introduce predicate and sorting functions.
 * [x] [📺 (30m) Brandon Williams - Lenses in Swift](https://www.youtube.com/watch?v=ofjehH9f-CU)
     <br>Using lenses and prisms to create getters and setters for immutable values.
+* [ ] [Loose coupling using default implementations in protocol extensions](http://www.apokrupto.com/blog-1/2017/5/16/default-protocol-extensions-for-loose-coupling)
 
 ### Functional Patterns to Manage Complexity
 * [x] [💡 📺 (60m) Gabriel Gonzales: Applied category theory and abstract algebra - λC Winter Retreat 2017](https://www.youtube.com/watch?v=WsA7GtUQeB8)
@@ -192,6 +193,7 @@ General
 * [ ] [The death of interactive infographics?](https://medium.com/@dominikus/the-end-of-interactive-visualizations-52c585dcafcb)
 * [ ] [📺 (60m) Dean's Lecture: The Past and Future of Data Analysis](https://www.youtube.com/watch?v=qFtJaq4TlqE)
 * [ ] [The Gamma: Tools for open data-driven storytelling](https://thegamma.net)
+* [x] [The seven deadly sins of statistical misinterpretation, and how to avoid them](http://theconversation.com/the-seven-deadly-sins-of-statistical-misinterpretation-and-how-to-avoid-them-74306)
 * [ ] 📕 Thinking with Data
 * [ ] [📕 The Grammar of Graphics](https://www.cs.uic.edu/~wilkinson/TheGrammarOfGraphics/GOG.html)
 
