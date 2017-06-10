@@ -51,6 +51,8 @@ These are my recommended resources to start with, if you are planning to go down
 * [ ] [Haskell/Category theory](https://en.wikibooks.org/wiki/Haskell/Category_theory)
 * [ ] [📺 (2h:15m) Phil Freeman - Fun with Profunctors](https://www.youtube.com/watch?v=OJtGECfksds)
 * [ ] [Haskell Communities and Activities Report • 32nd Ed. May 2017](https://www.haskell.org/communities/05-2017/html/report.html)
+* [ ] [The Fun of Programming • Ch. 7 Functional Images](http://conal.net/papers/functional-images/fop-conal.pdf)
+* [ ] [📕 Purely Functional Data Structures](https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf)
 * [ ] [📕 Parallel and Concurrent Programming in Haskell](http://chimera.labs.oreilly.com/books/1230000000929/index.html)
 
 #### Resources
@@ -232,6 +234,8 @@ Resources
 * [ ] [How to Choose Colours Procedurally (Algorithms)](http://devmag.org.za/2012/07/29/how-to-choose-colours-procedurally-algorithms/)
 * [ ] [So you want to build a generator…](http://galaxykate0.tumblr.com/post/139774965871/so-you-want-to-build-a-generator)
 * [ ] [How Unexplored generates great roguelike dungeons](https://www.rockpapershotgun.com/2017/03/10/how-unexplored-generates-great-roguelike-dungeons/)
+* [ ] [A Logical Approach to Building Dungeons: Answer Set Programming for Hierarchical Procedural Content Generation in Roguelike Games](http://doc.gold.ac.uk/aisb50/AISB50-S02/AISB50-S2-Smith-paper.pdf)
+* [ ] [Representing Game Dialogue as Expressions in First-Order Logic](http://ir.lib.uwo.ca/cgi/viewcontent.cgi?article=2646&context=etd)
 * [ ] 📕 Procedural Generation in Games
     
 ### Graphics Programming
@@ -335,10 +339,12 @@ Bret Victor material I want to re-watch/read
 * [ ] [Expressive Programming in VR](http://elevr.com/expressive-programming-in-vr/)
 * [ ] [Prune: A Code Editor that is Not a Text Editor](https://www.facebook.com/notes/kent-beck/prune-a-code-editor-that-is-not-a-text-editor/1012061842160013/)
 * [ ] [Resources for creating front-end programming languages and frameworks in 2017](https://medium.com/@stevekrouse/resources-for-creating-front-end-programming-languages-and-frameworks-in-2017-a0c097625f9d)
+* [ ] [The Gamma: Tools for open data-driven storytelling](https://thegamma.net)
 * [ ] [WoofJS — making JavaScript learnable](https://stevekrouse.com/woof-d9adf2110fc6)
 * [ ] [Types are shapes — a graphical programming exploration](https://stevekrouse.com/types-are-shapes-d6af1e83192f)
 * [ ] [The Rose Project (March 2017) - Making programming better](https://stevekrouse.com/rose-983dc5e0908f)
 * [ ] [Imp = Spreadsheets + Relations + Time](https://github.com/jamii/imp)
+* [ ] [Sourcegraph: Code search + intelligence](https://about.sourcegraph.com)
 
 Resources
 * [Human Advancement Research Community](http://harc.ycr.org)
