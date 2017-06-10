@@ -270,6 +270,8 @@ Resources
 
 ## Pair with people who can help me become more productive as a programmer and get better at test-driven development
 * [ ] [Why and how you should test your software](https://codewithoutrules.com/2017/03/26/why-how-test-software/)
+* [x] [The Two Sides of Writing Testable Code](http://news.realm.io/news/try-swift-brandon-williams-writing-testable-code/)
+    <br>Brandon describes a way to turn impure functions with both side effects and co-effects into easily testable pure functions in Swift.
 
 ## Experiment with sharing my work in progress — maybe finally blog on a regular basis
 * [ ] [📕 The Beginner's Guide to Social Media](https://moz.com/beginners-guide-to-social-media)
