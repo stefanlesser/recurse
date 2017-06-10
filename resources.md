@@ -16,6 +16,8 @@ These are my recommended resources to start with, if you are planning to go down
     <br>Good introduction on how you can practically use composition, lenses, (which are built on monoids, functors, applicatives, and monads) for nesting (composition), null checking (Maybe), error handling (Either), and accumulation (reduce) in JavaScript.
 * [ ] (61% done) [★ 📕 Haskell Programming from First Principles](http://haskellbook.com)
     <br>So far I like this book much better than the free "Learn you a Haskell". It starts off with a very abstract introduction to lambda calculus, which I believe is an important basis to know about before diving into Haskell. It does make the first chapter a little strange — keep reading and don't judge the book until after chapter 2.
+* [ ] [★ Haskell Typeclassopedia](https://wiki.haskell.org/Typeclassopedia)
+    <br>Given how important it is to understand types in Haskell, this article explains the most abstract (read: used everywhere) type classes in great detail and helps form an intuitive understanding of functor, applicative, and monad.
 * [ ] () [★ Diehl: What I Wish I Knew While Learning Haskell](http://dev.stephendiehl.com/hask/)
     <br>The first two secions *Basics* and *Monads* are packed with great practical tips and a solid foundation for understanding monads, an abstract concept that shows up everywhere in Haskell and functional programming.
 
@@ -46,7 +48,6 @@ These are my recommended resources to start with, if you are planning to go down
 * [x] [★ Monoids, Functors, Applicatives, and Monads: 10 Main Ideas](https://monadmadness.wordpress.com/2015/01/02/monoids-functors-applicatives-and-monads-10-main-ideas/)
     <br>Great summary of the key points on the four algebras that show up in Haskell everywhere.
 * [ ] [Monads Made Difficult](http://www.stephendiehl.com/posts/monads.html)
-* [ ] [Haskell Typeclassopedia](https://wiki.haskell.org/Typeclassopedia)
 * [ ] [Haskell/Category theory](https://en.wikibooks.org/wiki/Haskell/Category_theory)
 * [ ] [📺 (2h:15m) Phil Freeman - Fun with Profunctors](https://www.youtube.com/watch?v=OJtGECfksds)
 * [ ] [Haskell Communities and Activities Report • 32nd Ed. May 2017](https://www.haskell.org/communities/05-2017/html/report.html)
