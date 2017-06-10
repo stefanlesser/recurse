@@ -6,10 +6,20 @@ Resources marked with ★ are recommended starting points or must read|watch mat
 ----
 
 ## Dive into advanced functional programming concepts with Haskell and Swift
+
+### Start Here
+These are my recommended resources to start with, if you are planning to go down the same path and learn functional progamming.
+
 * [x] [★ Functional Programming Basics - What’s It All About?](https://pragprog.com/magazines/2013-01/functional-programming-basics)
     <br>"Functional Programming is progamming without assignment statements." This means data in memory is (mostly) immutable and that makes parallelism for multiple CPU cores much easier to reason about. This article is a very high-level introduction into one of the core concepts of FP and ties it to one of the main benefits. I do think there's more to it than that, but this should get you excited about it.
 * [x] [★ 📺 (30m) Functional programming patterns for the non-mathematician (cut)](https://www.youtube.com/watch?v=AvgwKjTPMmM)
     <br>Good introduction on how you can practically use composition, lenses, (which are built on monoids, functors, applicatives, and monads) for nesting (composition), null checking (Maybe), error handling (Either), and accumulation (reduce) in JavaScript.
+* [ ] (61% done) [★ 📕 Haskell Programming from First Principles](http://haskellbook.com)
+    <br>So far I like this book much better than the free "Learn you a Haskell". It starts off with a very abstract introduction to lambda calculus, which I believe is an important basis to know about before diving into Haskell. It does make the first chapter a little strange — keep reading and don't judge the book until after chapter 2.
+* [ ] () [★ Diehl: What I Wish I Knew While Learning Haskell](http://dev.stephendiehl.com/hask/)
+    <br>The first two secions *Basics* and *Monads* are packed with great practical tips and a solid foundation for understanding monads, an abstract concept that shows up everywhere in Haskell and functional programming.
+
+### General
 * [x] [📺 (60m) "I See What You Mean" by Peter Alvaro](https://www.youtube.com/watch?v=R2Aa4PivG0g)
     <br>Entertaining presentation about modeling state with declarative languages. Many applicable concepts although it is understandably a little heavy on the relational language this talk is about.
 * [x] [📺 (60m) Category Theory for the Working Hacker by Philip Wadler](https://www.youtube.com/watch?v=V10hzjgoklA)
@@ -26,10 +36,7 @@ Resources marked with ★ are recommended starting points or must read|watch mat
 * [ ] 📕 Modeling Data with Functional Programming in R
 
 ### Haskell
-* [ ] (61% done) [★ 📕 Haskell Programming from First Principles](http://haskellbook.com)
-    <br>So far I like this book much better than the free "Learn you a Haskell". It starts off with a very abstract introduction to lambda calculus, which I believe is an important basis to know about before diving into Haskell. It does make the first chapter a little strange — keep reading and don't judge the book until after chapter 2.
 * [ ] [Learn Haskell the hard way](http://yannesposito.com/Scratch/en/blog/Haskell-the-Hard-Way)
-* [ ] [Diehl: What I Wish I Knew While Learning Haskell](http://dev.stephendiehl.com/hask/)
 * [ ] [EdX course: Introduction to Functional Programming (via Haskell)](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0)
 * [x] [💡 The category design pattern](http://www.haskellforall.com/2012/08/the-category-design-pattern.html)
 * [x] [💡 The functor design pattern](http://www.haskellforall.com/2012/09/the-functor-design-pattern.html)
@@ -40,11 +47,12 @@ Resources marked with ★ are recommended starting points or must read|watch mat
     <br>Great summary of the key points on the four algebras that show up in Haskell everywhere.
 * [ ] [Monads Made Difficult](http://www.stephendiehl.com/posts/monads.html)
 * [ ] [Haskell Typeclassopedia](https://wiki.haskell.org/Typeclassopedia)
+* [ ] [Haskell/Category theory](https://en.wikibooks.org/wiki/Haskell/Category_theory)
 * [ ] [📺 (2h:15m) Phil Freeman - Fun with Profunctors](https://www.youtube.com/watch?v=OJtGECfksds)
 * [ ] [Haskell Communities and Activities Report • 32nd Ed. May 2017](https://www.haskell.org/communities/05-2017/html/report.html)
 * [ ] [📕 Parallel and Concurrent Programming in Haskell](http://chimera.labs.oreilly.com/books/1230000000929/index.html)
 
-Resources
+#### Resources
 * [Haskell Wiki](https://wiki.haskell.org/)
 * [Hoogle](https://www.haskell.org/hoogle/) — Enter a type signature and it will find you matching functions
 * [Hayoo](http://hayoo.fh-wedel.de/) — Same but with support for third-party packages
