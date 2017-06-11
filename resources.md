@@ -340,7 +340,10 @@ Bret Victor material I want to re-watch/read
 * [x] [Toward a frozen operating system](https://urbit.org/blog/2017.5-frozen/)
     <br>Is it possible to build system software or OS level software than never has to be updated?
 * [ ] [Ask HN: Why does visual programming suck?](https://news.ycombinator.com/item?id=14482988)
-* [ ] [Expressive Programming in VR](http://elevr.com/expressive-programming-in-vr/)
+* [x] [Expressive Programming in VR](http://elevr.com/expressive-programming-in-vr/)
+* [ ] [Future Programming Workshop 2014 final videos](http://www.future-programming.org/2014/program.html)
+* [ ] [Future Programming Workshop Strange Loop Sep 24, 2015](http://www.future-programming.org/2015/programSL.html)
+* [ ] [Future Programming Workshop SPLASH Oct 26-27, 2015](http://www.future-programming.org/2015/programSPLASH.html)
 * [ ] [Prune: A Code Editor that is Not a Text Editor](https://www.facebook.com/notes/kent-beck/prune-a-code-editor-that-is-not-a-text-editor/1012061842160013/)
 * [ ] [Resources for creating front-end programming languages and frameworks in 2017](https://medium.com/@stevekrouse/resources-for-creating-front-end-programming-languages-and-frameworks-in-2017-a0c097625f9d)
 * [ ] [The Gamma: Tools for open data-driven storytelling](https://thegamma.net)
@@ -349,6 +352,7 @@ Bret Victor material I want to re-watch/read
 * [ ] [The Rose Project (March 2017) - Making programming better](https://stevekrouse.com/rose-983dc5e0908f)
 * [ ] [Imp = Spreadsheets + Relations + Time](https://github.com/jamii/imp)
 * [ ] [Sourcegraph: Code search + intelligence](https://about.sourcegraph.com)
+* [x] [Toby Schachman](http://tobyschachman.com)
 
 Resources
 * [Human Advancement Research Community](http://harc.ycr.org)
