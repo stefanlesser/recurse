@@ -16,9 +16,11 @@ These are my recommended resources to start with, if you are planning to go down
     <br>Good introduction on how you can practically use composition, lenses, (which are built on monoids, functors, applicatives, and monads) for nesting (composition), null checking (Maybe), error handling (Either), and accumulation (reduce) in JavaScript.
 * [ ] (61% done) [★ 📕 Haskell Programming from First Principles](http://haskellbook.com)
     <br>So far I like this book much better than the free "Learn you a Haskell". It starts off with a very abstract introduction to lambda calculus, which I believe is an important basis to know about before diving into Haskell. It does make the first chapter a little strange — keep reading and don't judge the book until after chapter 2.
+* [x] [★ Monoids, Functors, Applicatives, and Monads: 10 Main Ideas](https://monadmadness.wordpress.com/2015/01/02/monoids-functors-applicatives-and-monads-10-main-ideas/)
+    <br>Great summary of the key points on the four algebras that show up everywhere in Haskell (and are hiding in other languages as well).
 * [ ] [★ Haskell Typeclassopedia](https://wiki.haskell.org/Typeclassopedia)
     <br>Given how important it is to understand types in Haskell, this article explains the most abstract (read: used everywhere) type classes in great detail and helps form an intuitive understanding of functor, applicative, and monad.
-* [ ] () [★ Diehl: What I Wish I Knew While Learning Haskell](http://dev.stephendiehl.com/hask/)
+* [ ] [★ Diehl: What I Wish I Knew While Learning Haskell](http://dev.stephendiehl.com/hask/)
     <br>The first two secions *Basics* and *Monads* are packed with great practical tips and a solid foundation for understanding monads, an abstract concept that shows up everywhere in Haskell and functional programming.
 
 ### General
@@ -29,7 +31,7 @@ These are my recommended resources to start with, if you are planning to go down
 * [x] [From Higher-Order Functions to Libraries And Frameworks](http://raganwald.com/2016/12/15/what-higher-order-functions-can-teach-us-about-libraries-and-frameworks.html)
     <br>How higher-order functions influence the expressiveness and complexity of programs. This is part 1 of a series of 3 articles.
 * [x] [Functional Programming is taking over UIs with Pure Views](https://medium.freecodecamp.com/the-revolution-of-pure-views-aed339db7da4)
-    <br>Why functional programing helps keeping the user interface layer simple and enables hot module replacement, time-travel debugging and similar features.
+    <br>Why functional programming helps keeping the user interface layer simple and enables hot module replacement, time-travel debugging and similar features.
 * [x] [A Beginner-Friendly Tour through Functional Programming in Scala](http://degoes.net/articles/easy-monads)
     <br>Introduces benefits of functional programming by transforming a simple console program from imperative to declarative step by step. Even though it's using Scala, it helps understanding the basic building blocks of FP and their benefits.
 * [x] [Destroy All Ifs — A Perspective from Functional Programming](http://degoes.net/articles/destroy-all-ifs)
@@ -38,15 +40,14 @@ These are my recommended resources to start with, if you are planning to go down
 * [ ] 📕 Modeling Data with Functional Programming in R
 
 ### Haskell
-* [ ] [Learn Haskell the hard way](http://yannesposito.com/Scratch/en/blog/Haskell-the-Hard-Way)
+* [x] [Learn Haskell the hard way](http://yannesposito.com/Scratch/en/blog/Haskell-the-Hard-Way)
+    <br>Just as promised in the title, an introduction to Haskell from zero to monads in a rather short article. I don't think this is a good tutorial to start with, but after reading about the concepts in other places, the additional examples and different ways of explaining monads in this article are very helpful.
 * [ ] [EdX course: Introduction to Functional Programming (via Haskell)](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0)
 * [x] [💡 The category design pattern](http://www.haskellforall.com/2012/08/the-category-design-pattern.html)
 * [x] [💡 The functor design pattern](http://www.haskellforall.com/2012/09/the-functor-design-pattern.html)
     <br>Functors are adapters that bridge between categories. Instead of rewriting functions for a different category, a functor allows you to re-use the existing function to work in another category.
 * [x] [Queer Types - Applicatives and Alternatives](https://queertypes.com/posts/59-applicatives-alternatives.html)
     <br>Practical introduction into how applicatives (and alternatives, which build on it) can be used.
-* [x] [★ Monoids, Functors, Applicatives, and Monads: 10 Main Ideas](https://monadmadness.wordpress.com/2015/01/02/monoids-functors-applicatives-and-monads-10-main-ideas/)
-    <br>Great summary of the key points on the four algebras that show up in Haskell everywhere.
 * [ ] [Monads Made Difficult](http://www.stephendiehl.com/posts/monads.html)
 * [ ] [Haskell/Category theory](https://en.wikibooks.org/wiki/Haskell/Category_theory)
 * [ ] [📺 (2h:15m) Phil Freeman - Fun with Profunctors](https://www.youtube.com/watch?v=OJtGECfksds)
