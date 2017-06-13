@@ -14,7 +14,7 @@ These are my recommended resources to start with, if you are planning to go down
     <br>"Functional Programming is progamming without assignment statements." This means data in memory is (mostly) immutable and that makes parallelism for multiple CPU cores much easier to reason about. This article is a very high-level introduction into one of the core concepts of FP and ties it to one of the main benefits. I do think there's more to it than that, but this should get you excited about it.
 * [x] [★ 📺 (30m) Functional programming patterns for the non-mathematician (cut)](https://www.youtube.com/watch?v=AvgwKjTPMmM)
     <br>Good introduction on how you can practically use composition, lenses, (which are built on monoids, functors, applicatives, and monads) for nesting (composition), null checking (Maybe), error handling (Either), and accumulation (reduce) in JavaScript.
-* [ ] (61% done) [★ 📕 Haskell Programming from First Principles](http://haskellbook.com)
+* [ ] (68% done) [★ 📕 Haskell Programming from First Principles](http://haskellbook.com)
     <br>So far I like this book much better than the free "Learn you a Haskell". It starts off with a very abstract introduction to lambda calculus, which I believe is an important basis to know about before diving into Haskell. It does make the first chapter a little strange — keep reading and don't judge the book until after chapter 2.
 * [x] [★ Monoids, Functors, Applicatives, and Monads: 10 Main Ideas](https://monadmadness.wordpress.com/2015/01/02/monoids-functors-applicatives-and-monads-10-main-ideas/)
     <br>Great summary of the key points on the four algebras that show up everywhere in Haskell (and are hiding in other languages as well).
@@ -110,7 +110,8 @@ These are my recommended resources to start with, if you are planning to go down
     - Take advantage of lowering (rewriting more complex semantic constructs in terms of simpler ones, e.g. while and for-each loops can both be rewritten as for loops).
     - Don't forget that a good runtime library is important. Don't have too much trivia in it.
 * [ ] [📕 Crafting Interpreters - A handbook for making programming languages • Bob Nystrom](http://www.craftinginterpreters.com)
-* [ ] [Building a Primitive State Machine in Haskell](https://daniel-levin.github.io/2015/01/19/primitive-state-machine-in-haskell.html)
+* [x] [Building a Primitive State Machine in Haskell](https://daniel-levin.github.io/2015/01/19/primitive-state-machine-in-haskell.html)
+    <br>Brief article with a very simple state machine implmented in Haskell using pattern matching.
 * [ ] [Turing Machines and Tooling, Part I](http://raganwald.com/2017/04/06/turing-machines.html)
 * [ ] [Turing Machines and Tooling, Part II](http://raganwald.com/2017/04/16/turing-machines-part-ii.html)
 * [ ] [Implementing a JIT Compiled Language with Haskell and LLVM](http://www.stephendiehl.com/llvm/)
