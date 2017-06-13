@@ -48,6 +48,7 @@ These are my recommended resources to start with, if you are planning to go down
     <br>Functors are adapters that bridge between categories. Instead of rewriting functions for a different category, a functor allows you to re-use the existing function to work in another category.
 * [x] [Queer Types - Applicatives and Alternatives](https://queertypes.com/posts/59-applicatives-alternatives.html)
     <br>Practical introduction into how applicatives (and alternatives, which build on it) can be used.
+* [x] [Foldable and Traversable](https://blog.jakuba.net/2014/07/30/foldable-and-traversable.html)
 * [x] [Haskell/Category theory](https://en.wikibooks.org/wiki/Haskell/Category_theory)
     <br>After being familiar with using functors, monoids, and monads in Haskell, this article introduces just enough category theory to understand the maths behind those concepts.
 * [ ] [Monads Made Difficult](http://www.stephendiehl.com/posts/monads.html)
