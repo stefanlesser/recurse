@@ -14,7 +14,7 @@ These are my recommended resources to start with, if you are planning to go down
     <br>"Functional Programming is progamming without assignment statements." This means data in memory is (mostly) immutable and that makes parallelism for multiple CPU cores much easier to reason about. This article is a very high-level introduction into one of the core concepts of FP and ties it to one of the main benefits. I do think there's more to it than that, but this should get you excited about it.
 * [x] [★ 📺 (30m) Functional programming patterns for the non-mathematician (cut)](https://www.youtube.com/watch?v=AvgwKjTPMmM)
     <br>Good introduction on how you can practically use composition, lenses, (which are built on monoids, functors, applicatives, and monads) for nesting (composition), null checking (Maybe), error handling (Either), and accumulation (reduce) in JavaScript.
-* [ ] (74% done) [★ 📕 Haskell Programming from First Principles](http://haskellbook.com)
+* [ ] (81% done) [★ 📕 Haskell Programming from First Principles](http://haskellbook.com)
     <br>So far I like this book much better than the free "Learn you a Haskell". It starts off with a very abstract introduction to lambda calculus, which I believe is an important basis to know about before diving into Haskell. It does make the first chapter a little strange — keep reading and don't judge the book until after chapter 2.
 * [x] [★ Monoids, Functors, Applicatives, and Monads: 10 Main Ideas](https://monadmadness.wordpress.com/2015/01/02/monoids-functors-applicatives-and-monads-10-main-ideas/)
     <br>Great summary of the key points on the four algebras that show up everywhere in Haskell (and are hiding in other languages as well).
@@ -37,13 +37,13 @@ These are my recommended resources to start with, if you are planning to go down
 * [x] [Destroy All Ifs — A Perspective from Functional Programming](http://degoes.net/articles/destroy-all-ifs)
     <br>By replacing conditionals with lambdas, we can invert control and make our code both easier to reason about and more generic. Moving conditionals from places hidden in the deepest nested function up to the caller makes intent clear and prevents mistakes.
 * [ ] [Writing Video Games in a Functional Style](http://prog21.dadgum.com/228.html)
-* [ ] 📕 Modeling Data with Functional Programming in R
+* [ ] ? 📕 Modeling Data with Functional Programming in R
 
 ### Haskell
-* [ ] [Getting started with Haskell • Stack Overflow](https://stackoverflow.com/questions/1012573/getting-started-with-haskell/1016986#1016986)
+* [x] [Getting started with Haskell • Stack Overflow](https://stackoverflow.com/questions/1012573/getting-started-with-haskell/1016986#1016986)
+    <br>Gives you a high-level overview of what the journey of learning Haskell can look like. Several good pointers to articles and resources.
 * [x] [Learn Haskell the hard way](http://yannesposito.com/Scratch/en/blog/Haskell-the-Hard-Way)
     <br>Just as promised in the title, an introduction to Haskell from zero to monads in a rather short article. I don't think this is a good tutorial to start with, but after reading about the concepts in other places, the additional examples and different ways of explaining monads in this article are very helpful.
-* [ ] [EdX course: Introduction to Functional Programming (via Haskell)](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0)
 * [x] [💡 The category design pattern](http://www.haskellforall.com/2012/08/the-category-design-pattern.html)
 * [x] [💡 The functor design pattern](http://www.haskellforall.com/2012/09/the-functor-design-pattern.html)
     <br>Functors are adapters that bridge between categories. Instead of rewriting functions for a different category, a functor allows you to re-use the existing function to work in another category.
@@ -54,6 +54,7 @@ These are my recommended resources to start with, if you are planning to go down
     <br>After being familiar with using functors, monoids, and monads in Haskell, this article introduces just enough category theory to understand the maths behind those concepts.
 * [x] [Monads Made Difficult](http://www.stephendiehl.com/posts/monads.html)
     <br>Explains monads coming from category theory. This is only helpful if you enjoy the math a lot.
+* [ ] ? [EdX course: Introduction to Functional Programming (via Haskell)](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0)
 * [ ] [📺 (2h:15m) Phil Freeman - Fun with Profunctors](https://www.youtube.com/watch?v=OJtGECfksds)
 * [ ] [The Fun of Programming • Ch. 7 Functional Images](http://conal.net/papers/functional-images/fop-conal.pdf)
 * [ ] [Haskell Communities and Activities Report • 32nd Ed. May 2017](https://www.haskell.org/communities/05-2017/html/report.html)
@@ -111,21 +112,24 @@ These are my recommended resources to start with, if you are planning to go down
     - Use a profiler to find performance issues.
     - Take advantage of lowering (rewriting more complex semantic constructs in terms of simpler ones, e.g. while and for-each loops can both be rewritten as for loops).
     - Don't forget that a good runtime library is important. Don't have too much trivia in it.
-* [ ] [📕 Crafting Interpreters - A handbook for making programming languages • Bob Nystrom](http://www.craftinginterpreters.com)
 * [x] [Building a Primitive State Machine in Haskell](https://daniel-levin.github.io/2015/01/19/primitive-state-machine-in-haskell.html)
     <br>Brief article with a very simple state machine implmented in Haskell using pattern matching.
 * [ ] [Turing Machines and Tooling, Part I](http://raganwald.com/2017/04/06/turing-machines.html)
 * [ ] [Turing Machines and Tooling, Part II](http://raganwald.com/2017/04/16/turing-machines-part-ii.html)
-* [ ] [Write Yourself a Scheme in 48 Hours](https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours)
+* [ ] (25% done) [Write Yourself a Scheme in 48 Hours](https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours)
+    <br>With basic Haskell knowledge this course is quick and easy to get into.
 * [ ] [Implementing a JIT Compiled Language with Haskell and LLVM](http://www.stephendiehl.com/llvm/)
 * [ ] [Building a LISP from scratch with Swift](https://www.uraimo.com/2017/02/05/building-a-lisp-from-scratch-with-swift/)
-* [ ]? [Write Yourself Haskell](http://dev.stephendiehl.com/fun/)
-* [ ]? [Dragon taming with Tailbiter, a bytecode compiler for Python • codewords.recurse.com](https://codewords.recurse.com/issues/seven/dragon-taming-with-tailbiter-a-bytecode-compiler)
+* [ ] ? [📕 Crafting Interpreters - A handbook for making programming languages • Bob Nystrom](http://www.craftinginterpreters.com)
+    <br>Promising book currently in development. This might become the most approachable guide to writing interpreters and compilers. Unfortunately, it's not even halfway done yet.
+* [ ] ? [Write Yourself Haskell](http://dev.stephendiehl.com/fun/)
+* [ ] ? [Dragon taming with Tailbiter, a bytecode compiler for Python • codewords.recurse.com](https://codewords.recurse.com/issues/seven/dragon-taming-with-tailbiter-a-bytecode-compiler)
 
 ### Lambda Calculus
 * [x] [The Lambda Calculus for Absolute Dummies (like myself) • palmström](http://palmstroem.blogspot.jp/2012/05/lambda-calculus-for-absolute-dummies.html)
-    <br>Another lambda calculus tutorial
-* [ ] [COMPUTATION STARTING FROM FIRST PRINCIPLES (DRAFT) • Jan Wedekind](http://www.wedesoft.de/binary-lambda-calculus.html)
+    <br>Another lambda calculus tutorial.
+* [x] [COMPUTATION STARTING FROM FIRST PRINCIPLES (DRAFT) • Jan Wedekind](http://www.wedesoft.de/binary-lambda-calculus.html)
+    <br>Implementing a minimal language based on lambda calculus in C.
 * [ ] [Data is Code](http://www.haskellforall.com/2016/04/data-is-code.html?m=1)
 * [ ] [7 lines of code, 3 minutes: Implement a programming language from scratch](http://matt.might.net/articles/implementing-a-programming-language/)
 * [ ] [Closure conversion: How to compile lambda](http://matt.might.net/articles/closure-conversion/)
@@ -239,14 +243,16 @@ Resources
 * [Bl.ock Builder](http://blockbuilder.org) — A web-based development environment for creating d3 visualizations.
     
 ### Procedural Generation / Generative Art
-* [Awesome Generative Art](https://github.com/kosmos/awesome-generative-art/blob/master/readme.md)
 * [ ] [How to Choose Colours Procedurally (Algorithms)](http://devmag.org.za/2012/07/29/how-to-choose-colours-procedurally-algorithms/)
 * [ ] [So you want to build a generator…](http://galaxykate0.tumblr.com/post/139774965871/so-you-want-to-build-a-generator)
 * [ ] [How Unexplored generates great roguelike dungeons](https://www.rockpapershotgun.com/2017/03/10/how-unexplored-generates-great-roguelike-dungeons/)
 * [ ] [A Logical Approach to Building Dungeons: Answer Set Programming for Hierarchical Procedural Content Generation in Roguelike Games](http://doc.gold.ac.uk/aisb50/AISB50-S02/AISB50-S2-Smith-paper.pdf)
 * [ ] [Representing Game Dialogue as Expressions in First-Order Logic](http://ir.lib.uwo.ca/cgi/viewcontent.cgi?article=2646&context=etd)
 * [ ] 📕 Procedural Generation in Games
-    
+
+Resources
+* [Awesome Generative Art](https://github.com/kosmos/awesome-generative-art/blob/master/readme.md)
+
 ### Graphics Programming
 * [ ] [📺 (90m) Principles of Lighting and Rendering with John Carmack](https://www.youtube.com/watch?v=IyUgHPs86XM)
 * [ ] [The lost art of 3D rendering without shaders](http://machinethink.net/blog/3d-rendering-without-shaders/)
@@ -293,13 +299,9 @@ Resources
 
 ## Other interesting stuff
 * [x] [The Dark Secret at the Heart of AI](https://www.technologyreview.com/s/604087/the-dark-secret-at-the-heart-of-ai/)
-* [ ] [📺 Everything a Swift Dev Ever Wanted to Know About Machine Learning](https://news.realm.io/news/swift-developer-on-machine-learning-try-swift-2017-gallagher/)
 * [ ] [📺 Writing Your UI Swiftly](https://news.realm.io/news/sommer-panage-writing-your-ui-swiftly/)
-* [ ] [Real-time object detection with YOLO](http://machinethink.net/blog/object-detection-with-yolo/)
-* [ ] [Building a Gas Pump Scanner with OpenCV/Python/iOS](https://hackernoon.com/building-a-gas-pump-scanner-with-opencv-python-ios-116fe6c9ae8b)
 
 Reference
-* [📺 Strange Loop Conference Videos](https://www.youtube.com/channel/UC_QIfHvN9auy2CoOdSfMWDw?app=desktop)
 * [Mega Project List on GitHub](https://github.com/karan/Projects)
 * [An extensive list of interesting open source projects](https://github.com/lk-geimfari/awesomo)
 
@@ -331,9 +333,11 @@ Bret Victor material I want to re-watch/read
 * [ ] [May 2011 • Scrubbing Calculator](http://worrydream.com/#!/ScrubbingCalculator)
 * [ ] [Oct 2011 • Up and Down the Ladder of Abstraction](http://worrydream.com/#!2/LadderOfAbstraction)
 * [ ] [Nov 2011 • A Brief Rand on the Future of Interaction Design](http://worrydream.com/#!/ABriefRantOnTheFutureOfInteractionDesign)
-* [ ] [📺 Jan 2012 • Inventing on Principle](http://worrydream.com/#!/InventingOnPrinciple)
+* [x] [📺 Jan 2012 • Inventing on Principle](http://worrydream.com/#!/InventingOnPrinciple)
+    <br>Software Engineers can right wrongs by inventing. Bret's principle is: tools for visual art need immediate feedback. Find yours and change the world.
 * [ ] [Sep 2012 • Learnable Programming](http://worrydream.com/#!/LearnableProgramming)
-* [ ] [📺 Nov 2012 • Stop Drawing Dead Fish](http://worrydream.com/#!/StopDrawingDeadFish)
+* [x] [📺 Nov 2012 • Stop Drawing Dead Fish](http://worrydream.com/#!/StopDrawingDeadFish)
+    <br>Impressive demo of how geographical representation can replace symbolic representation for creating graphics, animations, and behavior in a simulation. We're stuck with simulating old media with our new media and don't take advantage of all the capabilities new media offers. Computers should be used for simulations, not just static images, or animations.
 * [ ] [📺 Feb 2013 • Drawing Dynamic Visualizations](http://worrydream.com/#!/DrawingDynamicVisualizationsTalk)
 * [ ] [📺 Apr 2013 • Media for Thinking the Unthinkable](http://worrydream.com/#!/MediaForThinkingTheUnthinkable)
 * [ ] [📺 Jul 2013 • The Future of Programming](http://worrydream.com/#!/TheFutureOfProgramming)
@@ -346,8 +350,9 @@ Bret Victor material I want to re-watch/read
     <br>Abstract thoughts about what programming languages look like in 100 years from now.
 * [x] [Toward a frozen operating system](https://urbit.org/blog/2017.5-frozen/)
     <br>Is it possible to build system software or OS level software than never has to be updated?
-* [ ] [Ask HN: Why does visual programming suck?](https://news.ycombinator.com/item?id=14482988)
 * [x] [Expressive Programming in VR](http://elevr.com/expressive-programming-in-vr/)
+    <br>A very playful demo of how programming in VR could look like.
+* [ ] [Ask HN: Why does visual programming suck?](https://news.ycombinator.com/item?id=14482988)
 * [ ] [Future Programming Workshop 2014 final videos](http://www.future-programming.org/2014/program.html)
 * [ ] [Future Programming Workshop Strange Loop Sep 24, 2015](http://www.future-programming.org/2015/programSL.html)
 * [ ] [Future Programming Workshop SPLASH Oct 26-27, 2015](http://www.future-programming.org/2015/programSPLASH.html)
@@ -363,6 +368,7 @@ Bret Victor material I want to re-watch/read
 
 Resources
 * [Human Advancement Research Community](http://harc.ycr.org)
+* [📺 Strange Loop Conference Videos](https://www.youtube.com/channel/UC_QIfHvN9auy2CoOdSfMWDw?app=desktop)
 
 ### Stay Focused and Organized
 
