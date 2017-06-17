@@ -14,7 +14,9 @@ These are my recommended resources to start with, if you are planning to go down
     <br>"Functional Programming is progamming without assignment statements." This means data in memory is (mostly) immutable and that makes parallelism for multiple CPU cores much easier to reason about. This article is a very high-level introduction into one of the core concepts of FP and ties it to one of the main benefits. I do think there's more to it than that, but this should get you excited about it.
 * [x] [★ 📺 (30m) Functional programming patterns for the non-mathematician (cut)](https://www.youtube.com/watch?v=AvgwKjTPMmM)
     <br>Good introduction on how you can practically use composition, lenses, (which are built on monoids, functors, applicatives, and monads) for nesting (composition), null checking (Maybe), error handling (Either), and accumulation (reduce) in JavaScript.
-* [ ] (81% done) [★ 📕 Haskell Programming from First Principles](http://haskellbook.com)
+* [x] [★ Getting started with Haskell • Stack Overflow](https://stackoverflow.com/questions/1012573/getting-started-with-haskell/1016986#1016986)
+    <br>Gives you a high-level overview of what the journey of learning Haskell can look like. Several good pointers to articles and resources.
+* [ ] (84% done) [★ 📕 Haskell Programming from First Principles](http://haskellbook.com)
     <br>So far I like this book much better than the free "Learn you a Haskell". It starts off with a very abstract introduction to lambda calculus, which I believe is an important basis to know about before diving into Haskell. It does make the first chapter a little strange — keep reading and don't judge the book until after chapter 2.
 * [x] [★ Monoids, Functors, Applicatives, and Monads: 10 Main Ideas](https://monadmadness.wordpress.com/2015/01/02/monoids-functors-applicatives-and-monads-10-main-ideas/)
     <br>Great summary of the key points on the four algebras that show up everywhere in Haskell (and are hiding in other languages as well).
@@ -36,12 +38,11 @@ These are my recommended resources to start with, if you are planning to go down
     <br>Introduces benefits of functional programming by transforming a simple console program from imperative to declarative step by step. Even though it's using Scala, it helps understanding the basic building blocks of FP and their benefits.
 * [x] [Destroy All Ifs — A Perspective from Functional Programming](http://degoes.net/articles/destroy-all-ifs)
     <br>By replacing conditionals with lambdas, we can invert control and make our code both easier to reason about and more generic. Moving conditionals from places hidden in the deepest nested function up to the caller makes intent clear and prevents mistakes.
+* [ ] [Functional Programming with Bananas, Lenses, Envelopes and Barbed Wire](http://eprints.eemcs.utwente.nl/7281/01/db-utwente-40501F46.pdf)
 * [ ] [Writing Video Games in a Functional Style](http://prog21.dadgum.com/228.html)
 * [ ] ? 📕 Modeling Data with Functional Programming in R
 
 ### Haskell
-* [x] [Getting started with Haskell • Stack Overflow](https://stackoverflow.com/questions/1012573/getting-started-with-haskell/1016986#1016986)
-    <br>Gives you a high-level overview of what the journey of learning Haskell can look like. Several good pointers to articles and resources.
 * [x] [Learn Haskell the hard way](http://yannesposito.com/Scratch/en/blog/Haskell-the-Hard-Way)
     <br>Just as promised in the title, an introduction to Haskell from zero to monads in a rather short article. I don't think this is a good tutorial to start with, but after reading about the concepts in other places, the additional examples and different ways of explaining monads in this article are very helpful.
 * [x] [💡 The category design pattern](http://www.haskellforall.com/2012/08/the-category-design-pattern.html)
@@ -54,12 +55,15 @@ These are my recommended resources to start with, if you are planning to go down
     <br>After being familiar with using functors, monoids, and monads in Haskell, this article introduces just enough category theory to understand the maths behind those concepts.
 * [x] [Monads Made Difficult](http://www.stephendiehl.com/posts/monads.html)
     <br>Explains monads coming from category theory. This is only helpful if you enjoy the math a lot.
-* [ ] ? [EdX course: Introduction to Functional Programming (via Haskell)](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0)
+* [x] [The Fun of Programming • Ch. 7 Functional Images](http://conal.net/papers/functional-images/fop-conal.pdf)
+    <br>Creating visual patterns with math based on transformation functions. Great example of how composing small components can yield complex effects.
 * [ ] [📺 (2h:15m) Phil Freeman - Fun with Profunctors](https://www.youtube.com/watch?v=OJtGECfksds)
-* [ ] [The Fun of Programming • Ch. 7 Functional Images](http://conal.net/papers/functional-images/fop-conal.pdf)
+* [ ] [📺 (1h:30m) C++Now 2017: Ryan Newton "Haskell taketh away: limiting side effects for parallel programming"](https://www.youtube.com/watch?v=lC5UWG5N8oY)
 * [ ] [Haskell Communities and Activities Report • 32nd Ed. May 2017](https://www.haskell.org/communities/05-2017/html/report.html)
+* [ ] [📕 Real World Haskell • Bryan O'Sullivan, Don Stewart, and John Goerzen](http://book.realworldhaskell.org/read/)
 * [ ] [📕 Purely Functional Data Structures](https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf)
 * [ ] [📕 Parallel and Concurrent Programming in Haskell](http://chimera.labs.oreilly.com/books/1230000000929/index.html)
+* [ ] ? [EdX course: Introduction to Functional Programming (via Haskell)](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0)
 
 #### Resources
 * [Haskell Wiki](https://wiki.haskell.org/)
@@ -89,6 +93,8 @@ These are my recommended resources to start with, if you are planning to go down
 * [x] [📺 (30m) Brandon Williams - Lenses in Swift](https://www.youtube.com/watch?v=ofjehH9f-CU)
     <br>Using lenses and prisms to create getters and setters for immutable values.
 * [ ] [Loose coupling using default implementations in protocol extensions](http://www.apokrupto.com/blog-1/2017/5/16/default-protocol-extensions-for-loose-coupling)
+* [ ] [Optimizing Swift Collections • Károly Lőrentey at dotSwift 2017](https://www.dotconferences.com/2017/01/karoly-lorentey-optimizing-swift-collections)
+* [ ] [Apple Swift Ownership Manifesto](https://github.com/apple/swift/blob/master/docs/OwnershipManifesto.md)
 
 ### Functional Patterns to Manage Complexity
 * [x] [💡 📺 (60m) Gabriel Gonzales: Applied category theory and abstract algebra - λC Winter Retreat 2017](https://www.youtube.com/watch?v=WsA7GtUQeB8)
@@ -97,9 +103,9 @@ These are my recommended resources to start with, if you are planning to go down
     <br>"We shouldn’t write programs — we should write descriptions of programs, which we can then introspect, transform, and interpret at will." How to architect a program that uses separate layers of DSLs to encode business logic in separate domains, and having an interpreter combining those DSLs to generate the actual program. It seems cumbersome to do this, but the composability of this approach looks promising.
 * [x] [💡 Modern Functional Programming: Part 2](http://degoes.net/articles/modern-fp-part-2)
     <br>John edited his thoughts in part 1 into a more coherent and clear picture in this article and gives a glimpse into the future of programming by combining interpreters for different DSLs.
+* [ ] [📺 (45m) Sandy Maguire: Don't Eff It Up: Free Monads in Action](https://www.youtube.com/watch?v=gUPuWHAt6SA)
 * [ ] [📺 (40m) John A De Goes: MTL Versus Free Deathmatch - λC 2016](https://www.youtube.com/watch?v=JLevNswzYh8)
     <br>*Conference talk about his "Modern Functional Programming: Part 2" article*
-* [ ] [📺 (45m) Sandy Maguire: Don't Eff It Up: Free Monads in Action](https://www.youtube.com/watch?v=gUPuWHAt6SA)
 * [ ] [📺 (1h:15m) John DeGoes: Beyond Free Monads - λC Winter Retreat 2017](https://www.youtube.com/watch?v=A-lmrvsUi2Y)
 
 ----
@@ -116,10 +122,10 @@ These are my recommended resources to start with, if you are planning to go down
     <br>Brief article with a very simple state machine implmented in Haskell using pattern matching.
 * [ ] [Turing Machines and Tooling, Part I](http://raganwald.com/2017/04/06/turing-machines.html)
 * [ ] [Turing Machines and Tooling, Part II](http://raganwald.com/2017/04/16/turing-machines-part-ii.html)
-* [ ] (25% done) [Write Yourself a Scheme in 48 Hours](https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours)
+* [ ] (50% done) [Write Yourself a Scheme in 48 Hours](https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours)
     <br>With basic Haskell knowledge this course is quick and easy to get into.
-* [ ] [Implementing a JIT Compiled Language with Haskell and LLVM](http://www.stephendiehl.com/llvm/)
 * [ ] [Building a LISP from scratch with Swift](https://www.uraimo.com/2017/02/05/building-a-lisp-from-scratch-with-swift/)
+* [ ] [Implementing a JIT Compiled Language with Haskell and LLVM](http://www.stephendiehl.com/llvm/)
 * [ ] ? [📕 Crafting Interpreters - A handbook for making programming languages • Bob Nystrom](http://www.craftinginterpreters.com)
     <br>Promising book currently in development. This might become the most approachable guide to writing interpreters and compilers. Unfortunately, it's not even halfway done yet.
 * [ ] ? [Write Yourself Haskell](http://dev.stephendiehl.com/fun/)
@@ -291,6 +297,7 @@ Resources
 
 Resources
 * [Staticman: Static sites with superpowers](https://staticman.net)
+* [LICEcap](http://www.cockos.com/licecap/) — Tool to create animated GIFs from screen recordings
 
 ## Get an introduction into basic devops and set up CI and some more complex toolchains and production environments with Docker, AWS, and whatever else is recommended
 * [ ] [iOS Continous integration: Xcode Server, Jenkins, Travis and fastlane](http://thebugcode.github.io/ios-continous-integration-choosing-a-build-server-and-tooling/)
@@ -300,8 +307,11 @@ Resources
 ## Other interesting stuff
 * [x] [The Dark Secret at the Heart of AI](https://www.technologyreview.com/s/604087/the-dark-secret-at-the-heart-of-ai/)
 * [ ] [📺 Writing Your UI Swiftly](https://news.realm.io/news/sommer-panage-writing-your-ui-swiftly/)
+* [ ] [My Development Toolset 2017 for iOS](https://medium.com/ios-os-x-development/my-development-toolset-2017-for-ios-7c0758e3e5ce)
 
 Reference
+* [programmingtalks.org](https://www.programmingtalks.org)
+* [Programming Talks • hellerve on GitHub](https://github.com/hellerve/programming-talks)
 * [Mega Project List on GitHub](https://github.com/karan/Projects)
 * [An extensive list of interesting open source projects](https://github.com/lk-geimfari/awesomo)
 
@@ -364,6 +374,7 @@ Bret Victor material I want to re-watch/read
 * [ ] [The Rose Project (March 2017) - Making programming better](https://stevekrouse.com/rose-983dc5e0908f)
 * [ ] [Imp = Spreadsheets + Relations + Time](https://github.com/jamii/imp)
 * [ ] [Sourcegraph: Code search + intelligence](https://about.sourcegraph.com)
+* [ ] [Human-Centered Programming Tools: Spring 2017 Class Readings](http://pgbovine.net/human-centered-programming-tools.htm)
 * [x] [Toby Schachman](http://tobyschachman.com)
 
 Resources
