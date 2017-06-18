@@ -26,6 +26,9 @@ These are my recommended resources to start with, if you are planning to go down
     <br>The first two secions *Basics* and *Monads* are packed with great practical tips and a solid foundation for understanding monads, an abstract concept that shows up everywhere in Haskell and functional programming.
 
 ### General
+* [ ] [The future of software, the end of apps, and why UX designers should care about type theory](https://pchiusano.github.io/2013-05-22/future-of-software.html)
+* [x] [The Unofficial Guide to Rich Hickey's Brain](http://www.flyingmachinestudios.com/programming/the-unofficial-guide-to-rich-hickeys-brain/)
+    <br>Contrasts Object-Oriented Programming with Functional Programming and explains the "fundamental flaws' of accidential complexity in OOP that FP allows us to deal with in a better way.
 * [x] [📺 (60m) "I See What You Mean" by Peter Alvaro](https://www.youtube.com/watch?v=R2Aa4PivG0g)
     <br>Entertaining presentation about modeling state with declarative languages. Many applicable concepts although it is understandably a little heavy on the relational language this talk is about.
 * [x] [📺 (60m) Category Theory for the Working Hacker by Philip Wadler](https://www.youtube.com/watch?v=V10hzjgoklA)
@@ -40,6 +43,7 @@ These are my recommended resources to start with, if you are planning to go down
     <br>By replacing conditionals with lambdas, we can invert control and make our code both easier to reason about and more generic. Moving conditionals from places hidden in the deepest nested function up to the caller makes intent clear and prevents mistakes.
 * [ ] [Functional Programming with Bananas, Lenses, Envelopes and Barbed Wire](http://eprints.eemcs.utwente.nl/7281/01/db-utwente-40501F46.pdf)
 * [ ] [Writing Video Games in a Functional Style](http://prog21.dadgum.com/228.html)
+    <br>A collection of articles exploring the implementation of arcade games and their game state and game loops in a functional style.
 * [ ] ? 📕 Modeling Data with Functional Programming in R
 
 ### Haskell
@@ -57,19 +61,20 @@ These are my recommended resources to start with, if you are planning to go down
     <br>Explains monads coming from category theory. This is only helpful if you enjoy the math a lot.
 * [x] [The Fun of Programming • Ch. 7 Functional Images](http://conal.net/papers/functional-images/fop-conal.pdf)
     <br>Creating visual patterns with math based on transformation functions. Great example of how composing small components can yield complex effects.
-* [ ] [📺 (2h:15m) Phil Freeman - Fun with Profunctors](https://www.youtube.com/watch?v=OJtGECfksds)
 * [ ] [📺 (1h:30m) C++Now 2017: Ryan Newton "Haskell taketh away: limiting side effects for parallel programming"](https://www.youtube.com/watch?v=lC5UWG5N8oY)
 * [ ] [Haskell Communities and Activities Report • 32nd Ed. May 2017](https://www.haskell.org/communities/05-2017/html/report.html)
 * [ ] [📕 Real World Haskell • Bryan O'Sullivan, Don Stewart, and John Goerzen](http://book.realworldhaskell.org/read/)
+    <br>This book promises to teach more practical Haskell, which makes it a welcome alternative to all the academic books out there. *Haven't read it yet, so I don't know if that's true.*
 * [ ] [📕 Purely Functional Data Structures](https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf)
 * [ ] [📕 Parallel and Concurrent Programming in Haskell](http://chimera.labs.oreilly.com/books/1230000000929/index.html)
+    <br>This book get mentioned and referred to a lot, surprisingly not just for topics around the book's title.
 * [ ] ? [EdX course: Introduction to Functional Programming (via Haskell)](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0)
 
 #### Resources
 * [Haskell Wiki](https://wiki.haskell.org/)
 * [Hoogle](https://www.haskell.org/hoogle/) — Enter a type signature and it will find you matching functions
 * [Hayoo](http://hayoo.fh-wedel.de/) — Same but with support for third-party packages
-* [Vim and Haskell in 2016](http://www.stephendiehl.com/posts/vim_2016.html) — How to set up your dev env for Haskell
+* [Vim and Haskell in 2016](http://www.stephendiehl.com/posts/vim_2016.html) — How to set up your dev env with vim for Haskell
 
 ### Swift
 * [x] [📺 (45m) Brandon Williams - Finding Happiness in Functional Programming](https://www.youtube.com/watch?v=A0VaIKK2ijM)
@@ -94,6 +99,7 @@ These are my recommended resources to start with, if you are planning to go down
     <br>Using lenses and prisms to create getters and setters for immutable values.
 * [ ] [Loose coupling using default implementations in protocol extensions](http://www.apokrupto.com/blog-1/2017/5/16/default-protocol-extensions-for-loose-coupling)
 * [ ] [Optimizing Swift Collections • Károly Lőrentey at dotSwift 2017](https://www.dotconferences.com/2017/01/karoly-lorentey-optimizing-swift-collections)
+    <br>Deep dive into performance characteristics of Swift Collection types.
 * [ ] [Apple Swift Ownership Manifesto](https://github.com/apple/swift/blob/master/docs/OwnershipManifesto.md)
 
 ### Functional Patterns to Manage Complexity
@@ -325,6 +331,7 @@ Reference
     - In software engineering we claim to have figured out many things, but don't back them up with data and research. In many cases we still don't know what's objectively better, and fall victim to statements that sound clever to us, and confirm our own biases. For real progress in our field we need higher standards for proof.
 * [x] [Complexity and Strategy](https://hackernoon.com/complexity-and-strategy-325cd7f59a92)
 * [ ] [Can Programming Be Liberated from the von Neumann Style? A Functional Style and Its Algebra of Programs](http://worrydream.com/refs/Backus-CanProgrammingBeLiberated.pdf)
+* [ ] [Systems Past: the only 8 software innovations we actually use](https://davidad.github.io/blog/2014/03/12/the-operating-system-is-out-of-date/)
 * [x] [📺 Hearts and Minds • GDC Vault](http://www.gdcvault.com/play/1020788/Hearts-and)
 * [ ] [Toward a Galvanizing Definition of Technical Debt](https://michaelfeathers.silvrback.com/toward-a-galvanizing-definition-of-technical-debt)
 * [ ] 📕 Mindstorms - Children, Computers, and Powerful Ideas
@@ -346,6 +353,7 @@ Bret Victor material I want to re-watch/read
 * [x] [📺 Jan 2012 • Inventing on Principle](http://worrydream.com/#!/InventingOnPrinciple)
     <br>Software Engineers can right wrongs by inventing. Bret's principle is: tools for visual art need immediate feedback. Find yours and change the world.
 * [ ] [Sep 2012 • Learnable Programming](http://worrydream.com/#!/LearnableProgramming)
+    <br>
 * [x] [📺 Nov 2012 • Stop Drawing Dead Fish](http://worrydream.com/#!/StopDrawingDeadFish)
     <br>Impressive demo of how geographical representation can replace symbolic representation for creating graphics, animations, and behavior in a simulation. We're stuck with simulating old media with our new media and don't take advantage of all the capabilities new media offers. Computers should be used for simulations, not just static images, or animations.
 * [ ] [📺 Feb 2013 • Drawing Dynamic Visualizations](http://worrydream.com/#!/DrawingDynamicVisualizationsTalk)
@@ -362,16 +370,20 @@ Bret Victor material I want to re-watch/read
     <br>Is it possible to build system software or OS level software than never has to be updated?
 * [x] [Expressive Programming in VR](http://elevr.com/expressive-programming-in-vr/)
     <br>A very playful demo of how programming in VR could look like.
-* [ ] [Ask HN: Why does visual programming suck?](https://news.ycombinator.com/item?id=14482988)
+* [x] [Ask HN: Why does visual programming suck?](https://news.ycombinator.com/item?id=14482988)
+    <br>Huge thread about the pros and cons of visual programming interfaces.
+* [x] [Resources for creating front-end programming languages and frameworks in 2017](https://medium.com/@stevekrouse/resources-for-creating-front-end-programming-languages-and-frameworks-in-2017-a0c097625f9d)
+* [x] [Prune: A Code Editor that is Not a Text Editor](https://www.facebook.com/notes/kent-beck/prune-a-code-editor-that-is-not-a-text-editor/1012061842160013/)
+    <br>Post-mortem (unfortunately without any code or even screenshots) of a tree-based code editor prototype that only allows syntactically correct programs through tree transformations.
+* [x] [Types are shapes — a graphical programming exploration](https://stevekrouse.com/types-are-shapes-d6af1e83192f)
+    <br>Representing different types visually as different shapes helps intuitively understand how types interact with each other. Types are a help for beginners, not an obstacle for experts.
+* [x] [WoofJS — making JavaScript learnable](https://stevekrouse.com/woof-d9adf2110fc6)
+    <br>A visual programming framework inspired by Sketch, but taking it much further into the web development world. Based on JavaScript.
+* [x] [The Rose Project (March 2017) - Making programming better](https://stevekrouse.com/rose-983dc5e0908f)
 * [ ] [Future Programming Workshop 2014 final videos](http://www.future-programming.org/2014/program.html)
 * [ ] [Future Programming Workshop Strange Loop Sep 24, 2015](http://www.future-programming.org/2015/programSL.html)
 * [ ] [Future Programming Workshop SPLASH Oct 26-27, 2015](http://www.future-programming.org/2015/programSPLASH.html)
-* [ ] [Prune: A Code Editor that is Not a Text Editor](https://www.facebook.com/notes/kent-beck/prune-a-code-editor-that-is-not-a-text-editor/1012061842160013/)
-* [ ] [Resources for creating front-end programming languages and frameworks in 2017](https://medium.com/@stevekrouse/resources-for-creating-front-end-programming-languages-and-frameworks-in-2017-a0c097625f9d)
 * [ ] [The Gamma: Tools for open data-driven storytelling](https://thegamma.net)
-* [ ] [WoofJS — making JavaScript learnable](https://stevekrouse.com/woof-d9adf2110fc6)
-* [ ] [Types are shapes — a graphical programming exploration](https://stevekrouse.com/types-are-shapes-d6af1e83192f)
-* [ ] [The Rose Project (March 2017) - Making programming better](https://stevekrouse.com/rose-983dc5e0908f)
 * [ ] [Imp = Spreadsheets + Relations + Time](https://github.com/jamii/imp)
 * [ ] [Sourcegraph: Code search + intelligence](https://about.sourcegraph.com)
 * [ ] [Human-Centered Programming Tools: Spring 2017 Class Readings](http://pgbovine.net/human-centered-programming-tools.htm)
@@ -380,6 +392,22 @@ Bret Victor material I want to re-watch/read
 Resources
 * [Human Advancement Research Community](http://harc.ycr.org)
 * [📺 Strange Loop Conference Videos](https://www.youtube.com/channel/UC_QIfHvN9auy2CoOdSfMWDw?app=desktop)
+* [Visual Programming Languages - Snapshots](http://blog.interfacevision.com/design/design-visual-progarmming-languages-snapshots/)
+
+List of related projects
+* [Bubble — powerful general-purpose visual framework for creating web applications](https://bubble.is)
+* [Cirru – An editor for AST](http://cirru.org/)
+* [Eve — modern relational language for writing data-driven programs](http://witheve.com) [(Dev Diary)](http://incidentalcomplexity.com)
+* [Lamdu - towards a new programming experience](http://www.lamdu.org/)
+* [Prune: A Code Editor that is Not a Text Editor](https://www.facebook.com/notes/kent-beck/prune-a-code-editor-that-is-not-a-text-editor/1012061842160013/)
+* [MPS Meta Progamming System](http://jetbrains.com/mps)
+* https://github.com/cxxtree/cxxtree
+* [Frame-based Editing](http://www.greenfoot.org/frames/)
+* [Unison — next-generation programming platform](http://unisonweb.org/)
+* [Structured editing minor mode for Haskell in Emacs](https://github.com/chrisdone/structured-haskell-mode)
+* [ParEdit — minor mode for performing structured editing of S-expression data](https://www.emacswiki.org/emacs/ParEdit)
+* [ProjecturEd — generic purpose projectional editor](http://projectured.org)
+* more links in [this Hacker News thread](https://news.ycombinator.com/item?id=13773813)
 
 ### Stay Focused and Organized
 
