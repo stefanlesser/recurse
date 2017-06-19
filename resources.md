@@ -193,6 +193,7 @@ Resources
 ----
 
 ## Get back into JavaScript (and possibly TypeScript) and see what’s state of the art for web development (looking at React, Relay, GraphQL, Jest, etc.)
+* [ ] [📕 You Don't Know JS (book series)](https://github.com/getify/You-Dont-Know-JS)
 * [x] [Overview of ECMAScript 6 features](https://github.com/lukehoban/es6features)
 * [x] [A Functional Programmer’s Introduction to JavaScript (Composing Software)](https://medium.com/javascript-scene/a-functional-programmers-introduction-to-javascript-composing-software-d670d14ede30)
 * [ ] [http://jrsinclair.com/articles/2017/javascript-without-loops/index.html](http://jrsinclair.com/articles/2017/javascript-without-loops/index.html)
