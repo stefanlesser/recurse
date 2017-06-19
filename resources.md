@@ -256,6 +256,7 @@ Resources
 * [Bl.ock Builder](http://blockbuilder.org) — A web-based development environment for creating d3 visualizations.
     
 ### Procedural Generation / Generative Art
+* [ ] [The Range of Perlin Noise](http://digitalfreepen.com/2017/06/20/range-perlin-noise.html)
 * [ ] [How to Choose Colours Procedurally (Algorithms)](http://devmag.org.za/2012/07/29/how-to-choose-colours-procedurally-algorithms/)
 * [ ] [So you want to build a generator…](http://galaxykate0.tumblr.com/post/139774965871/so-you-want-to-build-a-generator)
 * [ ] [How Unexplored generates great roguelike dungeons](https://www.rockpapershotgun.com/2017/03/10/how-unexplored-generates-great-roguelike-dungeons/)
