@@ -16,7 +16,7 @@ These are my recommended resources to start with, if you are planning to go down
     <br>Good introduction on how you can practically use composition, lenses, (which are built on monoids, functors, applicatives, and monads) for nesting (composition), null checking (Maybe), error handling (Either), and accumulation (reduce) in JavaScript.
 * [x] [★ Getting started with Haskell • Stack Overflow](https://stackoverflow.com/questions/1012573/getting-started-with-haskell/1016986#1016986)
     <br>Gives you a high-level overview of what the journey of learning Haskell can look like. Several good pointers to articles and resources.
-* [ ] (84% done) [★ 📕 Haskell Programming from First Principles](http://haskellbook.com)
+* [ ] (97% done) [★ 📕 Haskell Programming from First Principles](http://haskellbook.com)
     <br>So far I like this book much better than the free "Learn you a Haskell". It starts off with a very abstract introduction to lambda calculus, which I believe is an important basis to know about before diving into Haskell. It does make the first chapter a little strange — keep reading and don't judge the book until after chapter 2.
 * [x] [★ Monoids, Functors, Applicatives, and Monads: 10 Main Ideas](https://monadmadness.wordpress.com/2015/01/02/monoids-functors-applicatives-and-monads-10-main-ideas/)
     <br>Great summary of the key points on the four algebras that show up everywhere in Haskell (and are hiding in other languages as well).
@@ -26,7 +26,8 @@ These are my recommended resources to start with, if you are planning to go down
     <br>The first two secions *Basics* and *Monads* are packed with great practical tips and a solid foundation for understanding monads, an abstract concept that shows up everywhere in Haskell and functional programming.
 
 ### General
-* [ ] [The future of software, the end of apps, and why UX designers should care about type theory](https://pchiusano.github.io/2013-05-22/future-of-software.html)
+* [x] [The future of software, the end of apps, and why UX designers should care about type theory](https://pchiusano.github.io/2013-05-22/future-of-software.html)
+    <br>Paints an interesting picture of a world where composing components is much simpler and instead of apps that have been put together by developers, regular users are able to compose service components to do what they want them to do.
 * [x] [The Unofficial Guide to Rich Hickey's Brain](http://www.flyingmachinestudios.com/programming/the-unofficial-guide-to-rich-hickeys-brain/)
     <br>Contrasts Object-Oriented Programming with Functional Programming and explains the "fundamental flaws' of accidential complexity in OOP that FP allows us to deal with in a better way.
 * [x] [📺 (60m) "I See What You Mean" by Peter Alvaro](https://www.youtube.com/watch?v=R2Aa4PivG0g)
@@ -42,7 +43,7 @@ These are my recommended resources to start with, if you are planning to go down
 * [x] [Destroy All Ifs — A Perspective from Functional Programming](http://degoes.net/articles/destroy-all-ifs)
     <br>By replacing conditionals with lambdas, we can invert control and make our code both easier to reason about and more generic. Moving conditionals from places hidden in the deepest nested function up to the caller makes intent clear and prevents mistakes.
 * [ ] [Functional Programming with Bananas, Lenses, Envelopes and Barbed Wire](http://eprints.eemcs.utwente.nl/7281/01/db-utwente-40501F46.pdf)
-* [ ] [Writing Video Games in a Functional Style](http://prog21.dadgum.com/228.html)
+* [x] [Writing Video Games in a Functional Style](http://prog21.dadgum.com/228.html)
     <br>A collection of articles exploring the implementation of arcade games and their game state and game loops in a functional style.
 * [ ] ? 📕 Modeling Data with Functional Programming in R
 
@@ -128,8 +129,8 @@ These are my recommended resources to start with, if you are planning to go down
     <br>Brief article with a very simple state machine implmented in Haskell using pattern matching.
 * [ ] [Turing Machines and Tooling, Part I](http://raganwald.com/2017/04/06/turing-machines.html)
 * [ ] [Turing Machines and Tooling, Part II](http://raganwald.com/2017/04/16/turing-machines-part-ii.html)
-* [ ] (50% done) [Write Yourself a Scheme in 48 Hours](https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours)
-    <br>With basic Haskell knowledge this course is quick and easy to get into.
+* [x] [Write Yourself a Scheme in 48 Hours](https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours)
+    <br>With basic Haskell knowledge this course is quick and easy to get into, but it also doesn't explain concepts very extensively.
 * [ ] [Building a LISP from scratch with Swift](https://www.uraimo.com/2017/02/05/building-a-lisp-from-scratch-with-swift/)
 * [ ] [Implementing a JIT Compiled Language with Haskell and LLVM](http://www.stephendiehl.com/llvm/)
 * [ ] ? [📕 Crafting Interpreters - A handbook for making programming languages • Bob Nystrom](http://www.craftinginterpreters.com)
@@ -333,8 +334,10 @@ Reference
 * [x] [📺 (1h) Greg Wilson - What We Actually Know About Software Development, and Why We Believe It’s True](https://vimeo.com/9270320)
     - In software engineering we claim to have figured out many things, but don't back them up with data and research. In many cases we still don't know what's objectively better, and fall victim to statements that sound clever to us, and confirm our own biases. For real progress in our field we need higher standards for proof.
 * [x] [Complexity and Strategy](https://hackernoon.com/complexity-and-strategy-325cd7f59a92)
-* [ ] [Can Programming Be Liberated from the von Neumann Style? A Functional Style and Its Algebra of Programs](http://worrydream.com/refs/Backus-CanProgrammingBeLiberated.pdf)
-* [ ] [Systems Past: the only 8 software innovations we actually use](https://davidad.github.io/blog/2014/03/12/the-operating-system-is-out-of-date/)
+* [x] [Can Programming Be Liberated from the von Neumann Style? A Functional Style and Its Algebra of Programs](http://worrydream.com/refs/Backus-CanProgrammingBeLiberated.pdf)
+    <br>Influential article written in 1978 describing a functional system for computation which sounds a lot like what functional programming languages these days are built on.
+* [x] [Systems Past: the only 8 software innovations we actually use](https://davidad.github.io/blog/2014/03/12/the-operating-system-is-out-of-date/)
+    <br>Criticizes the lack of innovation in programming and explains that the biggest innovations in the field, like programming languages, operating systems, interactivity, and the Internet have been invented between 1955 and 1970.
 * [x] [📺 Hearts and Minds • GDC Vault](http://www.gdcvault.com/play/1020788/Hearts-and)
 * [ ] [Toward a Galvanizing Definition of Technical Debt](https://michaelfeathers.silvrback.com/toward-a-galvanizing-definition-of-technical-debt)
 * [ ] 📕 Mindstorms - Children, Computers, and Powerful Ideas
@@ -383,6 +386,7 @@ Bret Victor material I want to re-watch/read
 * [x] [WoofJS — making JavaScript learnable](https://stevekrouse.com/woof-d9adf2110fc6)
     <br>A visual programming framework inspired by Sketch, but taking it much further into the web development world. Based on JavaScript.
 * [x] [The Rose Project (March 2017) - Making programming better](https://stevekrouse.com/rose-983dc5e0908f)
+* [ ] [Flowsheets and Other Observations On Programming Computers](http://tinyletter.com/Flowsheets/archive)
 * [ ] [Future Programming Workshop 2014 final videos](http://www.future-programming.org/2014/program.html)
 * [ ] [Future Programming Workshop Strange Loop Sep 24, 2015](http://www.future-programming.org/2015/programSL.html)
 * [ ] [Future Programming Workshop SPLASH Oct 26-27, 2015](http://www.future-programming.org/2015/programSPLASH.html)
