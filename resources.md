@@ -404,6 +404,7 @@ Resources
 * [Visual Programming Languages - Snapshots](http://blog.interfacevision.com/design/design-visual-progarmming-languages-snapshots/)
 
 List of related projects
+* [A cross-platform source explorer for C/C++ and Java](https://www.sourcetrail.com/)
 * [Luna — Visual and textual functional programming language with a focus on productivity, collaboration and development ergonomics](http://www.luna-lang.org)
 * [Bubble — powerful general-purpose visual framework for creating web applications](https://bubble.is)
 * [Cirru – An editor for AST](http://cirru.org/)
