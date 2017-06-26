@@ -16,8 +16,8 @@ These are my recommended resources to start with, if you are planning to go down
     <br>Good introduction on how you can practically use composition, lenses, (which are built on monoids, functors, applicatives, and monads) for nesting (composition), null checking (Maybe), error handling (Either), and accumulation (reduce) in JavaScript.
 * [x] [★ Getting started with Haskell • Stack Overflow](https://stackoverflow.com/questions/1012573/getting-started-with-haskell/1016986#1016986)
     <br>Gives you a high-level overview of what the journey of learning Haskell can look like. Several good pointers to articles and resources.
-* [ ] (97% done) [★ 📕 Haskell Programming from First Principles](http://haskellbook.com)
-    <br>So far I like this book much better than the free "Learn you a Haskell". It starts off with a very abstract introduction to lambda calculus, which I believe is an important basis to know about before diving into Haskell. It does make the first chapter a little strange — keep reading and don't judge the book until after chapter 2.
+* [x] [★ 📕 Haskell Programming from First Principles](http://haskellbook.com)
+    <br>Massive introduction into Haskell with lots of explanation and exercises. Some people find it too exhaustive, but I like this book much better than the free "Learn you a Haskell", although it's still very academic. It starts off with a very abstract introduction to lambda calculus, which I believe is an important basis to know about before diving into Haskell. It does make the first chapter a little strange — keep reading and don't judge the book until after chapter 2.
 * [x] [★ Monoids, Functors, Applicatives, and Monads: 10 Main Ideas](https://monadmadness.wordpress.com/2015/01/02/monoids-functors-applicatives-and-monads-10-main-ideas/)
     <br>Great summary of the key points on the four algebras that show up everywhere in Haskell (and are hiding in other languages as well).
 * [ ] [★ Haskell Typeclassopedia](https://wiki.haskell.org/Typeclassopedia)
@@ -62,7 +62,9 @@ These are my recommended resources to start with, if you are planning to go down
     <br>Explains monads coming from category theory. This is only helpful if you enjoy the math a lot.
 * [x] [The Fun of Programming • Ch. 7 Functional Images](http://conal.net/papers/functional-images/fop-conal.pdf)
     <br>Creating visual patterns with math based on transformation functions. Great example of how composing small components can yield complex effects.
+* [ ] [Haskell/Understanding monads/State](https://en.wikibooks.org/wiki/Haskell/Understanding_monads/State)
 * [ ] [📺 (1h:30m) C++Now 2017: Ryan Newton "Haskell taketh away: limiting side effects for parallel programming"](https://www.youtube.com/watch?v=lC5UWG5N8oY)
+* [ ] [Code Us Some Roguelike in Haskell (Part 2)](http://jamiltron.com/2012/07/Code_Us_Some_Roguelike2.html)
 * [ ] [Haskell Communities and Activities Report • 32nd Ed. May 2017](https://www.haskell.org/communities/05-2017/html/report.html)
 * [ ] [📕 Real World Haskell • Bryan O'Sullivan, Don Stewart, and John Goerzen](http://book.realworldhaskell.org/read/)
     <br>This book promises to teach more practical Haskell, which makes it a welcome alternative to all the academic books out there. *Haven't read it yet, so I don't know if that's true.*
@@ -263,6 +265,10 @@ Resources
 * [ ] [Restricted Perlin Noise for Better Rendering](http://digitalfreepen.com/2017/06/22/restricted-perlin-noise.html)
 * [ ] [Fast and Mostly Consistent Distance Field Ray Marching](http://digitalfreepen.com/2017/06/23/fast-mostly-consistent.html)
 * [ ] [How to Choose Colours Procedurally (Algorithms)](http://devmag.org.za/2012/07/29/how-to-choose-colours-procedurally-algorithms/)
+* [x] [Improved Alpha-Tested Magnification for Vector Textures and Special Effects](http://www.valvesoftware.com/publications/2007/SIGGRAPH2007_AlphaTestedMagnification.pdf)
+* [x] [Rendering Text in Metal with Signed-Distance Fields](http://metalbyexample.com/rendering-text-in-metal-with-signed-distance-fields/)
+* [ ] [Anti-aliased Euclidean distance transform](http://weber.itn.liu.se/~stegu/aadist/edtaa_preprint.pdf)
+* [ ] [A General Algorithm for Computing Distance Transforms in Linear Time](http://fab.cba.mit.edu/classes/S62.12/docs/Meijster_distance.pdf)
 * [ ] [So you want to build a generator…](http://galaxykate0.tumblr.com/post/139774965871/so-you-want-to-build-a-generator)
 * [ ] [How Unexplored generates great roguelike dungeons](https://www.rockpapershotgun.com/2017/03/10/how-unexplored-generates-great-roguelike-dungeons/)
 * [ ] [A Logical Approach to Building Dungeons: Answer Set Programming for Hierarchical Procedural Content Generation in Roguelike Games](http://doc.gold.ac.uk/aisb50/AISB50-S02/AISB50-S2-Smith-paper.pdf)
