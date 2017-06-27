@@ -43,6 +43,7 @@ These are my recommended resources to start with, if you are planning to go down
 * [x] [Destroy All Ifs — A Perspective from Functional Programming](http://degoes.net/articles/destroy-all-ifs)
     <br>By replacing conditionals with lambdas, we can invert control and make our code both easier to reason about and more generic. Moving conditionals from places hidden in the deepest nested function up to the caller makes intent clear and prevents mistakes.
 * [ ] [Functional Programming with Bananas, Lenses, Envelopes and Barbed Wire](http://eprints.eemcs.utwente.nl/7281/01/db-utwente-40501F46.pdf)
+* [ ] [Streaming Combinators and Extracting Flat Parallelism](http://futhark-lang.org/blog/2017-06-25-futhark-at-pldi.html)
 * [x] [Writing Video Games in a Functional Style](http://prog21.dadgum.com/228.html)
     <br>A collection of articles exploring the implementation of arcade games and their game state and game loops in a functional style.
 * [ ] ? 📕 Modeling Data with Functional Programming in R
@@ -63,6 +64,8 @@ These are my recommended resources to start with, if you are planning to go down
 * [x] [The Fun of Programming • Ch. 7 Functional Images](http://conal.net/papers/functional-images/fop-conal.pdf)
     <br>Creating visual patterns with math based on transformation functions. Great example of how composing small components can yield complex effects.
 * [ ] [Haskell/Understanding monads/State](https://en.wikibooks.org/wiki/Haskell/Understanding_monads/State)
+* [ ] [Duality for Haskellers](http://blog.ezyang.com/2012/10/duality-for-haskellers/)
+* [ ] [Flipping arrows in coBurger King](http://blog.ezyang.com/2010/07/flipping-arrows-in-coburger-king/)
 * [ ] [📺 (1h:30m) C++Now 2017: Ryan Newton "Haskell taketh away: limiting side effects for parallel programming"](https://www.youtube.com/watch?v=lC5UWG5N8oY)
 * [ ] [Code Us Some Roguelike in Haskell (Part 2)](http://jamiltron.com/2012/07/Code_Us_Some_Roguelike2.html)
 * [ ] [Haskell Communities and Activities Report • 32nd Ed. May 2017](https://www.haskell.org/communities/05-2017/html/report.html)
@@ -105,6 +108,7 @@ These are my recommended resources to start with, if you are planning to go down
     <br>Deep dive into performance characteristics of Swift Collection types.
 * [ ] [Swift 4 Decodable: Beyond The Basics](https://medium.com/swiftly-swift/swift-4-decodable-beyond-the-basics-990cc48b7375)
 * [ ] [Apple Swift Ownership Manifesto](https://github.com/apple/swift/blob/master/docs/OwnershipManifesto.md)
+* [ ] [Highlights from Realm Live at WWDC and AltConf](https://news.realm.io/news/realm-live-at-wwdc-and-altconf/)
 
 ### Functional Patterns to Manage Complexity
 * [x] [💡 📺 (60m) Gabriel Gonzales: Applied category theory and abstract algebra - λC Winter Retreat 2017](https://www.youtube.com/watch?v=WsA7GtUQeB8)
@@ -277,6 +281,7 @@ Resources
 
 Resources
 * [Awesome Generative Art](https://github.com/kosmos/awesome-generative-art/blob/master/readme.md)
+* [openframe — a platform for displaying digital art](https://openframe.io)
 
 ### Graphics Programming
 * [ ] [📺 (90m) Principles of Lighting and Rendering with John Carmack](https://www.youtube.com/watch?v=IyUgHPs86XM)
@@ -290,6 +295,7 @@ Resources
 * [ ] [Working with memory in Metal](http://metalkit.org/2017/04/30/working-with-memory-in-metal.html)
 * [ ] [Working with memory in Metal part 2](http://metalkit.org/2017/05/26/working-with-memory-in-metal-part-2.html)
 * [ ] [GCN Execution Patterns in Full Screen Passes](https://michaldrobot.com/2014/04/01/gcn-execution-patterns-in-full-screen-passes/)
+* [ ] [Hylogen — a language embedded in Haskell for live-coding WebGL fragment shaders](https://hylogen.com)
 * TODO: Add resources from note "DataViz & Generative Art"
 
 ----
