@@ -63,6 +63,7 @@ These are my recommended resources to start with, if you are planning to go down
     <br>Explains monads coming from category theory. This is only helpful if you enjoy the math a lot.
 * [x] [The Fun of Programming • Ch. 7 Functional Images](http://conal.net/papers/functional-images/fop-conal.pdf)
     <br>Creating visual patterns with math based on transformation functions. Great example of how composing small components can yield complex effects.
+* [ ] [📺 (45m) Sandy Maguire: Don't Eff It Up: Free Monads in Action](https://www.youtube.com/watch?v=gUPuWHAt6SA)
 * [ ] [Haskell/Understanding monads/State](https://en.wikibooks.org/wiki/Haskell/Understanding_monads/State)
 * [ ] [Duality for Haskellers](http://blog.ezyang.com/2012/10/duality-for-haskellers/)
 * [ ] [Flipping arrows in coBurger King](http://blog.ezyang.com/2010/07/flipping-arrows-in-coburger-king/)
