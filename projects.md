@@ -4,6 +4,7 @@ List of things I started (and likely didn't finish) at RC.
 
 
 ## hTron
+![hTron screenshot](images/hTron.png)
 Simple terminal-based multiplayer game based on [an old arcade game for the Commodore 64](https://github.com/mist64/ultimatetron2).
 I started implementing the game logic in a purely functional style in Haskell to learn the language and have a more exciting project than the usual chapter exercises. There are some hSpec tests for the core game logic from a few TDD sessions.
 Currently it's fewer than 200 lines of Haskell code written by a Haskell beginner and likely easy to understand for people interested in learning Haskell / functional programming.
@@ -22,6 +23,7 @@ Other ideas around this:
 
 
 ## glimpse
+![glimpse in Xcode](images/glimpse.png)
 An AST for GLSL to create fragment shaders in a Swift-based eDSL. Ultimately the idea is to prototype editing an AST directly with tree transformations and visual programming + gestures.
 Currently there's just a Swift Playground with a few basic structures that represent GLSL expressions and statements and generate GLSL code for a very simple example shader taken from [The Book of Shaders](http://thebookofshaders.com).
 
@@ -32,6 +34,7 @@ Next steps:
 
 
 ## sdFont
+![sdFont in Xcode](images/sdFont.png)
 Rendering resolution-independent fonts using signed distance fields. Intrigued by an article about [using signed distance fields for font rendering in games](http://metalbyexample.com/rendering-text-in-metal-with-signed-distance-fields/) I started implementing the technique to eventually use it for a highly-efficient terminal and/or text editor consuming very little resources and still rendering gorgeous fonts in high resolution.
 
 Next steps:
@@ -40,6 +43,7 @@ Next steps:
 * Swap signed distance field conversion algorithm to a [faster one](http://fab.cba.mit.edu/classes/S62.12/docs/Meijster_distance.pdf)
 
 ## Better Touch-Screen Controls
+![touch demo in Safari](images/touch.png)
 Web-based experiment to prototype gesture-based interaction for a platformer game that goes beyond virtual joysticks and single-tap + autorun. Read more about my motivation for this [here](https://github.com/stefanlesser/recurse/blob/master/manifesto2017.md#invent-better-touch-screen-controls).
 I started this project a while ago before I came to RC and would be interested in moving it to PureScript and use it as another project to practice functional design and programming.
 
