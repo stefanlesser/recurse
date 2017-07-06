@@ -67,9 +67,13 @@ These are my recommended resources to start with, if you are planning to go down
 * [ ] [Haskell/Understanding monads/State](https://en.wikibooks.org/wiki/Haskell/Understanding_monads/State)
 * [ ] [Duality for Haskellers](http://blog.ezyang.com/2012/10/duality-for-haskellers/)
 * [ ] [Flipping arrows in coBurger King](http://blog.ezyang.com/2010/07/flipping-arrows-in-coburger-king/)
-* [ ] [📺 (1h:30m) C++Now 2017: Ryan Newton "Haskell taketh away: limiting side effects for parallel programming"](https://www.youtube.com/watch?v=lC5UWG5N8oY)
+* [x] [📺 (1h:30m) C++Now 2017: Ryan Newton "Haskell taketh away: limiting side effects for parallel programming"](https://www.youtube.com/watch?v=lC5UWG5N8oY)
+    <br>Fascinating look into the direction and development of Haskell.
+* [ ] [📺 (45m) Manuel Chakravarty - Haskell SpriteKit: A Case Study in Turning a Stateful into a Functional API](https://www.youtube.com/watch?v=H_z4NKvxf1U&app=desktop)
+* [ ] [Introduction to brick, a Haskell library for building terminal user interfaces](https://samtay.github.io/articles/brick.html)
 * [ ] [Code Us Some Roguelike in Haskell (Part 2)](http://jamiltron.com/2012/07/Code_Us_Some_Roguelike2.html)
 * [ ] [Haskell Communities and Activities Report • 32nd Ed. May 2017](https://www.haskell.org/communities/05-2017/html/report.html)
+* [ ] [📺 (60m) Fastware - Andrei Alexandrescu](https://www.youtube.com/watch?v=o4-CwDo2zpg)
 * [ ] [📕 Real World Haskell • Bryan O'Sullivan, Don Stewart, and John Goerzen](http://book.realworldhaskell.org/read/)
     <br>This book promises to teach more practical Haskell, which makes it a welcome alternative to all the academic books out there. *Haven't read it yet, so I don't know if that's true.*
 * [ ] [📕 Purely Functional Data Structures](https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf)
@@ -104,14 +108,22 @@ These are my recommended resources to start with, if you are planning to go down
     <br>Extends the knowledge about semigroups and monoids to introduce predicate and sorting functions.
 * [x] [📺 (30m) Brandon Williams - Lenses in Swift](https://www.youtube.com/watch?v=ofjehH9f-CU)
     <br>Using lenses and prisms to create getters and setters for immutable values.
+* [x] [An aside about flatMap and monads](https://www.cocoawithlove.com/blog/an-aside-about-flatmap-and-monads.html)
+    <br>Practical notes on Monads in Swift and Haskell, and how Swift's flatMap sometimes is a proper monad and sometimes isnt't (and why that's totally fine).
+* [x] [Composable HTML Views in Swift](http://www.fewbutripe.com/swift/html/dsl/2017/06/29/composable-html-views-in-swift.html)
+    <br>Improving an eDSL for generating HTML in Swift with the powers of abstract algebra in form of Monoids.
 * [ ] [Loose coupling using default implementations in protocol extensions](http://www.apokrupto.com/blog-1/2017/5/16/default-protocol-extensions-for-loose-coupling)
 * [ ] [Optimizing Swift Collections • Károly Lőrentey at dotSwift 2017](https://www.dotconferences.com/2017/01/karoly-lorentey-optimizing-swift-collections)
     <br>Deep dive into performance characteristics of Swift Collection types.
 * [ ] [Swift 4 Decodable: Beyond The Basics](https://medium.com/swiftly-swift/swift-4-decodable-beyond-the-basics-990cc48b7375)
+* [ ] [JSON with Encoder and Encodable](https://swiftunboxed.com/stdlib/json-encoder-encodable/)
 * [ ] [Apple Swift Ownership Manifesto](https://github.com/apple/swift/blob/master/docs/OwnershipManifesto.md)
 * [ ] [Highlights from Realm Live at WWDC and AltConf](https://news.realm.io/news/realm-live-at-wwdc-and-altconf/)
 * [ ] [iOS Simulator Power Ups](https://medium.com/the-traveled-ios-developers-guide/ios-simulator-power-ups-407060863b3c)
 * [ ] [How we cut our iOS app’s launch time in half](https://blog.automatic.com/how-we-cut-our-ios-apps-launch-time-in-half-with-this-one-cool-trick-7aca2011e2ea)
+* [ ] [The Elm Architecture in Swift](https://github.com/chriseidhof/tea-in-swift)
+* [ ] [📺 Writing Your UI Swiftly](https://news.realm.io/news/sommer-panage-writing-your-ui-swiftly/)
+* [ ] [My Development Toolset 2017 for iOS](https://medium.com/ios-os-x-development/my-development-toolset-2017-for-ios-7c0758e3e5ce)
 
 ### Functional Patterns to Manage Complexity
 * [x] [💡 📺 (60m) Gabriel Gonzales: Applied category theory and abstract algebra - λC Winter Retreat 2017](https://www.youtube.com/watch?v=WsA7GtUQeB8)
@@ -121,9 +133,10 @@ These are my recommended resources to start with, if you are planning to go down
 * [x] [💡 Modern Functional Programming: Part 2](http://degoes.net/articles/modern-fp-part-2)
     <br>John edited his thoughts in part 1 into a more coherent and clear picture in this article and gives a glimpse into the future of programming by combining interpreters for different DSLs.
 * [ ] [📺 (45m) Sandy Maguire: Don't Eff It Up: Free Monads in Action](https://www.youtube.com/watch?v=gUPuWHAt6SA)
-* [ ] [📺 (40m) John A De Goes: MTL Versus Free Deathmatch - λC 2016](https://www.youtube.com/watch?v=JLevNswzYh8)
-    <br>*Conference talk about his "Modern Functional Programming: Part 2" article*
-* [ ] [📺 (1h:15m) John DeGoes: Beyond Free Monads - λC Winter Retreat 2017](https://www.youtube.com/watch?v=A-lmrvsUi2Y)
+* [x] [📺 (40m) John A De Goes: MTL Versus Free Deathmatch - λC 2016](https://www.youtube.com/watch?v=JLevNswzYh8)
+    <br>Fun talk diving deeper into John's thoughts about the future of programming with abstract functional structures generating and manipulating the program before it's being executed.
+* [x] [📺 (1h:15m) John DeGoes: Beyond Free Monads - λC Winter Retreat 2017](https://www.youtube.com/watch?v=A-lmrvsUi2Y)
+    <br>More thoughts about John's vision of programming with absctract functional concepts and why we need a better programming language to actually make that future happen.
 
 ----
 
@@ -280,6 +293,8 @@ Resources
 * [ ] [How Unexplored generates great roguelike dungeons](https://www.rockpapershotgun.com/2017/03/10/how-unexplored-generates-great-roguelike-dungeons/)
 * [ ] [A Logical Approach to Building Dungeons: Answer Set Programming for Hierarchical Procedural Content Generation in Roguelike Games](http://doc.gold.ac.uk/aisb50/AISB50-S02/AISB50-S2-Smith-paper.pdf)
 * [ ] [Representing Game Dialogue as Expressions in First-Order Logic](http://ir.lib.uwo.ca/cgi/viewcontent.cgi?article=2646&context=etd)
+* [ ] ? [Data structure for triangle meshes](http://www.redblobgames.com/x/1722-b-rep-triangle-meshes/)
+* [ ] ? [Procedural river drainage basins](http://www.redblobgames.com/x/1723-procedural-river-growing/)
 * [ ] 📕 Procedural Generation in Games
 
 Resources
@@ -334,8 +349,6 @@ Resources
 
 ## Other interesting stuff
 * [x] [The Dark Secret at the Heart of AI](https://www.technologyreview.com/s/604087/the-dark-secret-at-the-heart-of-ai/)
-* [ ] [📺 Writing Your UI Swiftly](https://news.realm.io/news/sommer-panage-writing-your-ui-swiftly/)
-* [ ] [My Development Toolset 2017 for iOS](https://medium.com/ios-os-x-development/my-development-toolset-2017-for-ios-7c0758e3e5ce)
 
 Reference
 * [programmingtalks.org](https://www.programmingtalks.org)
