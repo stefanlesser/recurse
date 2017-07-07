@@ -104,6 +104,7 @@ These are my recommended resources to start with, if you are planning to go down
 * [x] [Composable HTML Views in Swift](http://www.fewbutripe.com/swift/html/dsl/2017/06/29/composable-html-views-in-swift.html)
     <br>Improving an eDSL for generating HTML in Swift with the powers of abstract algebra in form of Monoids.
 * [ ] [Loose coupling using default implementations in protocol extensions](http://www.apokrupto.com/blog-1/2017/5/16/default-protocol-extensions-for-loose-coupling)
+* [ ] [Data Sources in Swift… or how to avoid that this new trendy persistence framework determines the architecture of your App](https://medium.com/@dcordero/data-sources-in-swift-or-how-to-avoid-that-this-new-trendy-persistency-framework-determines-the-5472fcb75eda)
 * [ ] [📺 (20m) Optimizing Swift Collections • Károly Lőrentey at dotSwift 2017](https://www.dotconferences.com/2017/01/karoly-lorentey-optimizing-swift-collections)
     <br>Deep dive into performance characteristics of Swift Collection types.
 * [ ] [Apple Swift Ownership Manifesto](https://github.com/apple/swift/blob/master/docs/OwnershipManifesto.md)
@@ -311,6 +312,7 @@ Resources
 
 Resources
 * [Awesome Generative Art](https://github.com/kosmos/awesome-generative-art/blob/master/readme.md)
+* [Awesome Creative Coding](https://github.com/terkelg/awesome-creative-coding)
 * [openframe — a platform for displaying digital art](https://openframe.io)
 
 ### Graphics Programming
