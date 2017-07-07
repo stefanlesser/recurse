@@ -163,6 +163,7 @@ These are my recommended resources to start with, if you are planning to go down
 * [x] [Write Yourself a Scheme in 48 Hours](https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours)
     <br>With basic Haskell knowledge this course is quick and easy to get into, but it also doesn't explain concepts very extensively.
 * [ ] [Building a LISP from scratch with Swift](https://www.uraimo.com/2017/02/05/building-a-lisp-from-scratch-with-swift/)
+* [ ] [A simple LISP interpreter written in Swift](https://github.com/hollance/BuildYourOwnLispInSwift)
 * [ ] [Implementing a JIT Compiled Language with Haskell and LLVM](http://www.stephendiehl.com/llvm/)
 * [ ] ? [📕 Crafting Interpreters - A handbook for making programming languages • Bob Nystrom](http://www.craftinginterpreters.com)
     <br>Promising book currently in development. This might become the most approachable guide to writing interpreters and compilers. Unfortunately, it's not even halfway done yet.
@@ -187,10 +188,13 @@ These are my recommended resources to start with, if you are planning to go down
 * [x] [Types for anyone who knows a programming language](https://www.destroyallsoftware.com/compendium/types/baf6b67369843fa2)
     - Introduction to and overview of several different type systems in popular programming languages.
 * [ ] [The memory models that underlie programming languages • canonical.org](http://canonical.org/~kragen/memory-models/)
+* [ ] [Monadic Parsers: Implementing a micro Parsec](http://olenhad.me/articles/monadic-parsers/)
 * [ ] [Swift Talk #13 Parsing Techniques](https://talk.objc.io/episodes/S01E13-parsing-techniques)
 * [ ] [Parsing context-sensitive languages with Applicative](https://byorgey.wordpress.com/2012/01/05/parsing-context-sensitive-languages-with-applicative/)
 * [ ] [📺 (45m) Modelica: Component Oriented Modeling of Physical Systems" by Michael Tiller](https://www.youtube.com/watch?v=-mvEUuc-sWE)
 * [ ] [📺 (45m) Ceptre: A Language for Modeling Generative Interactive Systems" by Chris Martens](https://www.youtube.com/watch?v=bFeJZRdhKcI)
+* [x] [A Tutorial Explaining LALR(1) Parsing](https://web.cs.dal.ca/~sjackson/lalr1.html)
+    <br>Detailed walk-through of how to implement a parser based on a bottom-up approach.
 * [x] [Earley Parsing Explained](http://loup-vaillant.fr/tutorials/earley-parsing/)
     - In-depth walk-through of how Early parsing works. Code samples in Lua.
 * [ ] [Bounded Seas — Island Parsing Without Shipwrecks](http://scg.unibe.ch/archive/papers/Kurs14b-BoundedSeas.pdf)
