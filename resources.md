@@ -26,14 +26,10 @@ These are my recommended resources to start with, if you are planning to go down
     <br>The first two secions *Basics* and *Monads* are packed with great practical tips and a solid foundation for understanding monads, an abstract concept that shows up everywhere in Haskell and functional programming.
 
 ### General
-* [x] [The future of software, the end of apps, and why UX designers should care about type theory](https://pchiusano.github.io/2013-05-22/future-of-software.html)
-    <br>Paints an interesting picture of a world where composing components is much simpler and instead of apps that have been put together by developers, regular users are able to compose service components to do what they want them to do.
 * [x] [The Unofficial Guide to Rich Hickey's Brain](http://www.flyingmachinestudios.com/programming/the-unofficial-guide-to-rich-hickeys-brain/)
     <br>Contrasts Object-Oriented Programming with Functional Programming and explains the "fundamental flaws' of accidential complexity in OOP that FP allows us to deal with in a better way.
 * [x] [📺 (60m) "I See What You Mean" by Peter Alvaro](https://www.youtube.com/watch?v=R2Aa4PivG0g)
     <br>Entertaining presentation about modeling state with declarative languages. Many applicable concepts although it is understandably a little heavy on the relational language this talk is about.
-* [x] [📺 (60m) Category Theory for the Working Hacker by Philip Wadler](https://www.youtube.com/watch?v=V10hzjgoklA)
-    <br>If you want to take it an abstraction level higher, this surprisingly entertaining talk explains the math behind lambda calculus called category theory.
 * [x] [From Higher-Order Functions to Libraries And Frameworks](http://raganwald.com/2016/12/15/what-higher-order-functions-can-teach-us-about-libraries-and-frameworks.html)
     <br>How higher-order functions influence the expressiveness and complexity of programs. This is part 1 of a series of 3 articles.
 * [x] [Functional Programming is taking over UIs with Pure Views](https://medium.freecodecamp.com/the-revolution-of-pure-views-aed339db7da4)
@@ -44,8 +40,6 @@ These are my recommended resources to start with, if you are planning to go down
     <br>By replacing conditionals with lambdas, we can invert control and make our code both easier to reason about and more generic. Moving conditionals from places hidden in the deepest nested function up to the caller makes intent clear and prevents mistakes.
 * [ ] [Functional Programming with Bananas, Lenses, Envelopes and Barbed Wire](http://eprints.eemcs.utwente.nl/7281/01/db-utwente-40501F46.pdf)
 * [ ] [Streaming Combinators and Extracting Flat Parallelism](http://futhark-lang.org/blog/2017-06-25-futhark-at-pldi.html)
-* [x] [Writing Video Games in a Functional Style](http://prog21.dadgum.com/228.html)
-    <br>A collection of articles exploring the implementation of arcade games and their game state and game loops in a functional style.
 * [ ] ? 📕 Modeling Data with Functional Programming in R
 
 ### Haskell
@@ -57,31 +51,28 @@ These are my recommended resources to start with, if you are planning to go down
 * [x] [Queer Types - Applicatives and Alternatives](https://queertypes.com/posts/59-applicatives-alternatives.html)
     <br>Practical introduction into how applicatives (and alternatives, which build on it) can be used.
 * [x] [Foldable and Traversable](https://blog.jakuba.net/2014/07/30/foldable-and-traversable.html)
-* [x] [Haskell/Category theory](https://en.wikibooks.org/wiki/Haskell/Category_theory)
-    <br>After being familiar with using functors, monoids, and monads in Haskell, this article introduces just enough category theory to understand the maths behind those concepts.
-* [x] [Monads Made Difficult](http://www.stephendiehl.com/posts/monads.html)
-    <br>Explains monads coming from category theory. This is only helpful if you enjoy the math a lot.
-* [x] [The Fun of Programming • Ch. 7 Functional Images](http://conal.net/papers/functional-images/fop-conal.pdf)
-    <br>Creating visual patterns with math based on transformation functions. Great example of how composing small components can yield complex effects.
-* [ ] [📺 (45m) Sandy Maguire: Don't Eff It Up: Free Monads in Action](https://www.youtube.com/watch?v=gUPuWHAt6SA)
-* [ ] [Haskell/Understanding monads/State](https://en.wikibooks.org/wiki/Haskell/Understanding_monads/State)
-* [ ] [Duality for Haskellers](http://blog.ezyang.com/2012/10/duality-for-haskellers/)
-* [ ] [Flipping arrows in coBurger King](http://blog.ezyang.com/2010/07/flipping-arrows-in-coburger-king/)
+* [x] [Haskell/Understanding monads/State](https://en.wikibooks.org/wiki/Haskell/Understanding_monads/State)
 * [x] [📺 (1h:30m) C++Now 2017: Ryan Newton "Haskell taketh away: limiting side effects for parallel programming"](https://www.youtube.com/watch?v=lC5UWG5N8oY)
     <br>Fascinating look into the direction and development of Haskell.
-* [ ] [📺 (45m) Manuel Chakravarty - Haskell SpriteKit: A Case Study in Turning a Stateful into a Functional API](https://www.youtube.com/watch?v=H_z4NKvxf1U&app=desktop)
-* [ ] [Introduction to brick, a Haskell library for building terminal user interfaces](https://samtay.github.io/articles/brick.html)
-* [ ] [Code Us Some Roguelike in Haskell (Part 2)](http://jamiltron.com/2012/07/Code_Us_Some_Roguelike2.html)
-* [ ] [Haskell Communities and Activities Report • 32nd Ed. May 2017](https://www.haskell.org/communities/05-2017/html/report.html)
 * [ ] [📺 (60m) Fastware - Andrei Alexandrescu](https://www.youtube.com/watch?v=o4-CwDo2zpg)
+* [ ] ? [EdX course: Introduction to Functional Programming (via Haskell)](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0)
+* [ ] ? [Haskell Communities and Activities Report • 32nd Ed. May 2017](https://www.haskell.org/communities/05-2017/html/report.html)
+
+#### Practical Haskell
 * [ ] [📕 Real World Haskell • Bryan O'Sullivan, Don Stewart, and John Goerzen](http://book.realworldhaskell.org/read/)
     <br>This book promises to teach more practical Haskell, which makes it a welcome alternative to all the academic books out there. *Haven't read it yet, so I don't know if that's true.*
 * [ ] [📕 Purely Functional Data Structures](https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf)
 * [ ] [📕 Parallel and Concurrent Programming in Haskell](http://chimera.labs.oreilly.com/books/1230000000929/index.html)
     <br>This book get mentioned and referred to a lot, surprisingly not just for topics around the book's title.
-* [ ] ? [EdX course: Introduction to Functional Programming (via Haskell)](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0)
+* [x] [The Fun of Programming • Ch. 7 Functional Images](http://conal.net/papers/functional-images/fop-conal.pdf)
+    <br>Creating visual patterns with math based on transformation functions. Great example of how composing small components can yield complex effects.
+* [ ] [📺 (45m) Manuel Chakravarty - Haskell SpriteKit: A Case Study in Turning a Stateful into a Functional API](https://www.youtube.com/watch?v=H_z4NKvxf1U&app=desktop)
+* [ ] [Introduction to brick, a Haskell library for building terminal user interfaces](https://samtay.github.io/articles/brick.html)
+* [x] [Writing Video Games in a Functional Style](http://prog21.dadgum.com/228.html)
+    <br>A collection of articles exploring the implementation of arcade games and their game state and game loops in a functional style.
+* [ ] [Code Us Some Roguelike in Haskell (Part 2)](http://jamiltron.com/2012/07/Code_Us_Some_Roguelike2.html)
 
-#### Resources
+#### Haskell Resources
 * [Haskell Wiki](https://wiki.haskell.org/)
 * [Hoogle](https://www.haskell.org/hoogle/) — Enter a type signature and it will find you matching functions
 * [Hayoo](http://hayoo.fh-wedel.de/) — Same but with support for third-party packages
@@ -113,19 +104,36 @@ These are my recommended resources to start with, if you are planning to go down
 * [x] [Composable HTML Views in Swift](http://www.fewbutripe.com/swift/html/dsl/2017/06/29/composable-html-views-in-swift.html)
     <br>Improving an eDSL for generating HTML in Swift with the powers of abstract algebra in form of Monoids.
 * [ ] [Loose coupling using default implementations in protocol extensions](http://www.apokrupto.com/blog-1/2017/5/16/default-protocol-extensions-for-loose-coupling)
-* [ ] [Optimizing Swift Collections • Károly Lőrentey at dotSwift 2017](https://www.dotconferences.com/2017/01/karoly-lorentey-optimizing-swift-collections)
+* [ ] [📺 (20m) Optimizing Swift Collections • Károly Lőrentey at dotSwift 2017](https://www.dotconferences.com/2017/01/karoly-lorentey-optimizing-swift-collections)
     <br>Deep dive into performance characteristics of Swift Collection types.
-* [ ] [Swift 4 Decodable: Beyond The Basics](https://medium.com/swiftly-swift/swift-4-decodable-beyond-the-basics-990cc48b7375)
-* [ ] [JSON with Encoder and Encodable](https://swiftunboxed.com/stdlib/json-encoder-encodable/)
 * [ ] [Apple Swift Ownership Manifesto](https://github.com/apple/swift/blob/master/docs/OwnershipManifesto.md)
+* [ ] [The Elm Architecture in Swift](https://github.com/chriseidhof/tea-in-swift)
+
+#### Practical Swift
 * [ ] [Highlights from Realm Live at WWDC and AltConf](https://news.realm.io/news/realm-live-at-wwdc-and-altconf/)
 * [ ] [iOS Simulator Power Ups](https://medium.com/the-traveled-ios-developers-guide/ios-simulator-power-ups-407060863b3c)
+* [ ] [Swift 4 Decodable: Beyond The Basics](https://medium.com/swiftly-swift/swift-4-decodable-beyond-the-basics-990cc48b7375)
+* [ ] [JSON with Encoder and Encodable](https://swiftunboxed.com/stdlib/json-encoder-encodable/)
 * [ ] [How we cut our iOS app’s launch time in half](https://blog.automatic.com/how-we-cut-our-ios-apps-launch-time-in-half-with-this-one-cool-trick-7aca2011e2ea)
-* [ ] [The Elm Architecture in Swift](https://github.com/chriseidhof/tea-in-swift)
 * [ ] [📺 Writing Your UI Swiftly](https://news.realm.io/news/sommer-panage-writing-your-ui-swiftly/)
 * [ ] [My Development Toolset 2017 for iOS](https://medium.com/ios-os-x-development/my-development-toolset-2017-for-ios-7c0758e3e5ce)
 
+### Category Theory
+* [x] [Haskell/Category theory](https://en.wikibooks.org/wiki/Haskell/Category_theory)
+    <br>After being familiar with using functors, monoids, and monads in Haskell, this article introduces just enough category theory to understand the maths behind those concepts.
+* [x] [📺 (60m) Category Theory for the Working Hacker by Philip Wadler](https://www.youtube.com/watch?v=V10hzjgoklA)
+    <br>If you want to take it an abstraction level higher, this surprisingly entertaining talk explains the math behind lambda calculus called category theory.
+* [x] [Monads Made Difficult](http://www.stephendiehl.com/posts/monads.html)
+    <br>Explains monads coming from category theory. This is only helpful if you enjoy the math a lot.
+* [x] [Duality for Haskellers](http://blog.ezyang.com/2012/10/duality-for-haskellers/)
+    <br>Explains the concept of duality in category theory using sum/product, top/bottom, and fold/unfold on lists.
+* [x] [Flipping arrows in coBurger King](http://blog.ezyang.com/2010/07/flipping-arrows-in-coburger-king/)
+    <br>Explains co-monad and duality and the concept of "flipping arrows" in category theory.
+* [x] [Data and Codata](http://blog.sigfpe.com/2007/07/data-and-codata.html)
+
 ### Functional Patterns to Manage Complexity
+* [x] [💡 The future of software, the end of apps, and why UX designers should care about type theory](https://pchiusano.github.io/2013-05-22/future-of-software.html)
+    <br>Paints an interesting picture of a world where composing components is much simpler and instead of apps that have been put together by developers, regular users are able to compose service components to do what they want them to do.
 * [x] [💡 📺 (60m) Gabriel Gonzales: Applied category theory and abstract algebra - λC Winter Retreat 2017](https://www.youtube.com/watch?v=WsA7GtUQeB8)
     <br>"[We can] tackle software complexity by reusing standard interfaces that originate in the fields of category theory and abstract algebra." Builds understanding for composition going from composable functions to composable values (monoids) to composable types (applicatives) and shows how powerful these concepts are to decompose programs into simple building blocks.
 * [x] [💡 A Modern Architecture for FP](http://degoes.net/articles/modern-fp)
@@ -270,7 +278,7 @@ d3
 * [x] [Making of: Line drawing on a grid](http://www.redblobgames.com/making-of/line-drawing/)
 * [x] [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
     - An awesome animated introduction into machine learning concepts implemented with d3.js. Scroll your way through the explanations and see them visualized and animated next to the text while your reading. A great way to publish a presentation-like publication.
-* [ ] [Eyeo 2013 - Bill Atkinson](https://vimeo.com/70630277) — *This is likely not realted to d3 or DataViz at all, but I'll leave it here until I find out.*
+* [ ] [📺 (45m) Eyeo 2013 - Bill Atkinson](https://vimeo.com/70630277) — *This is likely not realted to d3 or DataViz at all, but I'll leave it here until I find out.*
 
 Resources
 * [Distill](http://distill.pub) — Presents machine learning research in clear, dynamic and vivid ways.
