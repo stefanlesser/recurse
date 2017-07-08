@@ -221,11 +221,20 @@ Resources
 ----
 
 ## Try (functional) reactive programming with RxSwift and/or React.js
-* [ ] [📺 Everyday Reactive](https://news.realm.io/news/everyday-reactive/)
+* [x] [📺 (25m) Everyday Reactive](https://news.realm.io/news/everyday-reactive/)
+    <br>Quick introduction in reactive programming with pros and cons and pointers to frameworks and resources.
+* [ ] [ (35m) Justin Spahr-Summers • Enemy of the State](https://m.youtube.com/watch?v=7AqXBuJOJkY)
+* [ ] [Josh Abernathy • Better Code for a Better World](https://speakerdeck.com/joshaber/better-code-for-a-better-world)
 * [ ] [What is reactive programming and why should I use it?](https://www.cocoawithlove.com/blog/reactive-programming-what-and-why.html)
 * [ ] [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 * [ ] [Reactive programming from scratch](http://www.thomasvisser.me/2016/11/28/reactive-from-scratch/)
 * [ ] [Do-It-Yourself Functional Reactive Programming](https://speakerdeck.com/mchakravarty/do-it-yourself-functional-reactive-programming)
+
+Frameworks
+* [Bond](https://github.com/ReactiveKit/Bond)
+* [RxSwift](https://github.com/ReactiveX/RxSwift)
+* [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa)
+* [CwlSignal](https://github.com/mattgallagher/CwlSignal)
 
 ----
 
