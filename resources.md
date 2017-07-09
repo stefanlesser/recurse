@@ -47,7 +47,7 @@ These are my recommended resources to start with, if you are planning to go down
 ### Haskell
 * [x] [Learn Haskell the hard way](http://yannesposito.com/Scratch/en/blog/Haskell-the-Hard-Way)
     <br>Just as promised in the title, an introduction to Haskell from zero to monads in a rather short article. I don't think this is a good tutorial to start with, but after reading about the concepts in other places, the additional examples and different ways of explaining monads in this article are very helpful.
-* [x] [💡 What is practical use of monoids?](https://stackoverflow.com/questions/26230530/what-is-practical-use-of-monoids)
+* [x] [💡 Scalable program architectures](http://www.haskellforall.com/2014/04/scalable-program-architectures.html)
     <br>Explains the core concept of composition with monoids: combine several components together of type A to generate a new component of the same type A, indistinguishable in character from its substituent parts. These abstractions scale limitlessly because they always preserve combinability, therefore we never need to layer further abstractions on top.
 * [x] [💡 The category design pattern](http://www.haskellforall.com/2012/08/the-category-design-pattern.html)
 * [x] [💡 The functor design pattern](http://www.haskellforall.com/2012/09/the-functor-design-pattern.html)
@@ -60,6 +60,7 @@ These are my recommended resources to start with, if you are planning to go down
 * [ ] [Equational reasoning at scale](http://www.haskellforall.com/2014/07/equational-reasoning-at-scale.html)
 * [x] [📺 (1h:30m) C++Now 2017: Ryan Newton "Haskell taketh away: limiting side effects for parallel programming"](https://www.youtube.com/watch?v=lC5UWG5N8oY)
     <br>Fascinating look into the direction and development of Haskell.
+* [ ] [📺 Tangible Functional Programming](http://youtube.com/)
 * [ ] [📺 (60m) Fastware - Andrei Alexandrescu](https://www.youtube.com/watch?v=o4-CwDo2zpg)
 * [ ] ? [EdX course: Introduction to Functional Programming (via Haskell)](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0)
 * [ ] ? [Haskell Communities and Activities Report • 32nd Ed. May 2017](https://www.haskell.org/communities/05-2017/html/report.html)
@@ -83,6 +84,12 @@ These are my recommended resources to start with, if you are planning to go down
 * [Hoogle](https://www.haskell.org/hoogle/) — Enter a type signature and it will find you matching functions
 * [Hayoo](http://hayoo.fh-wedel.de/) — Same but with support for third-party packages
 * [Vim and Haskell in 2016](http://www.stephendiehl.com/posts/vim_2016.html) — How to set up your dev env with vim for Haskell
+
+### PureScript
+* [x] [📺 Luka Jacobowitz - Reactive Programming in the Browser with Scala.js and PureScript](https://m.youtube.com/watch?v=pE-3bg31Jlo)
+* [x] [📺 Intro to PureScript - Utah Haskell Meetup](https://m.youtube.com/watch?v=9a57V3bvzaI)
+* [x] [📺 PureScript & Pux ~ Front End Authority (Oct 2016)](https://youtu.be/NmT5-j3-xzg)
+* [x] [Pux](http://purescript-pux.org)
 
 ### Swift
 * [x] [📺 (45m) Brandon Williams - Finding Happiness in Functional Programming](https://www.youtube.com/watch?v=A0VaIKK2ijM)
@@ -219,24 +226,13 @@ Resources
 
 ----
 
-## Brush up my knowledge about (graph) data structures and algorithms
-* TODO: add resources from reading list and iBooks
-
-### Conflict-Free Replicated Data Types (CRDT)
-* [ ] [Conflict-free replicated data type](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type)
-* [ ] [A Look at Conflict-Free Replicated Data Types (CRDT)](https://medium.com/@istanbul_techie/a-look-at-conflict-free-replicated-data-types-crdt-221a5f629e7e)
-* [ ] [Conflict-free replicated data types](https://medium.com/@qt/a-brief-history-of-replicated-data-ab9dcf1671a0)
-* [ ] [Conflict-free Replicated Data Types](http://muratbuffalo.blogspot.com/2013/04/conflict-free-replicated-data-types.html)
-* [ ] [A comprehensive study of Convergent and Commutative Replicated Data Types](http://hal.upmc.fr/file/index/docid/555588/filename/techreport.pdf)
-* [Readings in conflict-free replicated data types](http://christophermeiklejohn.com/crdt/2014/07/22/readings-in-crdts.html)
-
-----
-
 ## Try (functional) reactive programming with RxSwift and/or React.js
 * [x] [📺 (25m) Everyday Reactive](https://news.realm.io/news/everyday-reactive/)
     <br>Quick introduction to reactive programming with pros and cons and pointers to frameworks and resources.
 * [x] [📺 (35m) Justin Spahr-Summers • Enemy of the State](https://m.youtube.com/watch?v=7AqXBuJOJkY)
     <br>Several arguments on why to minimize state and how to achieve that in Swift.
+* [x] [Read A Farewell to FRP](http://elm-lang.org/blog/farewell-to-frp)
+    <br>How elm is removing (hiding) the functional reactive programming patterns like streams, because they don't have to be exposed to create robust web apps.
 * [ ] [Josh Abernathy • Better Code for a Better World](https://speakerdeck.com/joshaber/better-code-for-a-better-world)
 * [ ] [What is reactive programming and why should I use it?](https://www.cocoawithlove.com/blog/reactive-programming-what-and-why.html)
 * [ ] [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
@@ -248,6 +244,21 @@ Frameworks
 * [RxSwift](https://github.com/ReactiveX/RxSwift)
 * [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa)
 * [CwlSignal](https://github.com/mattgallagher/CwlSignal)
+* [Cycle.js](https://cycle.js.org)
+* [elm — A delightful language for reliable webapps](http://elm-lang.org)
+
+----
+
+## Brush up my knowledge about (graph) data structures and algorithms
+* TODO: add resources from reading list and iBooks
+
+### Conflict-Free Replicated Data Types (CRDT)
+* [ ] [Conflict-free replicated data type](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type)
+* [ ] [A Look at Conflict-Free Replicated Data Types (CRDT)](https://medium.com/@istanbul_techie/a-look-at-conflict-free-replicated-data-types-crdt-221a5f629e7e)
+* [ ] [Conflict-free replicated data types](https://medium.com/@qt/a-brief-history-of-replicated-data-ab9dcf1671a0)
+* [ ] [Conflict-free Replicated Data Types](http://muratbuffalo.blogspot.com/2013/04/conflict-free-replicated-data-types.html)
+* [ ] [A comprehensive study of Convergent and Commutative Replicated Data Types](http://hal.upmc.fr/file/index/docid/555588/filename/techreport.pdf)
+* [Readings in conflict-free replicated data types](http://christophermeiklejohn.com/crdt/2014/07/22/readings-in-crdts.html)
 
 ----
 
@@ -302,6 +313,7 @@ d3
 * [ ] [Introducing d3-shape](https://medium.com/@mbostock/introducing-d3-shape-73f8367e6d12)
 * [ ] [SVGs beyond mere shapes](https://www.visualcinnamon.com/2016/04/svg-beyond-mere-shapes.html)
     - The 30 min video is a good introduction into the examples on the site.
+* [ ] [Hacking statistics or: How I Learned to Stop Worrying About Calculus and Love Stats Exercises (Part-2)](http://www.r-exercises.com/2017/07/08/hacking-statistics-exercises-part-2/)
 * [x] [Making of: Line drawing on a grid](http://www.redblobgames.com/making-of/line-drawing/)
 * [x] [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
     - An awesome animated introduction into machine learning concepts implemented with d3.js. Scroll your way through the explanations and see them visualized and animated next to the text while your reading. A great way to publish a presentation-like publication.
@@ -350,6 +362,7 @@ Resources
 * [ ] [Working with memory in Metal part 2](http://metalkit.org/2017/05/26/working-with-memory-in-metal-part-2.html)
 * [ ] [GCN Execution Patterns in Full Screen Passes](https://michaldrobot.com/2014/04/01/gcn-execution-patterns-in-full-screen-passes/)
 * [ ] [Hylogen — a language embedded in Haskell for live-coding WebGL fragment shaders](https://hylogen.com)
+* [ ] [GPU Performance for Game Artists](http://www.fragmentbuffer.com/gpu-performance-for-game-artists/)
 * TODO: Add resources from note "DataViz & Generative Art"
 
 ----
@@ -462,6 +475,10 @@ Bret Victor material I want to re-watch/read
 * [ ] [Sourcegraph: Code search + intelligence](https://about.sourcegraph.com)
 * [ ] [Human-Centered Programming Tools: Spring 2017 Class Readings](http://pgbovine.net/human-centered-programming-tools.htm)
 * [x] [Toby Schachman](http://tobyschachman.com)
+* [x] [The Three Projections of Doctor Futamura](http://blog.sigfpe.com/2009/05/three-projections-of-doctor-futamura.html)
+    <br>Explains the concept of abstracting over interpreters and compilers and generate specializers that emit interpreters and compilers.
+* [x] [Graal & Truffle](https://blog.plan99.net/graal-truffle-134d8f28fb69>)
+    <br>Research project to use Futamura projections to create new programming languages quicker which integrate into existing languages and platforms and still perform well.
 
 Resources
 * [Human Advancement Research Community](http://harc.ycr.org)
