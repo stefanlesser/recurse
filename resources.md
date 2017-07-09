@@ -16,6 +16,8 @@ These are my recommended resources to start with, if you are planning to go down
     <br>Good introduction on how you can practically use composition, lenses, (which are built on monoids, functors, applicatives, and monads) for nesting (composition), null checking (Maybe), error handling (Either), and accumulation (reduce) in JavaScript.
 * [x] [★ Getting started with Haskell • Stack Overflow](https://stackoverflow.com/questions/1012573/getting-started-with-haskell/1016986#1016986)
     <br>Gives you a high-level overview of what the journey of learning Haskell can look like. Several good pointers to articles and resources.
+* [x] [★ 📕 PureScript by Example](https://leanpub.com/purescript/read)
+    <br>PureScript's syntax and libraries are almost identical to Haskell's, and this book is much shorter and more practical. I'd recommend learning PureScript (and Haskell) by starting with this book.
 * [x] [★ 📕 Haskell Programming from First Principles](http://haskellbook.com)
     <br>Massive introduction into Haskell with lots of explanation and exercises. Some people find it too exhaustive, but I like this book much better than the free "Learn you a Haskell", although it's still very academic. It starts off with a very abstract introduction to lambda calculus, which I believe is an important basis to know about before diving into Haskell. It does make the first chapter a little strange — keep reading and don't judge the book until after chapter 2.
 * [x] [★ Monoids, Functors, Applicatives, and Monads: 10 Main Ideas](https://monadmadness.wordpress.com/2015/01/02/monoids-functors-applicatives-and-monads-10-main-ideas/)
@@ -45,6 +47,8 @@ These are my recommended resources to start with, if you are planning to go down
 ### Haskell
 * [x] [Learn Haskell the hard way](http://yannesposito.com/Scratch/en/blog/Haskell-the-Hard-Way)
     <br>Just as promised in the title, an introduction to Haskell from zero to monads in a rather short article. I don't think this is a good tutorial to start with, but after reading about the concepts in other places, the additional examples and different ways of explaining monads in this article are very helpful.
+* [x] [💡 What is practical use of monoids?](https://stackoverflow.com/questions/26230530/what-is-practical-use-of-monoids)
+    <br>Explains the core concept of composition with monoids: combine several components together of type A to generate a new component of the same type A, indistinguishable in character from its substituent parts. These abstractions scale limitlessly because they always preserve combinability, therefore we never need to layer further abstractions on top.
 * [x] [💡 The category design pattern](http://www.haskellforall.com/2012/08/the-category-design-pattern.html)
 * [x] [💡 The functor design pattern](http://www.haskellforall.com/2012/09/the-functor-design-pattern.html)
     <br>Functors are adapters that bridge between categories. Instead of rewriting functions for a different category, a functor allows you to re-use the existing function to work in another category.
@@ -52,6 +56,8 @@ These are my recommended resources to start with, if you are planning to go down
     <br>Practical introduction into how applicatives (and alternatives, which build on it) can be used.
 * [x] [Foldable and Traversable](https://blog.jakuba.net/2014/07/30/foldable-and-traversable.html)
 * [x] [Haskell/Understanding monads/State](https://en.wikibooks.org/wiki/Haskell/Understanding_monads/State)
+* [ ] [Scalable program architectures](http://www.haskellforall.com/2014/04/scalable-program-architectures.html)
+* [ ] [Equational reasoning at scale](http://www.haskellforall.com/2014/07/equational-reasoning-at-scale.html)
 * [x] [📺 (1h:30m) C++Now 2017: Ryan Newton "Haskell taketh away: limiting side effects for parallel programming"](https://www.youtube.com/watch?v=lC5UWG5N8oY)
     <br>Fascinating look into the direction and development of Haskell.
 * [ ] [📺 (60m) Fastware - Andrei Alexandrescu](https://www.youtube.com/watch?v=o4-CwDo2zpg)
@@ -82,6 +88,8 @@ These are my recommended resources to start with, if you are planning to go down
 * [x] [📺 (45m) Brandon Williams - Finding Happiness in Functional Programming](https://www.youtube.com/watch?v=A0VaIKK2ijM)
     <br>Exploring the benefits and downsides of functional conepts in practical use, from isolation of side (and co-)effects to coding for an interface we wish we had instead of the one we're given. Great points about how to encapsulate state management with lenses using UIKit as an example.
 * [ ] (20% done) [📺 (10 Talks) Functional Swift Conference 2017](http://2017.funswiftconf.com)
+* [x] [💡 📺 (25m) Brandon Kase: Composable Caching in Swift](https://www.youtube.com/watch?v=8uqXuEZLyUU)
+    <br>Using a monoidal structure to simplify layered caching with composable caches.
 * [x] [💡 📺 (40m) Brandon Kase: Beyond Types in Swift](https://m.youtube.com/watch?v=6z9QjDUKkCs)
     <br>Adding functionality without adding complexity through abstract algebra:
     - Magma: closed binary operators = composable operation
@@ -115,7 +123,10 @@ These are my recommended resources to start with, if you are planning to go down
 * [ ] [iOS Simulator Power Ups](https://medium.com/the-traveled-ios-developers-guide/ios-simulator-power-ups-407060863b3c)
 * [ ] [Swift 4 Decodable: Beyond The Basics](https://medium.com/swiftly-swift/swift-4-decodable-beyond-the-basics-990cc48b7375)
 * [ ] [JSON with Encoder and Encodable](https://swiftunboxed.com/stdlib/json-encoder-encodable/)
+* [ ] [Swift — memoize() walk through](https://medium.com/@mvxlr/swift-memoize-walk-through-c5224a558194)
+* [ ] [Functional Swift and Memoization](http://blog.scottlogic.com/2014/09/22/swift-memoization.html)
 * [ ] [How we cut our iOS app’s launch time in half](https://blog.automatic.com/how-we-cut-our-ios-apps-launch-time-in-half-with-this-one-cool-trick-7aca2011e2ea)
+* [ ] [📺 (25m) Dealing With Asynchrony in a Synchronous Swift World](https://news.realm.io/news/greg-heo-dealing-asynchrous-synchronous-swift-swift-language-user-group-2017/)
 * [ ] [📺 Writing Your UI Swiftly](https://news.realm.io/news/sommer-panage-writing-your-ui-swiftly/)
 * [ ] [My Development Toolset 2017 for iOS](https://medium.com/ios-os-x-development/my-development-toolset-2017-for-ios-7c0758e3e5ce)
 
@@ -141,7 +152,8 @@ These are my recommended resources to start with, if you are planning to go down
     <br>"We shouldn’t write programs — we should write descriptions of programs, which we can then introspect, transform, and interpret at will." How to architect a program that uses separate layers of DSLs to encode business logic in separate domains, and having an interpreter combining those DSLs to generate the actual program. It seems cumbersome to do this, but the composability of this approach looks promising.
 * [x] [💡 Modern Functional Programming: Part 2](http://degoes.net/articles/modern-fp-part-2)
     <br>John edited his thoughts in part 1 into a more coherent and clear picture in this article and gives a glimpse into the future of programming by combining interpreters for different DSLs.
-* [ ] [📺 (45m) Sandy Maguire: Don't Eff It Up: Free Monads in Action](https://www.youtube.com/watch?v=gUPuWHAt6SA)
+* [x] [📺 (45m) Sandy Maguire: Don't Eff It Up: Free Monads in Action](https://www.youtube.com/watch?v=gUPuWHAt6SA)
+    <br>Shows a technique to combine different side effects with free monads using the Eff(ects) monad, which can be used as an alternative to monad transformers with less boilerplate.
 * [x] [📺 (40m) John A De Goes: MTL Versus Free Deathmatch - λC 2016](https://www.youtube.com/watch?v=JLevNswzYh8)
     <br>Fun talk diving deeper into John's thoughts about the future of programming with abstract functional structures generating and manipulating the program before it's being executed.
 * [x] [📺 (1h:15m) John DeGoes: Beyond Free Monads - λC Winter Retreat 2017](https://www.youtube.com/watch?v=A-lmrvsUi2Y)
@@ -222,8 +234,9 @@ Resources
 
 ## Try (functional) reactive programming with RxSwift and/or React.js
 * [x] [📺 (25m) Everyday Reactive](https://news.realm.io/news/everyday-reactive/)
-    <br>Quick introduction in reactive programming with pros and cons and pointers to frameworks and resources.
-* [ ] [ (35m) Justin Spahr-Summers • Enemy of the State](https://m.youtube.com/watch?v=7AqXBuJOJkY)
+    <br>Quick introduction to reactive programming with pros and cons and pointers to frameworks and resources.
+* [x] [📺 (35m) Justin Spahr-Summers • Enemy of the State](https://m.youtube.com/watch?v=7AqXBuJOJkY)
+    <br>Several arguments on why to minimize state and how to achieve that in Swift.
 * [ ] [Josh Abernathy • Better Code for a Better World](https://speakerdeck.com/joshaber/better-code-for-a-better-world)
 * [ ] [What is reactive programming and why should I use it?](https://www.cocoawithlove.com/blog/reactive-programming-what-and-why.html)
 * [ ] [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
