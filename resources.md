@@ -56,8 +56,8 @@ These are my recommended resources to start with, if you are planning to go down
     <br>Practical introduction into how applicatives (and alternatives, which build on it) can be used.
 * [x] [Foldable and Traversable](https://blog.jakuba.net/2014/07/30/foldable-and-traversable.html)
 * [x] [Haskell/Understanding monads/State](https://en.wikibooks.org/wiki/Haskell/Understanding_monads/State)
-* [ ] [Scalable program architectures](http://www.haskellforall.com/2014/04/scalable-program-architectures.html)
-* [ ] [Equational reasoning at scale](http://www.haskellforall.com/2014/07/equational-reasoning-at-scale.html)
+* [x] [Scalable program architectures](http://www.haskellforall.com/2014/04/scalable-program-architectures.html)
+* [x] [Equational reasoning at scale](http://www.haskellforall.com/2014/07/equational-reasoning-at-scale.html)
 * [x] [📺 (1h:30m) C++Now 2017: Ryan Newton "Haskell taketh away: limiting side effects for parallel programming"](https://www.youtube.com/watch?v=lC5UWG5N8oY)
     <br>Fascinating look into the direction and development of Haskell.
 * [ ] [📺 Tangible Functional Programming](http://youtube.com/)
@@ -66,9 +66,10 @@ These are my recommended resources to start with, if you are planning to go down
 * [ ] ? [Haskell Communities and Activities Report • 32nd Ed. May 2017](https://www.haskell.org/communities/05-2017/html/report.html)
 
 #### Practical Haskell
+* [x] [📕 Purely Functional Data Structures](https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf)
+    <br>Proves that purely functional data structures can be as fast as imperative algorithms thanks to memoization and clever algorithm design.
 * [ ] [📕 Real World Haskell • Bryan O'Sullivan, Don Stewart, and John Goerzen](http://book.realworldhaskell.org/read/)
     <br>This book promises to teach more practical Haskell, which makes it a welcome alternative to all the academic books out there. *Haven't read it yet, so I don't know if that's true.*
-* [ ] [📕 Purely Functional Data Structures](https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf)
 * [ ] [📕 Parallel and Concurrent Programming in Haskell](http://chimera.labs.oreilly.com/books/1230000000929/index.html)
     <br>This book get mentioned and referred to a lot, surprisingly not just for topics around the book's title.
 * [x] [The Fun of Programming • Ch. 7 Functional Images](http://conal.net/papers/functional-images/fop-conal.pdf)
@@ -77,7 +78,7 @@ These are my recommended resources to start with, if you are planning to go down
 * [ ] [Introduction to brick, a Haskell library for building terminal user interfaces](https://samtay.github.io/articles/brick.html)
 * [x] [Writing Video Games in a Functional Style](http://prog21.dadgum.com/228.html)
     <br>A collection of articles exploring the implementation of arcade games and their game state and game loops in a functional style.
-* [ ] [Code Us Some Roguelike in Haskell (Part 2)](http://jamiltron.com/2012/07/Code_Us_Some_Roguelike2.html)
+* [x] [Code Us Some Roguelike in Haskell (Part 2)](http://jamiltron.com/2012/07/Code_Us_Some_Roguelike2.html)
 
 #### Haskell Resources
 * [Haskell Wiki](https://wiki.haskell.org/)
@@ -94,7 +95,7 @@ These are my recommended resources to start with, if you are planning to go down
 ### Swift
 * [x] [📺 (45m) Brandon Williams - Finding Happiness in Functional Programming](https://www.youtube.com/watch?v=A0VaIKK2ijM)
     <br>Exploring the benefits and downsides of functional conepts in practical use, from isolation of side (and co-)effects to coding for an interface we wish we had instead of the one we're given. Great points about how to encapsulate state management with lenses using UIKit as an example.
-* [ ] (20% done) [📺 (10 Talks) Functional Swift Conference 2017](http://2017.funswiftconf.com)
+* [x] [📺 (10 Talks) Functional Swift Conference 2017](http://2017.funswiftconf.com)
 * [x] [💡 📺 (25m) Brandon Kase: Composable Caching in Swift](https://www.youtube.com/watch?v=8uqXuEZLyUU)
     <br>Using a monoidal structure to simplify layered caching with composable caches.
 * [x] [💡 📺 (40m) Brandon Kase: Beyond Types in Swift](https://m.youtube.com/watch?v=6z9QjDUKkCs)
@@ -233,7 +234,7 @@ Resources
     <br>Several arguments on why to minimize state and how to achieve that in Swift.
 * [x] [Read A Farewell to FRP](http://elm-lang.org/blog/farewell-to-frp)
     <br>How elm is removing (hiding) the functional reactive programming patterns like streams, because they don't have to be exposed to create robust web apps.
-* [ ] [Josh Abernathy • Better Code for a Better World](https://speakerdeck.com/joshaber/better-code-for-a-better-world)
+* [x] [Josh Abernathy • Better Code for a Better World](https://speakerdeck.com/joshaber/better-code-for-a-better-world)
 * [ ] [What is reactive programming and why should I use it?](https://www.cocoawithlove.com/blog/reactive-programming-what-and-why.html)
 * [ ] [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 * [ ] [Reactive programming from scratch](http://www.thomasvisser.me/2016/11/28/reactive-from-scratch/)
