@@ -349,6 +349,7 @@ Resources
 * [Awesome Generative Art](https://github.com/kosmos/awesome-generative-art/blob/master/readme.md)
 * [Awesome Creative Coding](https://github.com/terkelg/awesome-creative-coding)
 * [openframe — a platform for displaying digital art](https://openframe.io)
+* [CIS 700 - Special Topics in Procedural Graphics](https://cis700-procedural-graphics.github.io)
 
 ### Graphics Programming
 * [ ] [📺 (90m) Principles of Lighting and Rendering with John Carmack](https://www.youtube.com/watch?v=IyUgHPs86XM)
