@@ -332,6 +332,7 @@ Resources
 * [ ] [Consistent Distance Fields for Ray Marching](http://digitalfreepen.com/2017/06/21/consistent-distance-fields.html)
 * [ ] [Restricted Perlin Noise for Better Rendering](http://digitalfreepen.com/2017/06/22/restricted-perlin-noise.html)
 * [ ] [Fast and Mostly Consistent Distance Field Ray Marching](http://digitalfreepen.com/2017/06/23/fast-mostly-consistent.html)
+* [ ] [Pixel City: Procedurally Generated City in OpenGL](http://www.geeks3d.com/20090615/pixel-city-procedurally-generated-city-in-opengl/)
 * [ ] [How to Choose Colours Procedurally (Algorithms)](http://devmag.org.za/2012/07/29/how-to-choose-colours-procedurally-algorithms/)
 * [x] [Improved Alpha-Tested Magnification for Vector Textures and Special Effects](http://www.valvesoftware.com/publications/2007/SIGGRAPH2007_AlphaTestedMagnification.pdf)
 * [x] [Rendering Text in Metal with Signed-Distance Fields](http://metalbyexample.com/rendering-text-in-metal-with-signed-distance-fields/)
