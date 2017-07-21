@@ -28,8 +28,8 @@ These are my recommended resources to start with, if you are planning to go down
     <br>The first two secions *Basics* and *Monads* are packed with great practical tips and a solid foundation for understanding monads, an abstract concept that shows up everywhere in Haskell and functional programming.
 
 ### General
-* [x] [The Unofficial Guide to Rich Hickey's Brain](http://www.flyingmachinestudios.com/programming/the-unofficial-guide-to-rich-hickeys-brain/)
-    <br>Contrasts Object-Oriented Programming with Functional Programming and explains the "fundamental flaws' of accidential complexity in OOP that FP allows us to deal with in a better way.
+* [x] [Can Programming Be Liberated from the von Neumann Style? A Functional Style and Its Algebra of Programs](http://worrydream.com/refs/Backus-CanProgrammingBeLiberated.pdf)
+    <br>Influential article written in 1978 describing a functional system for computation which sounds a lot like what functional programming languages these days are built on.
 * [x] [📺 (60m) "I See What You Mean" by Peter Alvaro](https://www.youtube.com/watch?v=R2Aa4PivG0g)
     <br>Entertaining presentation about modeling state with declarative languages. Many applicable concepts although it is understandably a little heavy on the relational language this talk is about.
 * [x] [From Higher-Order Functions to Libraries And Frameworks](http://raganwald.com/2016/12/15/what-higher-order-functions-can-teach-us-about-libraries-and-frameworks.html)
@@ -152,8 +152,6 @@ These are my recommended resources to start with, if you are planning to go down
 * [x] [Data and Codata](http://blog.sigfpe.com/2007/07/data-and-codata.html)
 
 ### Functional Patterns to Manage Complexity
-* [x] [💡 The future of software, the end of apps, and why UX designers should care about type theory](https://pchiusano.github.io/2013-05-22/future-of-software.html)
-    <br>Paints an interesting picture of a world where composing components is much simpler and instead of apps that have been put together by developers, regular users are able to compose service components to do what they want them to do.
 * [x] [💡 📺 (60m) Gabriel Gonzales: Applied category theory and abstract algebra - λC Winter Retreat 2017](https://www.youtube.com/watch?v=WsA7GtUQeB8)
     <br>"[We can] tackle software complexity by reusing standard interfaces that originate in the fields of category theory and abstract algebra." Builds understanding for composition going from composable functions to composable values (monoids) to composable types (applicatives) and shows how powerful these concepts are to decompose programs into simple building blocks.
 * [x] [💡 A Modern Architecture for FP](http://degoes.net/articles/modern-fp)
@@ -411,99 +409,6 @@ Reference
 ----
 
 ## Meta
-
-### Complexity in software development
-* [x] [(10m) SICP / What is "Computer Science"?](https://m.youtube.com/watch?v=zQLUPjefuWA)
-* [x] [📺 (1h) Greg Wilson - What We Actually Know About Software Development, and Why We Believe It’s True](https://vimeo.com/9270320)
-    - In software engineering we claim to have figured out many things, but don't back them up with data and research. In many cases we still don't know what's objectively better, and fall victim to statements that sound clever to us, and confirm our own biases. For real progress in our field we need higher standards for proof.
-* [x] [Complexity and Strategy](https://hackernoon.com/complexity-and-strategy-325cd7f59a92)
-* [x] [Can Programming Be Liberated from the von Neumann Style? A Functional Style and Its Algebra of Programs](http://worrydream.com/refs/Backus-CanProgrammingBeLiberated.pdf)
-    <br>Influential article written in 1978 describing a functional system for computation which sounds a lot like what functional programming languages these days are built on.
-* [x] [Systems Past: the only 8 software innovations we actually use](https://davidad.github.io/blog/2014/03/12/the-operating-system-is-out-of-date/)
-    <br>Criticizes the lack of innovation in programming and explains that the biggest innovations in the field, like programming languages, operating systems, interactivity, and the Internet have been invented between 1955 and 1970.
-* [x] [📺 Hearts and Minds • GDC Vault](http://www.gdcvault.com/play/1020788/Hearts-and)
-* [ ] [Toward a Galvanizing Definition of Technical Debt](https://michaelfeathers.silvrback.com/toward-a-galvanizing-definition-of-technical-debt)
-* [ ] 📕 Mindstorms - Children, Computers, and Powerful Ideas
-* TODO: Add resources from note "Reducing Complexity"
-
-Bret Victor material I want to re-watch/read
-* [ ] [Mar 2006 • Magic Ink](http://worrydream.com/#!/MagicInk)
-* [ ] [Apr 2007 • Substroke](http://worrydream.com/#!/substroke)
-* [ ] [Oct 2009 • Simulation as a Practical Tool](http://worrydream.com/#!/SimulationAsAPracticalTool)
-* [ ] [Mar 2010 • Ten Brighter Ideas](http://worrydream.com/#!/TenBrighterIdeas)
-* [ ] [Mar 2011 • Explorable Explanations](http://worrydream.com/#!/ExplorableExplanations)
-* [ ] [Mar 2011 • Dynamic Pictures](http://worrydream.com/#!/DynamicPicturesMotivation)
-* [ ] [Apr 2011 • Kill Math](http://worrydream.com/#!/KillMath)
-* [ ] [📺 Interactive Exploration of a Dynamical System](http://worrydream.com/#!/InteractiveExplorationOfADynamicalSystem)
-* [ ] [May 2011 • Scientific Communication as Sequential Art](http://worrydream.com/#!/ScientificCommunicationAsSequentialArt)
-* [ ] [May 2011 • Scrubbing Calculator](http://worrydream.com/#!/ScrubbingCalculator)
-* [ ] [Oct 2011 • Up and Down the Ladder of Abstraction](http://worrydream.com/#!2/LadderOfAbstraction)
-* [ ] [Nov 2011 • A Brief Rand on the Future of Interaction Design](http://worrydream.com/#!/ABriefRantOnTheFutureOfInteractionDesign)
-* [x] [📺 Jan 2012 • Inventing on Principle](http://worrydream.com/#!/InventingOnPrinciple)
-    <br>Software Engineers can right wrongs by inventing. Bret's principle is: tools for visual art need immediate feedback. Find yours and change the world.
-* [ ] [Sep 2012 • Learnable Programming](http://worrydream.com/#!/LearnableProgramming)
-    <br>
-* [x] [📺 Nov 2012 • Stop Drawing Dead Fish](http://worrydream.com/#!/StopDrawingDeadFish)
-    <br>Impressive demo of how geographical representation can replace symbolic representation for creating graphics, animations, and behavior in a simulation. We're stuck with simulating old media with our new media and don't take advantage of all the capabilities new media offers. Computers should be used for simulations, not just static images, or animations.
-* [ ] [📺 Feb 2013 • Drawing Dynamic Visualizations](http://worrydream.com/#!/DrawingDynamicVisualizationsTalk)
-* [ ] [📺 Apr 2013 • Media for Thinking the Unthinkable](http://worrydream.com/#!/MediaForThinkingTheUnthinkable)
-* [ ] [📺 Jul 2013 • The Future of Programming](http://worrydream.com/#!/TheFutureOfProgramming)
-* [ ] [📺 May 2014 • Seeing Spaces](http://worrydream.com/#!/SeeingSpaces)
-* [ ] [📺 Oct 2014 • The Humane Representation of Thought](http://worrydream.com/#!/TheHumaneRepresentationOfThoughtTalk)
-* [ ] [Nov 2015 • What Can a Technologist Do about Climate Change?](http://worrydream.com/#!/ClimateChange)
-
-### Future of Programming
-* [x] [The Hundred-Year Language](http://www.paulgraham.com/hundred.html)
-    <br>Abstract thoughts about what programming languages look like in 100 years from now.
-* [x] [Toward a frozen operating system](https://urbit.org/blog/2017.5-frozen/)
-    <br>Is it possible to build system software or OS level software than never has to be updated?
-* [x] [Expressive Programming in VR](http://elevr.com/expressive-programming-in-vr/)
-    <br>A very playful demo of how programming in VR could look like.
-* [x] [Ask HN: Why does visual programming suck?](https://news.ycombinator.com/item?id=14482988)
-    <br>Huge thread about the pros and cons of visual programming interfaces.
-* [x] [Resources for creating front-end programming languages and frameworks in 2017](https://medium.com/@stevekrouse/resources-for-creating-front-end-programming-languages-and-frameworks-in-2017-a0c097625f9d)
-* [x] [Prune: A Code Editor that is Not a Text Editor](https://www.facebook.com/notes/kent-beck/prune-a-code-editor-that-is-not-a-text-editor/1012061842160013/)
-    <br>Post-mortem (unfortunately without any code or even screenshots) of a tree-based code editor prototype that only allows syntactically correct programs through tree transformations.
-* [x] [Types are shapes — a graphical programming exploration](https://stevekrouse.com/types-are-shapes-d6af1e83192f)
-    <br>Representing different types visually as different shapes helps intuitively understand how types interact with each other. Types are a help for beginners, not an obstacle for experts.
-* [x] [WoofJS — making JavaScript learnable](https://stevekrouse.com/woof-d9adf2110fc6)
-    <br>A visual programming framework inspired by Sketch, but taking it much further into the web development world. Based on JavaScript.
-* [x] [The Rose Project (March 2017) - Making programming better](https://stevekrouse.com/rose-983dc5e0908f)
-* [ ] [Flowsheets and Other Observations On Programming Computers](http://tinyletter.com/Flowsheets/archive)
-* [ ] [Future Programming Workshop 2014 final videos](http://www.future-programming.org/2014/program.html)
-* [ ] [Future Programming Workshop Strange Loop Sep 24, 2015](http://www.future-programming.org/2015/programSL.html)
-* [ ] [Future Programming Workshop SPLASH Oct 26-27, 2015](http://www.future-programming.org/2015/programSPLASH.html)
-* [ ] [The Gamma: Tools for open data-driven storytelling](https://thegamma.net)
-* [ ] [Imp = Spreadsheets + Relations + Time](https://github.com/jamii/imp)
-* [ ] [Sourcegraph: Code search + intelligence](https://about.sourcegraph.com)
-* [ ] [Human-Centered Programming Tools: Spring 2017 Class Readings](http://pgbovine.net/human-centered-programming-tools.htm)
-* [x] [Toby Schachman](http://tobyschachman.com)
-* [x] [The Three Projections of Doctor Futamura](http://blog.sigfpe.com/2009/05/three-projections-of-doctor-futamura.html)
-    <br>Explains the concept of abstracting over interpreters and compilers and generate specializers that emit interpreters and compilers.
-* [x] [Graal & Truffle](https://blog.plan99.net/graal-truffle-134d8f28fb69>)
-    <br>Research project to use Futamura projections to create new programming languages quicker which integrate into existing languages and platforms and still perform well.
-
-Resources
-* [Human Advancement Research Community](http://harc.ycr.org)
-* [📺 Strange Loop Conference Videos](https://www.youtube.com/channel/UC_QIfHvN9auy2CoOdSfMWDw?app=desktop)
-* [Visual Programming Languages - Snapshots](http://blog.interfacevision.com/design/design-visual-progarmming-languages-snapshots/)
-
-List of related projects
-* [A cross-platform source explorer for C/C++ and Java](https://www.sourcetrail.com/)
-* [Luna — Visual and textual functional programming language with a focus on productivity, collaboration and development ergonomics](http://www.luna-lang.org)
-* [Bubble — powerful general-purpose visual framework for creating web applications](https://bubble.is)
-* [Cirru – An editor for AST](http://cirru.org/)
-* [Eve — modern relational language for writing data-driven programs](http://witheve.com) [(Dev Diary)](http://incidentalcomplexity.com)
-* [Lamdu - towards a new programming experience](http://www.lamdu.org/)
-* [Prune: A Code Editor that is Not a Text Editor](https://www.facebook.com/notes/kent-beck/prune-a-code-editor-that-is-not-a-text-editor/1012061842160013/)
-* [MPS Meta Progamming System](http://jetbrains.com/mps)
-* https://github.com/cxxtree/cxxtree
-* [Frame-based Editing](http://www.greenfoot.org/frames/)
-* [Unison — next-generation programming platform](http://unisonweb.org/)
-* [Structured editing minor mode for Haskell in Emacs](https://github.com/chrisdone/structured-haskell-mode)
-* [ParEdit — minor mode for performing structured editing of S-expression data](https://www.emacswiki.org/emacs/ParEdit)
-* [ProjecturEd — generic purpose projectional editor](http://projectured.org)
-* more links in [this Hacker News thread](https://news.ycombinator.com/item?id=13773813)
 
 ### Stay Focused and Organized
 
