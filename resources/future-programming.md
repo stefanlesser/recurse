@@ -1,9 +1,11 @@
 # Future of Programming
 *One of the main areas of focus for me, long before coming to RC and likely long after I will have left, is thinking about how programming should and will change in the future. Realizing that there is still more to explore, I’m moving all related resources to this separate document.*
 
-## Reading List
+### Reading List
 I have not yet looked at these articles.
 * [ ] (currently reading…) 📕 Mindstorms - Children, Computers, and Powerful Ideas
+* [ ] (currently reading…) [No Silver Bullet — Essence and Accident in Software Engineering](http://faculty.salisbury.edu/~xswang/Research/Papers/SERelated/no-silver-bullet.pdf)
+* [ ] [Execution in the Kingdom of Nouns](http://steve-yegge.blogspot.com/2006/03/execution-in-kingdom-of-nouns.html)
 * [ ] [Toward a Galvanizing Definition of Technical Debt](https://michaelfeathers.silvrback.com/toward-a-galvanizing-definition-of-technical-debt)
 * [ ] [Flowsheets and Other Observations On Programming Computers](http://tinyletter.com/Flowsheets/archive)
 * [ ] [📺 Strange Loop Conference Videos](https://www.youtube.com/channel/UC_QIfHvN9auy2CoOdSfMWDw?app=desktop)
@@ -16,6 +18,8 @@ I have not yet looked at these articles.
 * [ ] [Human-Centered Programming Tools: Spring 2017 Class Readings](http://pgbovine.net/human-centered-programming-tools.htm)
 * [x] [Toby Schachman](http://tobyschachman.com)
 * TODO: Add resources from note "Reducing Complexity"
+
+----
 
 ### Criticisms of the Status Quo
 * [x] [ 📺10m • SICP / What is "Computer Science"?](https://m.youtube.com/watch?v=zQLUPjefuWA)
