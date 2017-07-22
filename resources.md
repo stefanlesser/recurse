@@ -40,8 +40,8 @@ These are my recommended resources to start with, if you are planning to go down
     <br>Introduces benefits of functional programming by transforming a simple console program from imperative to declarative step by step. Even though it's using Scala, it helps understanding the basic building blocks of FP and their benefits.
 * [x] [Destroy All Ifs — A Perspective from Functional Programming](http://degoes.net/articles/destroy-all-ifs)
     <br>By replacing conditionals with lambdas, we can invert control and make our code both easier to reason about and more generic. Moving conditionals from places hidden in the deepest nested function up to the caller makes intent clear and prevents mistakes.
-* [ ] [Functional Programming with Bananas, Lenses, Envelopes and Barbed Wire](http://eprints.eemcs.utwente.nl/7281/01/db-utwente-40501F46.pdf)
 * [ ] [Streaming Combinators and Extracting Flat Parallelism](http://futhark-lang.org/blog/2017-06-25-futhark-at-pldi.html)
+* [ ] [Functional Programming with Bananas, Lenses, Envelopes and Barbed Wire](http://eprints.eemcs.utwente.nl/7281/01/db-utwente-40501F46.pdf)
 * [ ] ? 📕 Modeling Data with Functional Programming in R
 
 ### Haskell
@@ -119,24 +119,12 @@ These are my recommended resources to start with, if you are planning to go down
     <br>Practical notes on Monads in Swift and Haskell, and how Swift's flatMap sometimes is a proper monad and sometimes isnt't (and why that's totally fine).
 * [x] [Composable HTML Views in Swift](http://www.fewbutripe.com/swift/html/dsl/2017/06/29/composable-html-views-in-swift.html)
     <br>Improving an eDSL for generating HTML in Swift with the powers of abstract algebra in form of Monoids.
-* [ ] [Loose coupling using default implementations in protocol extensions](http://www.apokrupto.com/blog-1/2017/5/16/default-protocol-extensions-for-loose-coupling)
-* [ ] [Data Sources in Swift… or how to avoid that this new trendy persistence framework determines the architecture of your App](https://medium.com/@dcordero/data-sources-in-swift-or-how-to-avoid-that-this-new-trendy-persistency-framework-determines-the-5472fcb75eda)
+* [ ] [Swift — memoize() walk through](https://medium.com/@mvxlr/swift-memoize-walk-through-c5224a558194)
+* [ ] [Functional Swift and Memoization](http://blog.scottlogic.com/2014/09/22/swift-memoization.html)
 * [ ] [📺 (20m) Optimizing Swift Collections • Károly Lőrentey at dotSwift 2017](https://www.dotconferences.com/2017/01/karoly-lorentey-optimizing-swift-collections)
     <br>Deep dive into performance characteristics of Swift Collection types.
 * [ ] [Apple Swift Ownership Manifesto](https://github.com/apple/swift/blob/master/docs/OwnershipManifesto.md)
 * [ ] [The Elm Architecture in Swift](https://github.com/chriseidhof/tea-in-swift)
-
-#### Practical Swift
-* [ ] [Highlights from Realm Live at WWDC and AltConf](https://news.realm.io/news/realm-live-at-wwdc-and-altconf/)
-* [ ] [iOS Simulator Power Ups](https://medium.com/the-traveled-ios-developers-guide/ios-simulator-power-ups-407060863b3c)
-* [ ] [Swift 4 Decodable: Beyond The Basics](https://medium.com/swiftly-swift/swift-4-decodable-beyond-the-basics-990cc48b7375)
-* [ ] [JSON with Encoder and Encodable](https://swiftunboxed.com/stdlib/json-encoder-encodable/)
-* [ ] [Swift — memoize() walk through](https://medium.com/@mvxlr/swift-memoize-walk-through-c5224a558194)
-* [ ] [Functional Swift and Memoization](http://blog.scottlogic.com/2014/09/22/swift-memoization.html)
-* [ ] [How we cut our iOS app’s launch time in half](https://blog.automatic.com/how-we-cut-our-ios-apps-launch-time-in-half-with-this-one-cool-trick-7aca2011e2ea)
-* [ ] [📺 (25m) Dealing With Asynchrony in a Synchronous Swift World](https://news.realm.io/news/greg-heo-dealing-asynchrous-synchronous-swift-swift-language-user-group-2017/)
-* [ ] [📺 Writing Your UI Swiftly](https://news.realm.io/news/sommer-panage-writing-your-ui-swiftly/)
-* [ ] [My Development Toolset 2017 for iOS](https://medium.com/ios-os-x-development/my-development-toolset-2017-for-ios-7c0758e3e5ce)
 
 ### Category Theory
 * [x] [Haskell/Category theory](https://en.wikibooks.org/wiki/Haskell/Category_theory)
@@ -403,6 +391,7 @@ Resources
 Reference
 * [programmingtalks.org](https://www.programmingtalks.org)
 * [Programming Talks • hellerve on GitHub](https://github.com/hellerve/programming-talks)
+* [Programming books you might want to consider reading](https://danluu.com/programming-books/)
 * [Mega Project List on GitHub](https://github.com/karan/Projects)
 * [An extensive list of interesting open source projects](https://github.com/lk-geimfari/awesomo)
 
