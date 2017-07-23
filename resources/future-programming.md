@@ -29,6 +29,9 @@ Criticizes the lack of innovation in programming and explains that the biggest i
 [No Silver Bullet — Essence and Accident in Software Engineering](http://faculty.salisbury.edu/~xswang/Research/Papers/SERelated/no-silver-bullet.pdf) • F. Brooks, 1986<br>
 Divides complexities in software engineering into essential and accidential complexities and argues that all past and most promising future breakthroughs are solving accidential difficulties, not essential ones. The author sees the promising attacks on the conceptual essence in software/library reuse, rapid prototyping, incremental development, and great design.
 
+[The Unofficial Guide to Rich Hickey's Brain](http://www.flyingmachinestudios.com/programming/the-unofficial-guide-to-rich-hickeys-brain/) • Daniel Higginbotham, December 2012<br>
+Contrasts Object-Oriented Programming with Functional Programming and explains the "fundamental flaws' of accidential complexity in OOP that FP allows us to deal with in a better way. Includes a brilliant metaphor about the meta-physics of OOP and FP where in OOP the river is modeled as an object with changing state, while in FP the river is an abstract concepts that emerges from a process generating a succession of related atomic, unchangable entities (atoms).
+
 [📺 1h • Greg Wilson - What We Actually Know About Software Development, and Why We Believe It’s True](https://vimeo.com/9270320)<br>
 In software engineering we claim to have figured out many things, but don't back them up with data and research. In many cases we still don't know what's objectively better, and fall victim to statements that sound clever to us, and confirm our own biases. For real progress in our field we need higher standards for proof.
 
@@ -43,9 +46,6 @@ Is it possible to build system software or OS level software than never has to b
 ### Future of Programming Languages
 [The Hundred-Year Language](http://www.paulgraham.com/hundred.html)<br>
 Abstract thoughts about what programming languages look like in 100 years from now.
-
-[The Unofficial Guide to Rich Hickey's Brain](http://www.flyingmachinestudios.com/programming/the-unofficial-guide-to-rich-hickeys-brain/) • Daniel Higginbotham, December 2012<br>
-Contrasts Object-Oriented Programming with Functional Programming and explains the "fundamental flaws' of accidential complexity in OOP that FP allows us to deal with in a better way.
 
 [Graal & Truffle](https://blog.plan99.net/graal-truffle-134d8f28fb69%3E)<br>
 Research project to use Futamura projections to create new programming languages quicker which integrate into existing languages and platforms and still perform well.
