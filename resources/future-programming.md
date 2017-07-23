@@ -4,7 +4,6 @@
 ### Reading List
 I have not yet looked at these articles.
 * [ ] (currently reading…) 📕 Mindstorms - Children, Computers, and Powerful Ideas
-* [ ] (currently reading…) [No Silver Bullet — Essence and Accident in Software Engineering](http://faculty.salisbury.edu/~xswang/Research/Papers/SERelated/no-silver-bullet.pdf)
 * [ ] [Execution in the Kingdom of Nouns](http://steve-yegge.blogspot.com/2006/03/execution-in-kingdom-of-nouns.html)
 * [ ] [Toward a Galvanizing Definition of Technical Debt](https://michaelfeathers.silvrback.com/toward-a-galvanizing-definition-of-technical-debt)
 * [ ] [Flowsheets and Other Observations On Programming Computers](http://tinyletter.com/Flowsheets/archive)
@@ -22,36 +21,46 @@ I have not yet looked at these articles.
 ----
 
 ### Criticisms of the Status Quo
-* [x] [ 📺10m • SICP / What is "Computer Science"?](https://m.youtube.com/watch?v=zQLUPjefuWA)
-* [x] [Systems Past: the only 8 software innovations we actually use](https://davidad.github.io/blog/2014/03/12/the-operating-system-is-out-of-date/)
-	<br>Criticizes the lack of innovation in programming and explains that the biggest innovations in the field, like programming languages, operating systems, interactivity, and the Internet have been invented between 1955 and 1970.
-* [x] [No Silver Bullet — Essence and Accident in Software Engineering](http://faculty.salisbury.edu/~xswang/Research/Papers/SERelated/no-silver-bullet.pdf) • F. Brooks, 1986
-* [x] [📺1h • Greg Wilson - What We Actually Know About Software Development, and Why We Believe It’s True](https://vimeo.com/9270320)
-	<br>In software engineering we claim to have figured out many things, but don't back them up with data and research. In many cases we still don't know what's objectively better, and fall victim to statements that sound clever to us, and confirm our own biases. For real progress in our field we need higher standards for proof.
-* [x] [Toward a frozen operating system](https://urbit.org/blog/2017.5-frozen/)
-	<br>Is it possible to build system software or OS level software than never has to be updated?
+[📺 10m • SICP / What is "Computer Science"?](https://m.youtube.com/watch?v=zQLUPjefuWA)
+
+[Systems Past: the only 8 software innovations we actually use](https://davidad.github.io/blog/2014/03/12/the-operating-system-is-out-of-date/)<br>
+Criticizes the lack of innovation in programming and explains that the biggest innovations in the field, like programming languages, operating systems, interactivity, and the Internet have been invented between 1955 and 1970.
+
+[No Silver Bullet — Essence and Accident in Software Engineering](http://faculty.salisbury.edu/~xswang/Research/Papers/SERelated/no-silver-bullet.pdf) • F. Brooks, 1986<br>
+Divides complexities in software engineering into essential and accidential complexities and argues that all past and most promising future breakthroughs are solving accidential difficulties, not essential ones. The author sees the promising attacks on the conceptual essence in software/library reuse, rapid prototyping, incremental development, and great design.
+
+[📺 1h • Greg Wilson - What We Actually Know About Software Development, and Why We Believe It’s True](https://vimeo.com/9270320)<br>
+In software engineering we claim to have figured out many things, but don't back them up with data and research. In many cases we still don't know what's objectively better, and fall victim to statements that sound clever to us, and confirm our own biases. For real progress in our field we need higher standards for proof.
+
+[Toward a frozen operating system](https://urbit.org/blog/2017.5-frozen/)<br>
+Is it possible to build system software or OS level software than never has to be updated?
 
 ### Complexity in software development
-* [x] [Complexity and Strategy](https://hackernoon.com/complexity-and-strategy-325cd7f59a92)
-* [x] [📺 Hearts and Minds • GDC Vault](http://www.gdcvault.com/play/1020788/Hearts-and)
+[Complexity and Strategy](https://hackernoon.com/complexity-and-strategy-325cd7f59a92)
+
+[📺 Hearts and Minds • GDC Vault](http://www.gdcvault.com/play/1020788/Hearts-and)
 
 ### Future of Programming Languages
-* [x] [The Hundred-Year Language](http://www.paulgraham.com/hundred.html)
-	<br>Abstract thoughts about what programming languages look like in 100 years from now.
-* [x] [The Unofficial Guide to Rich Hickey's Brain](http://www.flyingmachinestudios.com/programming/the-unofficial-guide-to-rich-hickeys-brain/) • Daniel Higginbotham, December 2012
-	<br>Contrasts Object-Oriented Programming with Functional Programming and explains the "fundamental flaws' of accidential complexity in OOP that FP allows us to deal with in a better way.
-* [x] [Graal & Truffle](https://blog.plan99.net/graal-truffle-134d8f28fb69%3E)
-	<br>Research project to use Futamura projections to create new programming languages quicker which integrate into existing languages and platforms and still perform well.
-* [x] [The Three Projections of Doctor Futamura](http://blog.sigfpe.com/2009/05/three-projections-of-doctor-futamura.html)
-	<br>Explains the concept of abstracting over interpreters and compilers and generate specializers that emit interpreters and compilers.
+[The Hundred-Year Language](http://www.paulgraham.com/hundred.html)<br>
+Abstract thoughts about what programming languages look like in 100 years from now.
+
+[The Unofficial Guide to Rich Hickey's Brain](http://www.flyingmachinestudios.com/programming/the-unofficial-guide-to-rich-hickeys-brain/) • Daniel Higginbotham, December 2012<br>
+Contrasts Object-Oriented Programming with Functional Programming and explains the "fundamental flaws' of accidential complexity in OOP that FP allows us to deal with in a better way.
+
+[Graal & Truffle](https://blog.plan99.net/graal-truffle-134d8f28fb69%3E)<br>
+Research project to use Futamura projections to create new programming languages quicker which integrate into existing languages and platforms and still perform well.
+
+[The Three Projections of Doctor Futamura](http://blog.sigfpe.com/2009/05/three-projections-of-doctor-futamura.html)<br>
+Explains the concept of abstracting over interpreters and compilers and generate specializers that emit interpreters and compilers.
 
 ### Research Projects and Groups
-* [Viewpoints Research Institute](http://vpri.org)
-* [Human Advancement Research Community](http://harc.ycr.org)
+[Viewpoints Research Institute](http://vpri.org)
+
+[Human Advancement Research Community](http://harc.ycr.org)
 
 ### Visions for the Future
-* [x] [💡 The future of software, the end of apps, and why UX designers should care about type theory](https://pchiusano.github.io/2013-05-22/future-of-software.html) • 
-	<br>Paints an interesting picture of a world where composing components is much simpler and instead of apps that have been put together by developers, regular users are able to compose service components to do what they want them to do.
+[💡 The future of software, the end of apps, and why UX designers should care about type theory](https://pchiusano.github.io/2013-05-22/future-of-software.html) • <br>
+Paints an interesting picture of a world where composing components is much simpler and instead of apps that have been put together by developers, regular users are able to compose service components to do what they want them to do.
 
 ### Bret Victor (yes, he gets his own section)
 * [ ] [Mar 2006 • Magic Ink](http://worrydream.com/#!/MagicInk)
