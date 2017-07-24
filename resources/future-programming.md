@@ -3,8 +3,6 @@
 
 ### Reading List
 I have not yet looked at these articles.
-* [ ] (currently reading…) 📕 Mindstorms - Children, Computers, and Powerful Ideas
-* [ ] [Execution in the Kingdom of Nouns](http://steve-yegge.blogspot.com/2006/03/execution-in-kingdom-of-nouns.html)
 * [ ] [Toward a Galvanizing Definition of Technical Debt](https://michaelfeathers.silvrback.com/toward-a-galvanizing-definition-of-technical-debt)
 * [ ] [Flowsheets and Other Observations On Programming Computers](http://tinyletter.com/Flowsheets/archive)
 * [ ] [📺 Strange Loop Conference Videos](https://www.youtube.com/channel/UC_QIfHvN9auy2CoOdSfMWDw?app=desktop)
@@ -44,8 +42,17 @@ Is it possible to build system software or OS level software than never has to b
 [📺 Hearts and Minds • GDC Vault](http://www.gdcvault.com/play/1020788/Hearts-and)
 
 ### Future of Programming Languages
+📕 Mindstorms - Children, Computers, and Powerful Ideas<br>
+Focuses on education, but highlights the importance of how a programming language (like LOGO, which was created by the author and is used in the book) can be designed in a way such that learners can use the language to explore concepts in a simple, simulated environment that would be difficult to explore without a computer.
+
+[Programming Paradigms for Dummies: What Every Programmer Should Know](https://www.info.ucl.ac.be/~pvr/VanRoyChapter.pdf)<br>
+Extensive overview over different programming paradigms and how they are related to each other, as well as which programming languages are good examples for each paradigm. Contains a section about how a "definitive programming language" needs to be designed.
+
 [The Hundred-Year Language](http://www.paulgraham.com/hundred.html)<br>
 Abstract thoughts about what programming languages look like in 100 years from now.
+
+[Execution in the Kingdom of Nouns](http://steve-yegge.blogspot.com/2006/03/execution-in-kingdom-of-nouns.html)<br>
+A humorous criticism of the Java Programming Language and how it is too focused on objects everywhere, while other languages allow functions to be as important (or even more important) than objects / data strutures.
 
 [Graal & Truffle](https://blog.plan99.net/graal-truffle-134d8f28fb69%3E)<br>
 Research project to use Futamura projections to create new programming languages quicker which integrate into existing languages and platforms and still perform well.
