@@ -166,6 +166,7 @@ These are my recommended resources to start with, if you are planning to go down
     - Don't forget that a good runtime library is important. Don't have too much trivia in it.
 * [x] [Building a Primitive State Machine in Haskell](https://daniel-levin.github.io/2015/01/19/primitive-state-machine-in-haskell.html)
     <br>Brief article with a very simple state machine implmented in Haskell using pattern matching.
+* [ ] [An Incremental Approach to Compiler Construction](http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf)
 * [ ] [Turing Machines and Tooling, Part I](http://raganwald.com/2017/04/06/turing-machines.html)
 * [ ] [Turing Machines and Tooling, Part II](http://raganwald.com/2017/04/16/turing-machines-part-ii.html)
 * [x] [Write Yourself a Scheme in 48 Hours](https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours)
