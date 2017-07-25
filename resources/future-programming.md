@@ -126,4 +126,5 @@ List of related projects
 * [Structured editing minor mode for Haskell in Emacs](https://github.com/chrisdone/structured-haskell-mode)
 * [ParEdit — minor mode for performing structured editing of S-expression data](https://www.emacswiki.org/emacs/ParEdit)
 * [ProjecturEd — generic purpose projectional editor](http://projectured.org)
+* [Marten — Graphical Programming for MacOSX](http://www.andescotia.com/products/marten/)
 * more links in [this Hacker News thread](https://news.ycombinator.com/item?id=13773813)
