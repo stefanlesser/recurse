@@ -3,7 +3,6 @@
 
 ### Reading List
 I have not yet looked at these articles.
-* [ ] [Toward a Galvanizing Definition of Technical Debt](https://michaelfeathers.silvrback.com/toward-a-galvanizing-definition-of-technical-debt)
 * [ ] [Out of the Tar Pit](http://curtclifton.net/papers/MoseleyMarks06a.pdf)
 * [ ] [Flowsheets and Other Observations On Programming Computers](http://tinyletter.com/Flowsheets/archive)
 * [ ] [📺 Strange Loop Conference Videos](https://www.youtube.com/channel/UC_QIfHvN9auy2CoOdSfMWDw?app=desktop)
