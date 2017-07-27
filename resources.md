@@ -40,9 +40,11 @@ These are my recommended resources to start with, if you are planning to go down
     <br>Introduces benefits of functional programming by transforming a simple console program from imperative to declarative step by step. Even though it's using Scala, it helps understanding the basic building blocks of FP and their benefits.
 * [x] [Destroy All Ifs — A Perspective from Functional Programming](http://degoes.net/articles/destroy-all-ifs)
     <br>By replacing conditionals with lambdas, we can invert control and make our code both easier to reason about and more generic. Moving conditionals from places hidden in the deepest nested function up to the caller makes intent clear and prevents mistakes.
+* [ ] [Sum Types](https://www.schoolofhaskell.com/school/to-infinity-and-beyond/pick-of-the-week/sum-types)
 * [ ] [Evaluating cellular automata is comonadic](http://blog.sigfpe.com/2006/12/evaluating-cellular-automata-is.html)
 * [ ] [Streaming Combinators and Extracting Flat Parallelism](http://futhark-lang.org/blog/2017-06-25-futhark-at-pldi.html)
 * [ ] [Functional Programming with Bananas, Lenses, Envelopes and Barbed Wire](http://eprints.eemcs.utwente.nl/7281/01/db-utwente-40501F46.pdf)
+* [ ] ? [📺 Functional Programming in JavaScript](https://www.youtube.com/watch?v=BMUiFMZr7vk&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
 * [ ] ? 📕 Modeling Data with Functional Programming in R
 
 ### Haskell
@@ -166,6 +168,7 @@ These are my recommended resources to start with, if you are planning to go down
     - Don't forget that a good runtime library is important. Don't have too much trivia in it.
 * [x] [Building a Primitive State Machine in Haskell](https://daniel-levin.github.io/2015/01/19/primitive-state-machine-in-haskell.html)
     <br>Brief article with a very simple state machine implmented in Haskell using pattern matching.
+* [ ] [📺 (40m) How to write a Turing-Complete Programming Language in 40 minutes](https://www.youtube.com/watch?v=_Uoyufkb5lk)
 * [ ] [An Incremental Approach to Compiler Construction](http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf)
 * [ ] [Turing Machines and Tooling, Part I](http://raganwald.com/2017/04/06/turing-machines.html)
 * [ ] [Turing Machines and Tooling, Part II](http://raganwald.com/2017/04/16/turing-machines-part-ii.html)
@@ -253,6 +256,7 @@ Frameworks
 
 ## Get back into JavaScript (and possibly TypeScript) and see what’s state of the art for web development (looking at React, Relay, GraphQL, Jest, etc.)
 * [ ] [📕 You Don't Know JS (book series)](https://github.com/getify/You-Dont-Know-JS)
+* [ ] [How to follow the JavaScript roadmap](https://benmccormick.org/2017/07/10/how-to-follow-the-javascript-roadmap/)
 * [x] [Overview of ECMAScript 6 features](https://github.com/lukehoban/es6features)
 * [x] [A Functional Programmer’s Introduction to JavaScript (Composing Software)](https://medium.com/javascript-scene/a-functional-programmers-introduction-to-javascript-composing-software-d670d14ede30)
 * [ ] [http://jrsinclair.com/articles/2017/javascript-without-loops/index.html](http://jrsinclair.com/articles/2017/javascript-without-loops/index.html)
@@ -337,6 +341,7 @@ Resources
 Resources
 * [Awesome Generative Art](https://github.com/kosmos/awesome-generative-art/blob/master/readme.md)
 * [Awesome Creative Coding](https://github.com/terkelg/awesome-creative-coding)
+* [Awesome Dataviz](https://github.com/fasouto/awesome-dataviz)
 * [openframe — a platform for displaying digital art](https://openframe.io)
 * [CIS 700 - Special Topics in Procedural Graphics](https://cis700-procedural-graphics.github.io)
 
