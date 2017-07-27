@@ -36,6 +36,9 @@ In software engineering we claim to have figured out many things, but don't back
 [Toward a frozen operating system](https://urbit.org/blog/2017.5-frozen/)<br>
 Is it possible to build system software or OS level software than never has to be updated?
 
+[💡 📺 1h • Conal Elliott — Tangible Functional Programming](https://www.youtube.com/watch?v=faJ8N0giqzw) • [Slides & Paper](http://conal.net/papers/Eros/)<br>
+How to unify program creation and execution with visual programming that uses a functional model.
+
 ### Complexity in software development
 [Complexity and Strategy](https://hackernoon.com/complexity-and-strategy-325cd7f59a92)
 
