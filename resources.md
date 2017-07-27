@@ -18,6 +18,7 @@ See [here](resources/functional-programming.md)
 * [x] [Building a Primitive State Machine in Haskell](https://daniel-levin.github.io/2015/01/19/primitive-state-machine-in-haskell.html)
     <br>Brief article with a very simple state machine implmented in Haskell using pattern matching.
 * [ ] [📺 (40m) How to write a Turing-Complete Programming Language in 40 minutes](https://www.youtube.com/watch?v=_Uoyufkb5lk)
+* [ ] [Andy Keep - Writing a Nanopass Compiler](https://www.youtube.com/watch?v=Os7FE3J-U5Q&t=2s)
 * [ ] [An Incremental Approach to Compiler Construction](http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf)
 * [ ] [Turing Machines and Tooling, Part I](http://raganwald.com/2017/04/06/turing-machines.html)
 * [ ] [Turing Machines and Tooling, Part II](http://raganwald.com/2017/04/16/turing-machines-part-ii.html)
@@ -49,17 +50,19 @@ See [here](resources/functional-programming.md)
 * [x] [Types for anyone who knows a programming language](https://www.destroyallsoftware.com/compendium/types/baf6b67369843fa2)
     - Introduction to and overview of several different type systems in popular programming languages.
 * [ ] [The memory models that underlie programming languages • canonical.org](http://canonical.org/~kragen/memory-models/)
+* [ ] [📺 (45m) Modelica: Component Oriented Modeling of Physical Systems" by Michael Tiller](https://www.youtube.com/watch?v=-mvEUuc-sWE)
+* [ ] [📺 (45m) Ceptre: A Language for Modeling Generative Interactive Systems" by Chris Martens](https://www.youtube.com/watch?v=bFeJZRdhKcI)
+* [ ] 📕 Concepts, Techniques, and Models of Computer Programming
+
+### Parsing
 * [ ] [Monadic Parsers: Implementing a micro Parsec](http://olenhad.me/articles/monadic-parsers/)
 * [ ] [Swift Talk #13 Parsing Techniques](https://talk.objc.io/episodes/S01E13-parsing-techniques)
 * [ ] [Parsing context-sensitive languages with Applicative](https://byorgey.wordpress.com/2012/01/05/parsing-context-sensitive-languages-with-applicative/)
-* [ ] [📺 (45m) Modelica: Component Oriented Modeling of Physical Systems" by Michael Tiller](https://www.youtube.com/watch?v=-mvEUuc-sWE)
-* [ ] [📺 (45m) Ceptre: A Language for Modeling Generative Interactive Systems" by Chris Martens](https://www.youtube.com/watch?v=bFeJZRdhKcI)
 * [x] [A Tutorial Explaining LALR(1) Parsing](https://web.cs.dal.ca/~sjackson/lalr1.html)
     <br>Detailed walk-through of how to implement a parser based on a bottom-up approach.
 * [x] [Earley Parsing Explained](http://loup-vaillant.fr/tutorials/earley-parsing/)
     - In-depth walk-through of how Early parsing works. Code samples in Lua.
 * [ ] [Bounded Seas — Island Parsing Without Shipwrecks](http://scg.unibe.ch/archive/papers/Kurs14b-BoundedSeas.pdf)
-* [ ] 📕 Concepts, Techniques, and Models of Computer Programming
 
 Resources
 * [Earley parser implementation • GitHub](https://github.com/lagodiuk/earley-parser-js)
