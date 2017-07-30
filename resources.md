@@ -1,9 +1,8 @@
 # Study Resources
 _My big dumping ground for links to articles, (e)books, videos and similar material that caught my attention, but I haven't had the time to look at yet. I'm still figuring out how to work with this list…_
 
-Resources marked with ★ are recommended starting points or must read|watch material for the given category.
-
 ----
+
 ## Dive into advanced functional programming concepts with Haskell and Swift
 See [here](resources/functional-programming.md)
 
