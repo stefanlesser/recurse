@@ -18,7 +18,8 @@ See [here](resources/functional-programming.md)
 * [x] [Building a Primitive State Machine in Haskell](https://daniel-levin.github.io/2015/01/19/primitive-state-machine-in-haskell.html)
     <br>Brief article with a very simple state machine implmented in Haskell using pattern matching.
 * [ ] [📺 (40m) How to write a Turing-Complete Programming Language in 40 minutes](https://www.youtube.com/watch?v=_Uoyufkb5lk)
-* [ ] [Andy Keep - Writing a Nanopass Compiler](https://www.youtube.com/watch?v=Os7FE3J-U5Q&t=2s)
+* [x] [📺 (40m) Andy Keep - Writing a Nanopass Compiler](https://www.youtube.com/watch?v=Os7FE3J-U5Q&t=2s)
+    <br>Introduction to the technique of contructing compilers as a sequence of tiny translation passes.
 * [ ] [An Incremental Approach to Compiler Construction](http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf)
 * [ ] [Turing Machines and Tooling, Part I](http://raganwald.com/2017/04/06/turing-machines.html)
 * [ ] [Turing Machines and Tooling, Part II](http://raganwald.com/2017/04/16/turing-machines-part-ii.html)
@@ -49,10 +50,10 @@ See [here](resources/functional-programming.md)
 * [x] [Software structure for programmers who know at least one programming language](https://www.destroyallsoftware.com/compendium/software-structure/6fb5f711cae5a4e6)
 * [x] [Types for anyone who knows a programming language](https://www.destroyallsoftware.com/compendium/types/baf6b67369843fa2)
     - Introduction to and overview of several different type systems in popular programming languages.
+* [ ] 📕 Concepts, Techniques, and Models of Computer Programming
 * [ ] [The memory models that underlie programming languages • canonical.org](http://canonical.org/~kragen/memory-models/)
 * [ ] [📺 (45m) Modelica: Component Oriented Modeling of Physical Systems" by Michael Tiller](https://www.youtube.com/watch?v=-mvEUuc-sWE)
 * [ ] [📺 (45m) Ceptre: A Language for Modeling Generative Interactive Systems" by Chris Martens](https://www.youtube.com/watch?v=bFeJZRdhKcI)
-* [ ] 📕 Concepts, Techniques, and Models of Computer Programming
 
 ### Parsing
 * [ ] [Monadic Parsers: Implementing a micro Parsec](http://olenhad.me/articles/monadic-parsers/)
