@@ -3,7 +3,6 @@
 
 ### Reading List
 I have not yet looked at these articles.
-* [ ] [Out of the Tar Pit](http://curtclifton.net/papers/MoseleyMarks06a.pdf)
 * [ ] [Flowsheets and Other Observations On Programming Computers](http://tinyletter.com/Flowsheets/archive)
 * [ ] [📺 Strange Loop Conference Videos](https://www.youtube.com/channel/UC_QIfHvN9auy2CoOdSfMWDw?app=desktop)
 * [ ] [Future Programming Workshop 2014 final videos](http://www.future-programming.org/2014/program.html)
@@ -62,6 +61,9 @@ Research project to use Futamura projections to create new programming languages
 
 [The Three Projections of Doctor Futamura](http://blog.sigfpe.com/2009/05/three-projections-of-doctor-futamura.html)<br>
 Explains the concept of abstracting over interpreters and compilers and generate specializers that emit interpreters and compilers.
+
+[Out of the Tar Pit](http://curtclifton.net/papers/MoseleyMarks06a.pdf)<br>
+Proposes a system design called "Functional Relational Programming" that either avoids complexity or separates it and structures the system cleanly into essential state, essential logic, and accidential state and control.
 
 ### Research Projects and Groups
 [Viewpoints Research Institute](http://vpri.org)
