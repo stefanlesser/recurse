@@ -108,11 +108,8 @@ Frameworks
 
 ## Get back into JavaScript (and possibly TypeScript) and see what’s state of the art for web development (looking at React, Relay, GraphQL, Jest, etc.)
 * [ ] [📕 You Don't Know JS (book series)](https://github.com/getify/You-Dont-Know-JS)
-* [ ] [How to follow the JavaScript roadmap](https://benmccormick.org/2017/07/10/how-to-follow-the-javascript-roadmap/)
+* [x] [How to follow the JavaScript roadmap](https://benmccormick.org/2017/07/10/how-to-follow-the-javascript-roadmap/)
 * [x] [Overview of ECMAScript 6 features](https://github.com/lukehoban/es6features)
-* [x] [A Functional Programmer’s Introduction to JavaScript (Composing Software)](https://medium.com/javascript-scene/a-functional-programmers-introduction-to-javascript-composing-software-d670d14ede30)
-* [ ] [http://jrsinclair.com/articles/2017/javascript-without-loops/index.html](http://jrsinclair.com/articles/2017/javascript-without-loops/index.html)
-* [ ] [Higher Order Functions (Composing Software)](https://medium.com/javascript-scene/higher-order-functions-composing-software-5365cf2cbe99)
 * [ ] [You Might Not Need Redux](https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367)
 * [ ] [Vue.js • Comparison with Other Frameworks](https://vuejs.org/v2/guide/comparison.html)
 * [ ] 📕 Eloquent JavaScript
@@ -228,7 +225,7 @@ Resources
 ----
 
 ## Pair with people who can help me become more productive as a programmer and get better at test-driven development
-* [ ] [Why and how you should test your software](https://codewithoutrules.com/2017/03/26/why-how-test-software/)
+* [x] [📺 (30m) Big picture software testing unit testing, Lean Startup, and everything in between](https://www.youtube.com/watch?v=Vaq_e7qUA-4&feature=youtu.be&t=63s)
 * [x] [The Two Sides of Writing Testable Code](http://news.realm.io/news/try-swift-brandon-williams-writing-testable-code/)
     <br>Brandon describes a way to turn impure functions with both side effects and co-effects into easily testable pure functions in Swift.
 
