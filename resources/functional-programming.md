@@ -39,8 +39,16 @@ These are my recommended resources to start with, if you are planning to go down
 * [ ] [Evaluating cellular automata is comonadic](http://blog.sigfpe.com/2006/12/evaluating-cellular-automata-is.html)
 * [ ] [Streaming Combinators and Extracting Flat Parallelism](http://futhark-lang.org/blog/2017-06-25-futhark-at-pldi.html)
 * [ ] [Functional Programming with Bananas, Lenses, Envelopes and Barbed Wire](http://eprints.eemcs.utwente.nl/7281/01/db-utwente-40501F46.pdf)
-* [ ] ? [📺 Functional Programming in JavaScript](https://www.youtube.com/watch?v=BMUiFMZr7vk&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
 * [ ] ? 📕 Modeling Data with Functional Programming in R
+
+## JavaScript
+* [x] [JavaScript without Loops](http://jrsinclair.com/articles/2017/javascript-without-loops/index.html)
+    <br>Looks at how map, reduce, filter, and find help separate iteration logic from what we actually want to achieve when working with arrays in JavaScript.
+* [x] [JavaScript. But less iffy.](http://jrsinclair.com/articles/2017/javascript-but-less-iffy/)
+    <br>Simplifying conditionals by returning early, using ternaries, and replacing control structure with data in JavsScript.
+* [x] [A Functional Programmer’s Introduction to JavaScript (Composing Software)](https://medium.com/javascript-scene/a-functional-programmers-introduction-to-javascript-composing-software-d670d14ede30)
+* [x] [Higher Order Functions (Composing Software)](https://medium.com/javascript-scene/higher-order-functions-composing-software-5365cf2cbe99)
+* [ ] ? [📺 Functional Programming in JavaScript](https://www.youtube.com/watch?v=BMUiFMZr7vk&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
 
 ## Haskell
 * [x] [Learn Haskell the hard way](http://yannesposito.com/Scratch/en/blog/Haskell-the-Hard-Way)
@@ -58,7 +66,7 @@ These are my recommended resources to start with, if you are planning to go down
 * [x] [Equational reasoning at scale](http://www.haskellforall.com/2014/07/equational-reasoning-at-scale.html)
 * [x] [📺 (1h:30m) C++Now 2017: Ryan Newton "Haskell taketh away: limiting side effects for parallel programming"](https://www.youtube.com/watch?v=lC5UWG5N8oY)
     <br>Fascinating look into the direction and development of Haskell.
-* [ ] [📺 Tangible Functional Programming](http://youtube.com/)
+* [x] [📺 Tangible Functional Programming](http://youtube.com/)
 * [ ] [📺 (60m) Fastware - Andrei Alexandrescu](https://www.youtube.com/watch?v=o4-CwDo2zpg)
 * [ ] ? [EdX course: Introduction to Functional Programming (via Haskell)](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0)
 * [ ] ? [Haskell Communities and Activities Report • 32nd Ed. May 2017](https://www.haskell.org/communities/05-2017/html/report.html)
@@ -72,7 +80,7 @@ These are my recommended resources to start with, if you are planning to go down
     <br>This book get mentioned and referred to a lot, surprisingly not just for topics around the book's title.
 * [x] [The Fun of Programming • Ch. 7 Functional Images](http://conal.net/papers/functional-images/fop-conal.pdf)
     <br>Creating visual patterns with math based on transformation functions. Great example of how composing small components can yield complex effects.
-* [ ] [📺 (45m) Manuel Chakravarty - Haskell SpriteKit: A Case Study in Turning a Stateful into a Functional API](https://www.youtube.com/watch?v=H_z4NKvxf1U&app=desktop)
+* [x] [📺 (45m) Manuel Chakravarty - Haskell SpriteKit: A Case Study in Turning a Stateful into a Functional API](https://www.youtube.com/watch?v=H_z4NKvxf1U&app=desktop)
 * [ ] [Introduction to brick, a Haskell library for building terminal user interfaces](https://samtay.github.io/articles/brick.html)
 * [x] [Writing Video Games in a Functional Style](http://prog21.dadgum.com/228.html)
     <br>A collection of articles exploring the implementation of arcade games and their game state and game loops in a functional style.
@@ -119,7 +127,7 @@ These are my recommended resources to start with, if you are planning to go down
     <br>Improving an eDSL for generating HTML in Swift with the powers of abstract algebra in form of Monoids.
 * [ ] [Swift — memoize() walk through](https://medium.com/@mvxlr/swift-memoize-walk-through-c5224a558194)
 * [ ] [Functional Swift and Memoization](http://blog.scottlogic.com/2014/09/22/swift-memoization.html)
-* [ ] [📺 (20m) Optimizing Swift Collections • Károly Lőrentey at dotSwift 2017](https://www.dotconferences.com/2017/01/karoly-lorentey-optimizing-swift-collections)
+* [x] [📺 (20m) Optimizing Swift Collections • Károly Lőrentey at dotSwift 2017](https://www.dotconferences.com/2017/01/karoly-lorentey-optimizing-swift-collections)
     <br>Deep dive into performance characteristics of Swift Collection types.
 * [ ] [Apple Swift Ownership Manifesto](https://github.com/apple/swift/blob/master/docs/OwnershipManifesto.md)
 * [ ] [The Elm Architecture in Swift](https://github.com/chriseidhof/tea-in-swift)
