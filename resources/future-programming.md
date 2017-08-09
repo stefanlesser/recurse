@@ -43,6 +43,9 @@ How to unify program creation and execution with visual programming that uses a 
 
 [📺 Hearts and Minds • GDC Vault](http://www.gdcvault.com/play/1020788/Hearts-and)
 
+[Evernote and the Brain: Designing Creativity Workflows](http://blog.evernote.com/blog/2015/12/11/evernote-and-the-brain-designing-creativity-workflows/)<br>
+This somewhat unrelated article got me thinking about how we capture and organize notes and use tools to support our creativity is conceptually similar to how we specify programs… or how it should be similar.
+
 ### Future of Programming Languages
 📕 Mindstorms - Children, Computers, and Powerful Ideas<br>
 Focuses on education, but highlights the importance of how a programming language (like LOGO, which was created by the author and is used in the book) can be designed in a way such that learners can use the language to explore concepts in a simple, simulated environment that would be difficult to explore without a computer.
@@ -55,6 +58,9 @@ Abstract thoughts about what programming languages look like in 100 years from n
 
 [Execution in the Kingdom of Nouns](http://steve-yegge.blogspot.com/2006/03/execution-in-kingdom-of-nouns.html)<br>
 A humorous criticism of the Java Programming Language and how it is too focused on objects everywhere, while other languages allow functions to be as important (or even more important) than objects / data strutures.
+
+[The Promise of Live Programming](http://conf.researchr.org/getImage/live-2016/orig/LIVE_2016_paper_1.pdf)<br>
+Provides a high-level overview over ideas and solutions to tighten the feedback loop between programmer and program.
 
 [Graal & Truffle](https://blog.plan99.net/graal-truffle-134d8f28fb69%3E)<br>
 Research project to use Futamura projections to create new programming languages quicker which integrate into existing languages and platforms and still perform well.
