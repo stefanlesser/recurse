@@ -107,7 +107,7 @@ Paints an interesting picture of a world where composing components is much simp
 * [ ] [Nov 2015 • What Can a Technologist Do about Climate Change?](http://worrydream.com/#!/ClimateChange)
 
 ### Visual Programming Languages
-* [x] [Visual Programming Languages - Snapshots](http://blog.interfacevision.com/design/design-visual-progarmming-languages-snapshots/)
+* [x] [Visual Programming Languages - Snapshots](http://blog.interfacevision.com/design/design-visual-progarmming-languages-snapshots/) [(Presentation)](https://docs.google.com/presentation/d/1MD-CgzODFWzdpnYXr8bEgysfDmb8PDV6iCAjH5JIvaI/pub?slide=id.g1da0625f1b_0_56)
 	<br>Giant list of screenshots of visual programming languages spanning from centuries back (e.g. Hypercard) to today.
 * [x] [Ask HN: Why does visual programming suck?](https://news.ycombinator.com/item?id=14482988)
 	<br>Huge thread about the pros and cons of visual programming interfaces.
@@ -127,15 +127,17 @@ List of related projects
 * [Luna — Visual and textual functional programming language with a focus on productivity, collaboration and development ergonomics](http://www.luna-lang.org)
 * [Bubble — powerful general-purpose visual framework for creating web applications](https://bubble.is)
 * [Cirru – An editor for AST](http://cirru.org/)
+* https://github.com/cxxtree/cxxtree
 * [Eve — modern relational language for writing data-driven programs](http://witheve.com) [(Dev Diary)](http://incidentalcomplexity.com)
 * [Lamdu - towards a new programming experience](http://www.lamdu.org/)
 * [Prune: A Code Editor that is Not a Text Editor](https://www.facebook.com/notes/kent-beck/prune-a-code-editor-that-is-not-a-text-editor/1012061842160013/)
 * [MPS Meta Progamming System](http://jetbrains.com/mps)
-* https://github.com/cxxtree/cxxtree
+* [Flowsheets](http://tinyletter.com/Flowsheets/archive)
 * [Frame-based Editing](http://www.greenfoot.org/frames/)
 * [Unison — next-generation programming platform](http://unisonweb.org/)
 * [Structured editing minor mode for Haskell in Emacs](https://github.com/chrisdone/structured-haskell-mode)
 * [ParEdit — minor mode for performing structured editing of S-expression data](https://www.emacswiki.org/emacs/ParEdit)
 * [ProjecturEd — generic purpose projectional editor](http://projectured.org)
 * [Marten — Graphical Programming for MacOSX](http://www.andescotia.com/products/marten/)
+* [XOD — A Visual Programming Language for Microcontrollers](https://xod.io) [(Reddit)](https://www.reddit.com/r/programming/comments/6t0d7w/give_a_chance_to_a_visual_programming_language/)
 * more links in [this Hacker News thread](https://news.ycombinator.com/item?id=13773813)
