@@ -130,7 +130,7 @@ General
 * [ ] [📺 (60m) Dean's Lecture: The Past and Future of Data Analysis](https://www.youtube.com/watch?v=qFtJaq4TlqE)
 * [ ] [The Gamma: Tools for open data-driven storytelling](https://thegamma.net)
 * [x] [The seven deadly sins of statistical misinterpretation, and how to avoid them](http://theconversation.com/the-seven-deadly-sins-of-statistical-misinterpretation-and-how-to-avoid-them-74306)
-* [ ] 📕 Thinking with Data
+* [ ] [📕 Thinking with Data](http://shop.oreilly.com/product/0636920029182.do)
 * [ ] [📕 The Grammar of Graphics](https://www.cs.uic.edu/~wilkinson/TheGrammarOfGraphics/GOG.html)
 
 d3
