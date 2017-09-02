@@ -53,6 +53,8 @@ These are my recommended resources to start with, if you are planning to go down
 ## Haskell
 * [x] [Learn Haskell the hard way](http://yannesposito.com/Scratch/en/blog/Haskell-the-Hard-Way)
     <br>Just as promised in the title, an introduction to Haskell from zero to monads in a rather short article. I don't think this is a good tutorial to start with, but after reading about the concepts in other places, the additional examples and different ways of explaining monads in this article are very helpful.
+* [x] [Let vs. Where](https://wiki.haskell.org/Let_vs._Where)
+    <br>Very helpful article to understand where it is appropriate to use let or where.
 * [x] [💡 Scalable program architectures](http://www.haskellforall.com/2014/04/scalable-program-architectures.html)
     <br>Explains the core concept of composition with monoids: combine several components together of type A to generate a new component of the same type A, indistinguishable in character from its substituent parts. These abstractions scale limitlessly because they always preserve combinability, therefore we never need to layer further abstractions on top.
 * [x] [💡 The category design pattern](http://www.haskellforall.com/2012/08/the-category-design-pattern.html)
