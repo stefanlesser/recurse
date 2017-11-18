@@ -15,6 +15,8 @@ These are my recommended resources to start with, if you are planning to go down
     <br>Gives you a high-level overview of what the journey of learning Haskell can look like. Several good pointers to articles and resources.
 * [x] [★ 📕 Haskell Programming from First Principles](http://haskellbook.com)
     <br>Massive introduction into Haskell with lots of explanation and exercises. Some people find it too exhaustive, but I like this book much better than the free "Learn you a Haskell", although it's still very academic. It starts off with a very abstract introduction to lambda calculus, which I believe is an important basis to know about before diving into Haskell. It does make the first chapter a little strange — keep reading and don't judge the book until after chapter 2.
+* [x] [Mapping the Monado](https://blog.jfo.click/mapping-the-monado/)
+    <br>Pragmatic and honest introduction to monads. Also includes an excellent list of resources at the end.
 * [x] [★ Monoids, Functors, Applicatives, and Monads: 10 Main Ideas](https://monadmadness.wordpress.com/2015/01/02/monoids-functors-applicatives-and-monads-10-main-ideas/)
     <br>Great summary of the key points on the four algebras that show up everywhere in Haskell (and are hiding in other languages as well).
 * [x] [Conal Elliott - Denotational Design: From Meanings To Programs](https://www.youtube.com/watch?v=bmKYiUOEo2A&t=3s)
