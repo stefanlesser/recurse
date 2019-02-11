@@ -5,10 +5,15 @@ One of my main goals at the [Recurse Center](https://www.recurse.com) was to lea
 
 ## Getting Started
 
+### [What's Functional Programming All About?](http://www.lihaoyi.com/post/WhatsFunctionalProgrammingAllAbout.html)
+Li Haoyi • January 2017 • 6377 words
+
+The world of functional programming is huge and complex and full of academic jargon. It is hard to find approachable, practical texts that break down the most important ideas and (over)simplify to help you ease into the subject. Using a recipe for Tiramisu, you'll learn about the differences in control flow and data flow between imperative and functional progamming — a powerful framing that will help ease into the world of functional programming..
+
 ### [Functional Programming Basics — What’s It All About?](https://pragprog.com/magazines/2013-01/functional-programming-basics)
 Robert C. Martin (aka Uncle Bob) • January 2010 • 1883 words
 
-The world of functional programming is huge and complex and full of academic jargon. It is hard to find approachable, practical texts that break down the most important ideas and (over)simplify to help you ease into the subject. Robert breaks the most important concepts down for you in a quick read and sets the stage for a new way to think about writing programs — without assignment statements. There is much more to functional programming than just that, but it’s a great starting point.
+Robert breaks the most important concepts of functional programming down in a quick read and sets the stage for a new way to think about writing programs — without assignment statements. There is much more to functional programming than just that, but it’s a great starting point.
 
 ### [Functional programming patterns for the non-mathematician (cut)](https://www.youtube.com/watch?v=AvgwKjTPMmM)
 Brian Lonsdorf (aka DrBoolean) • April 2014 • 30 mins
